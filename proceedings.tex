@@ -72,366 +72,283 @@
 % End of preamble. Here it comes the document.
 \begin{document}
 
-\title{SIGCHI Conference Proceedings Format}
+\title{A Conceptual Framework for Evaluating and Designing Information Discovery and Curation Web Tools}
 
 \numberofauthors{3}
 \author{%
-  \alignauthor{1st Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{City, Country}\\
-    \email{e-mail address}}\\
-  \alignauthor{2nd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{City, Country}\\
-    \email{e-mail address}}\\
-  \alignauthor{3rd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{City, Country}\\
-    \email{e-mail address}}\\
+  \alignauthor{Elena Voyloshnikova\\
+    \affaddr{University of Victoria}\\
+    \affaddr{Victoria, Canada}\\
+    \email{elenavoyl@gmail.com}}\\
+  \alignauthor{Margaret-Anne Storey\\
+    \affaddr{University of Victoria}\\
+    \affaddr{Victoria, Canada}\\
+    \email{mstorey@uvic.ca}}\\
 }
 
 \maketitle
 
 \begin{abstract}
-  UPDATED---\today. This sample paper describes the
-  formatting requirements for SIGCHI conference proceedings, and
-  offers recommendations on writing for the worldwide SIGCHI
-  readership. Please review this document even if you have submitted
-  to SIGCHI conferences before, as some format details have changed
-  relative to previous years. Abstracts should be about 150 words and
-  are required.
+  UPDATED---\today. Everyday life revolves around the discovery and curation of digital information. People search the Web continuously, from quickly looking up the information needed to complete a task, to endlessly searching for inspiration and knowledge. A variety of studies have modeled information seeking strategies and characterized information seeking and curation activities on the Web. However, there is a lack of research on how existing Web applications support the discovery and curation of information, especially concerning the motivations behind them and how different approaches can be compared. In this paper, we present a study of information discovery tools and how they relate to the nature of information seeking. We propose a conceptual framework that deals with Web application design elements that support different aspects of information discovery and curation. This framework can be used when designing, evaluating or updating Web applications.
 \end{abstract}
 
-\keywords{Authors' choice; of terms; separated; by semi\-colons;
-  commas, within terms only; this section is required.}
+\keywords{
+%Authors' choice; of terms; separated; by semi\-colons; commas, within terms only; this section is required.
+  }
 
-\category{H.5.m.}{Information Interfaces and Presentation
-  (e.g. HCI)}{Miscellaneous} \category{See
-  \url{http://acm.org/about/class/1998/} for the full list of ACM
-  classifiers. This section is required.}{}{}
+\category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous} \category{See\url{http://acm.org/about/class/1998/} for the full list of ACM classifiers. This section is required.}{}{}
 
 \section{Introduction}
 
-This format is to be used for submissions that are published in the
-conference proceedings. We wish to give this volume a consistent,
-high-quality appearance. We therefore ask that authors follow some
-simple guidelines. You should format your paper exactly like this
-document. The easiest way to do this is to replace the content with
-your own material.  This document describes how to prepare your
-submissions using \LaTeX.
+Web technologies help people satisfy their information needs. People research their interests and hobbies using various online resources, shoppers search online stores for product characteristics to make purchasing decisions, and travelers visit online booking sites to find information about flights and hotels. In order to accommodate diverse and evolving user needs, Web applications continuously introduce new features and services, empowering information discovery and curation. 
 
-\section{Page Size and Columns}
-On each page your material should fit within a rectangle of 7 $\times$
-9.25 inches (18 $\times$ 23.5 cm), centered on a US Letter page (8.5
-$\times$ 11 inches), beginning 0.75 inches (1.9 cm) from the top of
-the page, with a 0.33 inches (0.85 cm) space between two 3.3 inches
-(8.4 cm) columns. Right margins should be justified, not
-ragged. Please be sure your document and PDF are US letter and not A4.
+The term ``information discovery'' has been used by many researchers to define or explain various information behaviour paradigms, such as information exploration~\cite{waterworth1991model} and serendipitous information seeking~\cite{foster2003serendipity}. However, the definition of information discovery itself is difficult to articulate. 
+
+Lynch describes resource discovery as a complex collection of activities ranging from locating a well-specified information to iterative research activities, that can involve the identification
+of potentially relevant resources, organization and ranking of resources, and resource exploration~\cite{lynch1995networked}. Proper and Bruza apply the term ``information discovery'' in the context of  the identification and retrieval of relevant information from electronic sources~\cite{proper1999information}. 
+
+In the field of cognitive psychology, Jerome S. Bruner~\cite{bruner1961act} defines information discovery as ``all forms of obtaining knowledge for oneself by the use of one's own mind.'' We build on Bruner's definition to underline the importance of the cognitive processes that govern information discovery. Therefore, we consider \textit{information discovery} as a process of obtaining knowledge from digital sources that can involve complex mental tasks and information behavior.  
+
+Information behavior refers to the totality of ways in which humans interact with information~\cite{wilson2000human}. It can enable and support information discovery when targeted at information maintenance and augmentation. This type of information behavior is also known as \textit{digital curation}.
+
+Similar to the term ``information discovery'', the term "digital curation" is perceived differently across disciplines and among researchers. In this thesis, we use the definition proposed by Giaretta~\cite{giaretta2006dcc} and adopted by the Digital Curation Centre\footnote{The Digital Curation Centre is a UK-based organization established to support expertise and practice in digital curation and preservation across communities of practice.} which states that digital curation is a process of maintaining and adding value to an existing body of information to improve its future use and retrieval.   
+
+Information discovery can take on many forms. Web users might be hoping to find particular pieces of information, such as show times and phone numbers, to satisfy specific information needs~\cite{proper1999information}. Alternatively, they might be lacking well-articulated information needs, so they engage in opportunistic browsing~\cite{lindley2012s}. Sometimes people discover information online without even looking for it~\cite{bates1986exploratory}. The nature of information discovery can vary, and therefore, it requires elaborate tool support. The functionality required for information discovery and curation can also be distributed among multiple applications, which often leads to tools that provide integrated solutions. With people having such diverse information needs and methods of looking for information, designing for information discovery is a challenging task~\cite{conaway2010designing, marchionini2006exploratory}.
+
+Our research goal is to gain an understanding of how existing tools support digital information discovery and curation addressing the problem of designing Web applications for information discovery. While several researchers propose frameworks targeted at designing information discovery systems~\cite{proper1999information, kerne2004information}, the importance of information curation in the realm of information discovery has been largely overlooked despite the rapidly increasing popularity of socially-curated information spaces. Moreover, much of the existing work that focuses on how people look for and discover information online~\cite{bates1986exploratory, choo2000information, ellis1989behavioural, kellar2006goal, lindley2012s, morrison2001taxonomic, sellen2002knowledge} fails to examine concrete features of existing Web-based information discovery applications that empower real-world users. More research is necessary to determine how different tools and their features provide fundamental support for information discovery and curation.
+
+To enhance information seeking and curating experiences and support users' interactions, we extend existing research by (1) deriving factors that enable information discovery and curation and relating them within a framework, (2) using the framework to establish a set of questions that can be used when evaluating and designing new applications, (3) iteratively evaluating the framework by using it to study and describe current Web applications as well as to design a new application, which in turn helped refine the framework of factors and questions, and (4) relating the framework to user information discovery and curation motives that drive the underlying usage of many Web-based applications.
+
+%SAMPLE FIGURES AND TABLES
+%\begin{figure}
+%\centering
+%  \includegraphics[width=0.9\columnwidth]{figures/sigchi-logo}
+% \caption{Insert a caption below each figure. Do not alter the
+%    Caption style.}~\label{fig:figure1}
+%\end{figure}
+%
+%\begin{table}
+%  \centering
+%  \begin{tabular}{r c c}
+%    \toprule
+%    & \multicolumn{2}{c}{\small{\textbf{Caption}}} \\
+%    \cmidrule(r){2-3}
+%    {\small\textbf{Objects}}
+%    & {\small \textit{Pre-2002}}
+%    & {\small \textit{Current}} \\
+%    \midrule
+%    Tables & Above & Below \\
+%    Figures & Below & Below \\
+%    \bottomrule
+%  \end{tabular}
+%  \caption{Table captions should be placed below the table. We
+%    recommend table lines be 1 point, 25\% black. Minimize use of
+%    unnecessary table lines.}~\label{tab:table1}
+%\end{table}
+%
+%\begin{figure*}
+%  \centering
+%  \includegraphics[width=2\columnwidth]{figures/map}
+%  \caption{In this image, the map maximizes use of space. You can make
+%    figures as wide as you need, up to a maximum of the full width of
+%    both columns. Note that \LaTeX\ tends to render large figures on a
+%    dedicated page. Image: \ccbynd~ayman on
+%    Flickr.}~\label{fig:figure2}
+%\end{figure*}
+%
+%\begin{itemize}
+%\item Write in a straightforward style.
+%\end{itemize}
+
+\section{Web-based Information Discovery and Curation}
+Given the complexity of Web-based information discovery and curation tasks, a variety of research topics are examined to gain an understanding of how current Web tools support these tasks, including information-related Web usage characteristics, current information behavior models, and other aspects of information discovery and curation.  This section outlines the key background literature that contributed to the development of the conceptual framework and helped answer the research questions. 
+
+\subsection{Information Behavior}
+Information behavior refers to the totality of ways in which humans behave in relation to information~\cite{wilson2000human}.  A number of models and frameworks have attempted to represent human information behaviour in its entirety or to represent some of its components, such as information seeking and searching, information retrieval, information discovery, and information curation. 
+
+One of the early information behavior models was proposed by Wilson~\cite{wilson1981user} in 1981. It states that information seeking behavior results from the user trying to satisfy a perceived information need, and consequently, the user makes demands on information systems. Success or failure of such demands dictates whether the process is repeated or, if the information need is satisfied, it is used or communicated with other people. 
+
+These underlying ideas remained in the revision of Wilson's model~\cite{wilson1997information} in 1997. In the new model, however, Wilson defined possible barriers (psychological, environments, demographic, etc.) that can impede information seeking. Additionally, the model recognizes that information seeking behaviour can take on many forms and is not limited to active searching. Saracevic~\cite{saracevic1996modeling} and Ingwersen~\cite{ingwersen1996cognitive} derived comparable models that focus on human behaviour when interacting with information retrieval systems. 
+
+\subsubsection{Information Seeking Models}
+\textit{Information seeking} refers to ``the purposive seeking for information as a consequence of a need to satisfy some goal~\cite{wilson2000human}.'' A number of researchers have tried to identify what different modes of information seeking behaviour may entail. 
+
+According to Kellar et al.~\cite{kellar2006goal}, information seeking is composed of browsing, fact finding, and information gathering. Although the authors categorized information gathering as part of information seeking, it appears to be more closely related to digital curation~\cite{beagrie2008digital,whittaker2011personal}. 
+
+Bates~\cite{bates1986exploratory,bates2002toward} proposed a model of four information seeking modes: being aware, monitoring, browsing, and searching. Bates differentiated the modes based on the user's level of attention being active or passive, and information needs being directed or undirected. Thus, browsing can be characterized as undirected active information seeking because users do not know exactly what information they are looking for, but they are actively looking. Searching falls under active directed information seeking because the information need is clearly defined and the search is directed. Finally, monitoring and being aware are passive modes of information seeking although monitoring is directed and being aware is undirected.
+
+Ellis et al.~\cite{ellis1989behavioural,ellis1993comparison,ellis1997modelling} proposed a model of information seeking characterized by six different patterns: starting, chaining, browsing, extracting, monitoring, and differentiating. Ellis' model complemented Kuhlthau's work, which correlated stages of information seeking with feelings, thoughts, actions, as well as anticipated information tasks~\cite{kuhlthau1991inside}.
+
+Finally, Wilson also proposed a ``problem solving model'' of information seeking behavior~\cite{wilson1999models}. The model reflects on the idea that people engage in information seeking and searching in order to resolve some uncertainty that stands in the way of solving, defining, or identifying a problem.  
+
+\subsubsection{Information Exploration}
+\textit{Information exploration}, or exploratory search, does not have a single definition in the realm of information behavior. Waterworth highlights that exploration is a "broad" activity and identifies browsing as an example of exploration~\cite{waterworth1991model}. According to Marchionini~\cite{marchionini2006exploratory}, exploratory search involves learning (knowledge acquisition, comparison, comprehension, etc.) and investigating (analysis, synthesis, evaluation, discovery, etc.) Similar to Janiszewski ~\cite{janiszewski1998influence}, in terms of information exploration, our focus is on the visual aspects of information exploration, specifically visual and spatial data representations.
+
+\subsubsection{Information Foraging}
+\textit{Information foraging theory} is another approach towards understanding how people adapt their strategies of interacting with technology when seeking, gathering, or consuming information, depending on the environment~\cite{pirolli1999information}. The theory resonates with explanations of human behavior in the context of food foraging. 
+
+The underlying assumption of the information foraging theory is that people, similarly to when they forage for food, adopt their foraging strategies to the environment in order to gain the maximum amount of valuable information. The theory states that ``natural information systems evolve towards stable states that maximize gains of valuable information per unit cost.''
+
+The theory introduces three key concepts to formulate an understanding of information foraging: information scent, information diet, and information patch. An \textit{information scent} refers to proximal cues (often visual or linguistic) that people use to identify the value of information. An \textit{information diet} deals with user preferences when it comes to information. At last, \textit{information patches} are clusters of information that an information system presents before the user. The theory with these concepts lays the foundation for existing information foraging models~\cite{fu2007snif,kitajima2000comprehension} as well as social information foraging models~\cite{pirolli2009elementary,fu2008microstructures}.  
 
 
-\section{Typeset Text}
-The styles contained in this document have been modified from the
-default styles to reflect ACM formatting conventions. For example,
-content paragraphs like this one are formatted using the Normal style.
+\subsubsection{Information Discovery}
+Kerne and Smith proposed an information discovery framework~\cite{kerne2004information} that connects human cognitive processes or states to those of an information system. The framework represents a continuum of information flowing through different system and cognitive states as a result of an iterative reformulation process. The framework consists of five mental states: formulating a problem, evaluating results, updating and forming mental models, running mental models, and discovering solutions. Each mental state has a corresponding interaction with the system. For example, browsing resources (human-system interaction) facilitates evaluation or immediate results (cognitive state). The framework helps to understand the user's cognitive processes and provide affordances that facilitate information discovery.
+   
+\subsubsection{Digital Curation}
+In 2002, Bates extended her research on the topic of information behaviour with the notion of \textit{information farming}, which involves people collecting and organizing information for future use and revisitation~\cite{bates2002toward}. More commonly, information farming is referred to as digital curation. 
 
+Wittaker believes that in terms of Web use, a significant shift is happening from information consumption to information curation. People no longer use the Web just to find and consume the information they are interested in, but they also try to save and manage that information so that it can be reaccessed and exploited later~\cite{whittaker2011personal}. 
 
-\LaTeX\ sometimes will create overfull lines that extend into columns.
-To attempt to combat this, the \texttt{.cls} file has a command,
-\texttt{{\textbackslash}sloppy}, that essentially asks \LaTeX\ to
-prefer underfull lines with extra whitespace.  For more details on
-this, and info on how to control it more finely, check out
-{\url{http://www.economics.utoronto.ca/osborne/latex/PMAKEUP.HTM}}.
+Existing models and frameworks for information seeking, searching, exploration, discovery, and curation all try to explain human information-related behavior using different but comparable terminology. They help establish an understanding of how humans interact with information. However, many of them either fail to address required tool support for information-related activities or address it at a very high-level.  
 
-\subsection{Title and Authors}
+\subsection{Web Tasks and Modes of Web Use}
+Outside the realm of cognitive models and frameworks for information behavior exists a body of research that examines information discovery, curation, and other Web information behaviours in terms of Web use and corresponding tasks, methods, and modes.
 
-Your paper's title, authors and affiliations should run across the
-full width of the page in a single column 17.8 cm (7 in.) wide.  The
-title should be in Helvetica or Arial 18-point bold.  Authors' names
-should be in Times New Roman or Times Roman 12-point bold, and
-affiliations in 12-point regular.  
+Kellar et al.~\cite{kellar2006goal} separated Web tasks into five categories: transactions, browsing, fact finding, information gathering, and other uncategorized tasks. In their later work, Kellar et al.~\cite{kellar2007field} added communication and maintenance as additional Web tasks. Similarly to Kellar et al., Sellen et al.~\cite{sellen2002knowledge} identified six tasks that are commonly performed by Web users: browsing, finding, housekeeping, information gathering, communicating, and transacting. Using different terms, Kellar et al. and Sellen et al. both identified highly comparable tasks, such as fact finding and finding [information], housekeeping and maintenance, etc. 
 
-See \texttt{{\textbackslash}author} section of this template for
-instructions on how to format the authors. For more than three
-authors, you may have to place some address information in a footnote,
-or in a named section at the end of your paper. Leave one 10-point
-line of white space below the last line of affiliations.
+Building on Ellis' model of information seeking~\cite{ellis1989behavioural,ellis1993comparison,ellis1997modelling}, Choo et al.~\cite{choo2000information} derived anticipated Web tasks that correspond to the information seeking patterns in the model. According to the authors, when users \textit{identify} sources of interest, they usually identify which Websites can point to that information of interest.  \textit{Chaining} corresponds to users navigating through links on those initial pages. When people \textit{browse}, they scan top-level pages, headings, lists, and site maps. \textit{Differentiating} takes place when people bookmark, print, copy and paste information, or choose an earlier selected site. \textit{Monitoring} occurs when users revisit Web pages or receive updates from previously visited sites. Finally, \textit{extraction} can occur when the user systematically searches sites to extract information of interest.  
 
-\subsection{Abstract and Keywords}
+People often engage in information seeking activities to close some knowledge gap that occurred as a result of not having enough information to perform a task~\cite{proper1999information}. Therefore, when providing tool support for various information discovery tasks, it is useful to consider the motivations, as they can be different for each task. Morrison et al.~\cite{morrison2001taxonomic} make a distinction between methods of Web use and purposes. The authors derived a purpose-based taxonomy of Web use, including three purposes or motivations: finding information, comparing pieces of information or choosing products to make a decision, and using the Web to find relevant information to gain an understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy more than one information seeking purpose. Therefore, each purpose may require more than one task-supporting mechanism. 
 
-Every submission should begin with an abstract of about 150 words,
-followed by a set of Author Keywords and ACM Classification
-Keywords. The abstract and keywords should be placed in the left
-column of the first page under the left half of the title. The
-abstract should be a concise statement of the problem, approach, and
-conclusions of the work described. It should clearly state the paper's
-contribution to the field of HCI\@.
+Morrison et al. also draw a distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation~\cite{marchionini2006exploratory}. Learning and investigation can be performed over multiple iterations, and can involve learning though various media, "social searching", and serendipitous browsing performed with the goals of knowledge acquisition, socialization, forecasting, and planning.  
 
-\subsection{Normal or Body Text}
+Categorizing Web usage into information seeking, digital curation, and other Web tasks does not necessarily give full insight into how information-related tasks are performed. Lindley et al.~\cite{lindley2012s} conducted a qualitative study involving 24 participants, tracking their daily Web usage in the form of a diary. As a result of this study, the researchers identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. According to the authors, people browse the Web \textit{opportunistically} when they look for information related to some personal interest, long-term goal, or future ambition. \textit{Purposeful use} occurs when the users know what information they need to acquire or what online action they need to perform in order to continue or finish some other activity. \textit{Respite} mode usually occurs when users are in the process of waiting for something or taking a break, and it serves as a means for people to temporarily occupy themselves when high engagement with the content is not a requirement. \textit{Orienting} mode usually occurs when people want to be updated on what has been happening in their environment. Examples of this mode are checking email at work or looking at the news and updates on a social networking site. Finally, \textit{lean-back} mode of Web use can be thought of as listening to the radio or watching television, and usually involves watching videos online or browsing through other types of entertainment content. 
 
-Please use a 10-point Times New Roman or Times Roman font or, if this
-is unavailable, another proportional font with serifs, as close as
-possible in appearance to Times Roman 10-point. Other than Helvetica
-or Arial headings, please use sans-serif or non-proportional fonts
-only for special purposes, such as source code text.
+Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet were because that traditional Web use studies and Web tasks discovered by other researchers do not reflect the depth of user's intentions online. Understanding the characteristics of different modes guides the design of Web interaction. For example, opportunistic use can have unarticulated or continuously changing information needs. People often cannot indicate the completion of Web tasks, and they finish whenever they have been browsing the Internet for too long, or whenever they need to complete some other task of higher priority. Then, they will often resume their opportunistic information seeking. Finally, opportunistic use is `grasshopper-like', which means that users jump from one resource to another~\cite{lindley2012s}. From these factors, we can assume that to support such Web usage, we would need to consider mechanisms for supporting users' information needs, revisitation, and arbitrary navigation.
 
-\subsection{First Page Copyright Notice}
-This template include a sample ACM copyright notice at the bottom of
-page 1, column 1.  Upon acceptance, you will be provided with the
-appropriate copyright statement and unique DOI string for publication.
-Accepted papers will be distributed in the conference
-publications. They will also be placed in the ACM Digital Library,
-where they will remain accessible to thousands of researchers and
-practitioners worldwide. See
-\url{http://acm.org/publications/policies/copyright_policy} for the
-ACM’s copyright and permissions policy.
+Different taxonomies of information seeking and curation tasks reflect on the actual Web usage rather than theoretical modeling of human behavior. However, these taxonomies still focus on human activities when they interact with technology. A better understanding of how the system can support these activities is needed in order to effectively support human information-related interactions. 
 
-%%%
+\subsection{Collaborative Information Discovery and Curation}
+By surveying 204 Web users, Morris found that people often desire to or do collaborate on information seeking tasks~\cite{morris2008survey}. To collaborate on information seeking, people often use instant messaging, email, create documents and Webpages to share information. Occasionally, collaborative information seeking occurs when collaborators work side by side and share search results in person.
 
-\subsection{Subsequent Pages}
+Collaborative information-related activities on the Web are not limited to information seeking. Collaborative information tagging is a way of organizing content for future search and navigation. Although it is usually performed for personal reasons, tagging greatly enhances information retrieval~\cite{golder2006usage}.
 
-On pages beyond the first, start at the top of the page and continue
-in double-column format.  The two columns on the last page should be
-of equal length.
+\subsection{Summary}
+Today, there are a multitude of tools that support different aspects of information discovery and curation, but understanding how these tools are similar (or differ) is difficult. Moreover, the existing research is not useful for identifying gaps in current tools or ways that current tools may be improved to support information discovery and curation. We address these problems by presenting a conceptual framework for information discovery and curation (see Section~\ref{section:framework}).
 
-\begin{figure}
-\centering
-  \includegraphics[width=0.9\columnwidth]{figures/sigchi-logo}
-  \caption{Insert a caption below each figure. Do not alter the
-    Caption style.}~\label{fig:figure1}
+\section{Methodology}
+The methodology used for the study presented in this thesis consisted of five major steps. To gain a deeper understanding of the problem of information discovery and curation, (1) I conducted a extensive literature review. Based on the literature review, (2) I derived a preliminary set of information discovery and curation design factors and related them within a framework. (3) The framework was then applied for the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. (4) The resulting framework was used to develop a novel place photo discovery application,revealing unforeseen gaps that were consequently addressed. Lastly, (5) the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness.  A summary of the methodology is presented in Figure~\ref{fig:methodology}.
+\begin{figure}[ht!]
+	\noindent
+	\centering
+    \includegraphics[width=\linewidth]{figures/methodology.pdf}
+	\caption{Methodology Overview}
+	\label{fig:methodology} 
 \end{figure}
 
-\subsection{References and Citations}
+{\section{Research Questions and Objective}
+This study was designed to address the problem of designing Web applications for information discovery and was motivated by the following research questions and a research objective:
 
-Use a numbered list of references at the end of the article, ordered
-alphabetically by last name of first author, and referenced by numbers
-in
-brackets~\cite{acm_categories,ethics,Klemmer:2002:WSC:503376.503378}.
-Your references should be published materials accessible to the
-public. Internal technical reports may be cited only if they are
-easily accessible (i.e., you provide the address for obtaining the
-report within your citation) and may be obtained by any reader for a
-nominal fee. Proprietary information may not be cited. Private
-communications should be acknowledged in the main text, not referenced
-(e.g., ``[Borriello, personal communication]'').
+\emph{RQ1:~How do existing Web applications support information discovery?}
 
-References should be in ACM citation format:
-\url{http://acm.org/publications/submissions/latex_style}. This
-includes citations to internet
-resources~\cite{acm_categories,cavender:writing,CHINOSAUR:venue,psy:gangnam}
-according to ACM format, although it is often appropriate to include
-URLs directly in the text, as above.
+\emph{RQ2:~How do existing information discovery applications support information curation?}
 
+\pagebreak 
 
-% Use a numbered list of references at the end of the article, ordered
-% alphabetically by first author, and referenced by numbers in
-% brackets~\cite{ethics, Klemmer:2002:WSC:503376.503378,
-%   Mather:2000:MUT, Zellweger:2001:FAO:504216.504224}. For papers from
-% conference proceedings, include the title of the paper and an
-% abbreviated name of the conference (e.g., for Interact 2003
-% proceedings, use \textit{Proc. Interact 2003}). Do not include the
-% location of the conference or the exact date; do include the page
-% numbers if available. See the examples of citations at the end of this
-% document. Within this template file, use the \texttt{References} style
-% for the text of your citation.
+To address RQ1 and RQ2, I conducted an extensive literature review (see Section~\ref{section:lit_review}) and a case study of 20 information discovery tools (see Section~\ref{section:building}). Using insights from RQ1 and RQ2, I established my main research objective, which is \emph{\textbf{to develop a framework for performing summative and formative evaluation of Web-based information discovery and curation tools}}. I further address my methodology for building the conceptual framework in Sections~\ref{section:building}, \ref{section:applying}, and \ref{section:validating}.
 
-% Your references should be published materials accessible to the
-% public.  Internal technical reports may be cited only if they are
-% easily accessible (i.e., you provide the address for obtaining the
-% report within your citation) and may be obtained by any reader for a
-% nominal fee.  Proprietary information may not be cited. Private
-% communications should be acknowledged in the main text, not referenced
-% (e.g., ``[Robertson, personal communication]'').
+}% end section
 
-\begin{table}
-  \centering
-  \begin{tabular}{r c c}
-    \toprule
-    & \multicolumn{2}{c}{\small{\textbf{Caption}}} \\
-    \cmidrule(r){2-3}
-    {\small\textbf{Objects}}
-    & {\small \textit{Pre-2002}}
-    & {\small \textit{Current}} \\
-    \midrule
-    Tables & Above & Below \\
-    Figures & Below & Below \\
-    \bottomrule
-  \end{tabular}
-  \caption{Table captions should be placed below the table. We
-    recommend table lines be 1 point, 25\% black. Minimize use of
-    unnecessary table lines.}~\label{tab:table1}
-\end{table}
+{\section{Literature Review}
+\label{section:lit_review}
+The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived. Key findings in the current literature are presented in Chapter~\ref{chapter:chapter_related_work}.
+}% end section
 
-\section{Sections}
+{\section{Building and Refining the Conceptual Framework}
+\label{section:building}
+Through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}), the framework was iteratively expanded by adding new concepts and establishing relations between those concepts.  The framework was refined as I explored the literature and available tools, and for presentation purposes in this thesis, I present only two versions of the framework. The preliminary framework was a result of this tool analysis and depicted in Chapter~\ref{chapter:old_framework}. The final version of the framework (see Chapter~\ref{chapter:framework}) was a result of developing an information discovery application based on the preliminary work.    
 
-The heading of a section should be in Helvetica or Arial 9-point bold,
-all in capitals. Sections should \textit{not} be numbered.
+For my case study, I selected some of the most used information discovery applications today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity ranks provided by Alexa\footnote[1]{Alexa is available at www.alexa.com}, a commercial Web traffic data provider. The focus was on applications that had strong information discovery components and lesser priority was given to applications whose purpose revolved only around curation.
 
-\subsection{Subsections}
+I used Yin's strategies for designing a case study~\cite{yin2014case} for guidance. The motivation behind choosing a case study over other methods of qualitative research was based on my choice of research questions, the lack of control over existing applications and their development, and having to focus on contemporary use of real-life Web applications. According to Yin~\cite{yin2014case}, a case study would be an optimal research strategy given the above characteristics.
 
-Headings of subsections should be in Helvetica or Arial 9-point bold
-with initial letters capitalized.  For sub-sections and
-sub-subsections, a word like \emph{the} or \emph{of} is not
-capitalized unless it is the first word of the heading.
+My study consisted of 20 cases, whereby each case is a Web application that focuses on the support of information discovery. I examined the overall purpose of each application, its description as defined within the application, as well as literature and documentation related to the application (if they were available) against the features that the application provided. For example, if an application provided bookmarking features, I checked if it was indeed intended to be used for information preservation. 
 
-\subsubsection{Sub-subsections}
+Consequently, the methodology was an iterative process of selecting cases, analyzing them, and determining whether they could be described and evaluated using the framework. If I found a key feature that could not be described, I adapted the framework according to the findings. I repeated the process of case selection and evaluation until the framework was usable for all cases. I then grouped the elements of the framework into categories, recording corresponding questions to ask in order to evaluate applications. 
 
-Headings for sub-subsections should be in Helvetica or Arial 9-point
-italic with initial letters capitalized.  Standard
-\texttt{{\textbackslash}section}, \texttt{{\textbackslash}subsection},
-and \texttt{{\textbackslash}subsubsection} commands will work fine in
-this template.
+A list of the tools that were used in this study are presented in Table~\ref{table:tools}. Summaries of their evaluations using the preliminary framework can be found in Appendix~\ref{chapter:appendix_tools}. Other tools were considered throughout the study, however, only the 20 applications presented underwent systematic examination. 
 
-\section{Figures/Captions}
+\begin{table*}[htbp]
+\small
+\caption{Web-based Information Discovery and Curation Tools as of May 15, 2014}
+\label{table:tools} 
 
-Place figures and tables at the top or bottom of the appropriate
-column or columns, on the same page as the relevant text (see
-Figure~\ref{fig:figure1}). A figure or table may extend across both
-columns to a maximum width of 17.78 cm (7 in.).
+\begin{tabular}{|p{0.20\linewidth}| p{0.30\linewidth}| p{0.45\linewidth}|}
 
-\begin{figure*}
-  \centering
-  \includegraphics[width=2\columnwidth]{figures/map}
-  \caption{In this image, the map maximizes use of space. You can make
-    figures as wide as you need, up to a maximum of the full width of
-    both columns. Note that \LaTeX\ tends to render large figures on a
-    dedicated page. Image: \ccbynd~ayman on
-    Flickr.}~\label{fig:figure2}
-\end{figure*}
+\hline
+\textbf{Application} & \textbf{Address} & \textbf{Description}
+\\
+\hline
+Pinterest       & www.pinterest.com 	& Visual discovery tool \\
+\hline
+Delicious       & delicious.com 		& Social bookmarking service \\
+\hline
+Tumblr          & www.tumblr.com 		& Microblogging platform \\
+\hline
+StumbleUpon     & www.stumbleupon.com  	& Web page discovery tool \\
+\hline
+Wikipedia       & en.wikipedia.org   	& Free content Internet encyclopedia\\
+\hline
+Google Maps     & www.google.ca/maps  	& Web mapping service\\
+\hline
+Rotten Tomatoes & www.rottentomatoes.com & Movie and TV database\\
+\hline
+500px           & 500px.com            	& Photography site\\
+\hline
+BucketList      & bucketlist.org  		& Goal tracking and discovery service\\
+\hline
+We Heart It     & weheartit.com 		& Visual discovery tool \\
+\hline
+Scoop.it!       & www.scoop.it 			& Online publishing platform \\
+\hline
+Google Images   & images.google.com  	& Image discovery service \\
+\hline
+Vimeo           & vimeo.com  			& Video sharing Website\\
+\hline
+LifeHacker      & lifehacker.com        & Daily blog \\
+\hline
+YouTube         & www.youtube.com 		& Video hosting platform \\
+\hline
+Yelp            & www.yelp.ca  			& Business review site\\
+\hline
+IMDb            & www.imdb.com  		& Movie database \\
+\hline
+Trip Adviser    & www.tripadvisor.ca 	& Travel site \\
+\hline
+Urban Spoon     & www.urbanspoon.com    & Online bar and restaurant guide\\
+\hline
+Thesaurus       & thesaurus.com         & Online thesaurus \\
+\hline
+\end{tabular}
+\end{table*}
+} % end section
+\pagebreak
+{\section{Applying the Framework to the Design of an Information Discovery and Curation Application}
+\label{section:applying}
 
-Captions should be Times New Roman or Times Roman 9-point bold.  They
-should be numbered (e.g., ``Table~\ref{tab:table1}'' or
-``Figure~\ref{fig:figure1}''), centered and placed beneath the figure
-or table.  Please note that the words ``Figure'' and ``Table'' should
-be spelled out (e.g., ``Figure'' rather than ``Fig.'') wherever they
-occur. Figures, like Figure~\ref{fig:figure2}, may span columns and
-all figures should also include alt text for improved accessibility.
-Papers and notes may use color figures, which are included in the page
-limit; the figures must be usable when printed in black-and-white in
-the proceedings.
+In order to analyze the framework's capabilities when designing for information discovery and curation, I used the framework as a guide for developing a place photo discovery application. The motivation for choosing a place photo discovery application was based on the gaps that were exposed during analysis of some of the applications, such as Google Maps and Pinterest. Applying the framework to designing an application has triggered more changes within the framework, its further extension and refinement. The resulting application is discussed in Chapter~\ref{chapter:application}.
+}% end section
 
-The paper may be accompanied by a short video figure up to five
-minutes in length. However, the paper should stand on its own without
-the video figure, as the video may not be available to everyone who
-reads the paper.  
+{\section{Framework Validation}
+\label{section:validating}
+In order to further validate the framework, it was applied to the reevaluation of five of the previously examined tools for comparison purposes (see Chapter~\ref{chapter:application}). For each tool, I identified gaps and proposed directions for future development. 
+}% end section
 
-\subsection{Inserting Images}
-When possible, include a vector formatted graphic (i.e. PDF or EPS).
-When including bitmaps,  use an image editing tool to resize the image
-at the appropriate printing resolution (usually 300 dpi).
+{\section{Limitations}
+The case study I conducted has a number of limitations. A lack of documentation, research literature, and formal descriptions of available features for some applications introduces a threat to the construct validity of the study. In addition, information discovery tools and features can be used in unintended or unforeseen ways by designers and developers. Therefore, the recorded use of some features within information discovery applications was recorded on my interpretations. To compensate for such limitations, I personally employed the tools over an extended period of time to gain a deeper understanding of their use. In addition, I considered some cases with similar functionality and design to be able to validate or clarify prior findings. 
 
-\section{Language, Style and Content}
+Many Web applications evolve rapidly. Therefore, my tool analysis only applies to tools at the moment of the study. Additionally, framework validation was performed on five of the previously examined tools, introducing another limitation to the study. 
+\pagebreak
 
-The written and spoken language of SIGCHI is English. Spelling and
-punctuation may use any dialect of English (e.g., British, Canadian,
-US, etc.) provided this is done consis- tently. Hyphenation is
-optional. To ensure suitability for an international audience, please
-pay attention to the following:
+Only Web applications running in browsers on a desktop computer were considered in this study. The study can be extended with use of various devices, such as smartphones and tablets, as information discovery patterns and mechanisms may vary for different platforms. 
 
-\begin{itemize}
-\item Write in a straightforward style.
-\item Try to avoid long or complex sentence structures.
-\item Briefly define or explain all technical terms that may be
-  unfamiliar to readers.
-\item Explain all acronyms the first time they are used in your
-  text---e.g., ``Digital Signal Processing (DSP)''.
-\item Explain local references (e.g., not everyone knows all city
-  names in a particular country).
-\item Explain ``insider'' comments. Ensure that your whole audience
-  understands any reference whose meaning you do not describe (e.g.,
-  do not assume that everyone has used a Macintosh or a particular
-  application).
-\item Explain colloquial language and puns. Understanding phrases like
-  ``red herring'' may require a local knowledge of English.  Humor and
-  irony are difficult to translate.
-\item Use unambiguous forms for culturally localized concepts, such as
-  times, dates, currencies, and numbers (e.g., ``1--5--97'' or
-  ``5/1/97'' may mean 5 January or 1 May, and ``seven o'clock'' may
-  mean 7:00 am or 19:00). For currencies, indicate equivalences:
-  ``Participants were paid {\fontfamily{txr}\selectfont \textwon}
-  25,000, or roughly US \$22.''
-\item Be careful with the use of gender-specific pronouns (he, she)
-  and other gendered words (chairman, manpower, man-months). Use
-  inclusive language that is gender-neutral (e.g., she or he, they,
-  s/he, chair, staff, staff-hours, person-years). See the
-  \textit{Guidelines for Bias-Free Writing} for further advice and
-  examples regarding gender and other personal
-  attributes~\cite{Schwartz:1995:GBF}. Be particularly aware of
-  considerations around writing about people with disabilities.
-\item If possible, use the full (extended) alphabetic character set
-  for names of persons, institutions, and places (e.g.,
-  Gr{\o}nb{\ae}k, Lafreni\'ere, S\'anchez, Nguy\~{\^{e}}n,
-  Universit{\"a}t, Wei{\ss}enbach, Z{\"u}llighoven, \r{A}rhus, etc.).
-  These characters are already included in most versions and variants
-  of Times, Helvetica, and Arial fonts.
-\end{itemize}
-
-\section{Accessibility}
-The Executive Council of SIGCHI has committed to making SIGCHI
-conferences more inclusive for researchers, practitioners, and
-educators with disabilities. As a part of this goal, the all authors
-are asked to work on improving the accessibility of their
-submissions. Specifically, we encourage authors to carry out the
-following five steps:
-\begin{enumerate}
-\item Add alternative text to all figures
-\item Mark table headings
-\item Add tags to the PDF
-\item Verify the default language
-\item Set the tab order to ``Use Document Structure''
-\end{enumerate}
-For more information and links to instructions and resources, please
-see: \url{http://chi2016.acm.org/accessibility}.  The
-\texttt{{\textbackslash}hyperref} package allows you to create well tagged PDF files,
-please see the preamble of this template for an example.
-
-\section{Page Numbering, Headers and Footers}
-Your final submission should not contain footer or header information
-at the top or bottom of each page. Specifically, your final submission
-should not include page numbers. Initial submissions may include page
-numbers, but these must be removed for camera-ready. Page numbers will
-be added to the PDF when the proceedings are assembled.
-
-\section{Producing and Testing PDF Files}
-
-We recommend that you produce a PDF version of your submission well
-before the final deadline.  Your PDF file must be ACM DL
-Compliant. The requirements for an ACM Compliant PDF are available at:
-{\url{http://www.sheridanprinting.com/typedept/ACM-distilling-settings.htm}}.
-
-Test your PDF file by viewing or printing it with the same software we
-will use when we receive it, Adobe Acrobat Reader Version 10. This is
-widely available at no cost. Note that most
-reviewers will use a North American/European version of Acrobat
-reader, so please check your PDF accordingly.
-
-When creating your PDF from Word, ensure that you generate a tagged
-PDF from improved accessibility. This can be done by using the Adobe
-PDF add-in, also called PDFMaker. Select Acrobat | Preferences from
-the ribbon and ensure that ``Enable Accessibility and Reflow with
-tagged Adobe PDF'' is selected. You can then generate a tagged PDF by
-selecting ``Create PDF'' from the Acrobat ribbon.
+Another limitation was the lack of prior research on the subject matter. Some researchers have studied information seeking models and high-level Web tasks, but there is a lack of literature on how to enable and support different Web tasks. This opens up opportunities for future research to analyze methods of developing and building frameworks for facilitating and evaluating tools that support other Web tasks, such as communication, transactions, and goal realization.
 
 \section{Conclusion}
 
-It is important that you write for the SIGCHI audience. Please read
-previous years’ proceedings to understand the writing style and
-conventions that successful authors have used. It is particularly
-important that you state clearly what you have done, not merely what
-you plan to do, and explain how your work is different from previously
-published work, i.e., the unique contribution that your work makes to
-the field. Please consider what the reader will learn from your
-submission, and how they will find your work useful. If you write with
-these questions in mind, your work is more likely to be successful,
-both in being accepted into the conference, and in influencing the
-work of our field.
-
 \section{Acknowledgments}
 
-Sample text: We thank all the volunteers, and all publications support
-and staff, who wrote and provided helpful comments on previous
-versions of this document. Authors 1, 2, and 3 gratefully acknowledge
-the grant from NSF (\#1234--2012--ABC). \textit{This whole paragraph is
-  just an example.}
 
 % Balancing columns in a ref list is a bit of a pain because you
 % either use a hack like flushend or balance, or manually insert
@@ -454,44 +371,10 @@ the grant from NSF (\#1234--2012--ABC). \textit{This whole paragraph is
 %
 \balance{}
 
-\section{References Format}
-Your references should be published materials accessible to the
-public. Internal technical reports may be cited only if they are
-easily accessible (i.e., you provide the address for obtaining the
-report within your citation) and may be obtained by any reader for a
-nominal fee. Proprietary information may not be cited. Private
-communications should be acknowledged in the main text, not referenced
-(e.g., ``[Golovchinsky, personal communication]'').
-
-Use a numbered list of references at the end of the article, ordered
-alphabetically by first author, and referenced by numbers in
-brackets~\cite{ethics,Klemmer:2002:WSC:503376.503378}. For papers from
-conference proceedings, include the title of the paper and an
-abbreviated name of the conference (e.g., for Interact 2003
-proceedings, use Proc.\ Interact 2003). Do not include the location of
-the conference or the exact date; do include the page numbers if
-available. See the examples of citations at the end of this document
-and in the accompanying \texttt{BibTeX} document.
-
-References \textit{must be the same font size as other body
-  text}. References should be in alphabetical order by last name of
-first author. Example reference formatting for individual journal
-articles~\cite{ethics}, articles in conference
-proceedings~\cite{Klemmer:2002:WSC:503376.503378},
-books~\cite{Schwartz:1995:GBF}, theses~\cite{sutherland:sketchpad},
-book chapters~\cite{winner:politics}, a journal issue~\cite{kaye:puc},
-websites~\cite{acm_categories,cavender:writing},
-tweets~\cite{CHINOSAUR:venue}, patents~\cite{heilig:sensorama}, and
-online videos~\cite{psy:gangnam} is given here. This formatting is a
-slightly abbreviated version of the format automatically generated by
-the ACM Digital Library (\url{http://dl.acm.org}) as ``ACM Ref''. More
-details of reference formatting are available at:
-\url{http://www.acm.org/publications/submissions/latex_style}.
-
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
 \bibliographystyle{SIGCHI-Reference-Format}
-\bibliography{sample}
+\bibliography{refs}
 
 \end{document}
 
