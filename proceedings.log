@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  25 JUN 2015 15:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  25 JUN 2015 16:39
 entering extended mode
 **proceedings.tex
 (C:\Users\Elena\git\chi2016\proceedings.tex
@@ -985,153 +985,188 @@ Non-PDF special ignored!
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 
+l.145 
        [2]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 
+l.174 
        [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 228.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 187.
 
 
 LaTeX Warning: Reference `section:framework' on page \thepage  undefined on inp
-ut line 228.
+ut line 187.
 
 <figures/methodology.pdf, id=215, 839.135pt x 457.71pt>
 File: figures/methodology.pdf Graphic file (type pdf)
 
 <use figures/methodology.pdf>
-Package pdftex.def Info: figures/methodology.pdf used on input line 235.
-(pdftex.def)             Requested size: 243.98238pt x 133.0817pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.240 {\section{Research Questions and Objective}
-                                                  [4 <C:/Users/Elena/git/chi201
-6/figures/methodology.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package pdftex.def Info: figures/methodology.pdf used on input line 195.
+(pdftex.def)             Requested size: 487.96475pt x 266.1634pt.
 
 
+Package hyperref Warning: Suppressing empty link on input line 207.
 
-Package hyperref Warning: Suppressing empty link on input line 249.
 
-
-Package hyperref Warning: Suppressing empty link on input line 249.
+Package hyperref Warning: Suppressing empty link on input line 207.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 249.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 207.
 
-Package hyperref Warning: Suppressing empty link on input line 249.
-
-
-Package hyperref Warning: Suppressing empty link on input line 249.
+Package hyperref Warning: Suppressing empty link on input line 207.
 
 
-Package hyperref Warning: Suppressing empty link on input line 249.
+Package hyperref Warning: Suppressing empty link on input line 207.
 
 
-LaTeX Warning: Reference `chapter:chapter_related_work' on page \thepage  undef
-ined on input line 255.
-
-
-LaTeX Warning: Reference `chapter:old_framework' on page \thepage  undefined on
- input line 260.
-
-
-LaTeX Warning: Reference `chapter:framework' on page \thepage  undefined on inp
-ut line 260.
-
-
-LaTeX Warning: Citation `yin2014case' on page \thepage  undefined on input line
- 264.
-
-
-LaTeX Warning: Citation `yin2014case' on page \thepage  undefined on input line
- 264.
+Package hyperref Warning: Suppressing empty link on input line 207.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.267 
-       [5]
+l.208 
+       [4]
 
-LaTeX Warning: Reference `chapter:appendix_tools' on page \thepage  undefined o
-n input line 270.
+LaTeX Warning: Reference `section:related_work' on page \thepage  undefined on 
+input line 213.
 
 
-Overfull \hbox (6.7909pt too wide) in paragraph at lines 277--324
-[][] 
+Package hyperref Warning: Suppressing empty link on input line 218.
+
+
+LaTeX Warning: Reference `section:old_framework' on page \thepage  undefined on
+ input line 218.
+
+
+LaTeX Warning: Reference `section:framework' on page \thepage  undefined on inp
+ut line 218.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.227 
+       [5 <C:/Users/Elena/git/chi2016/figures/methodology.pdf>]
+
+Package hyperref Warning: Suppressing empty link on input line 228.
+
+
+LaTeX Warning: Reference `section:appendix_tools' on page \thepage  undefined o
+n input line 228.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+[]\OT1/ptm/m/n/8 Social book-mark-ing
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+[]\OT1/ptm/m/n/8 Microblogging plat-
+ []
 
 
-
-LaTeX Warning: Reference `chapter:application' on page \thepage  undefined on i
-nput line 330.
-
-
-LaTeX Warning: Reference `chapter:application' on page \thepage  undefined on i
-nput line 335.
+Overfull \hbox (2.72406pt too wide) in paragraph at lines 247--247
+[]\OT1/ptm/m/n/8 www.stumbleupon.com| 
+ []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 4859) in paragraph at lines 247--248
+[]\OT1/ptm/m/n/8 Web page dis-cov-ery
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 249--250
+[]\OT1/ptm/m/n/8 Free con-tent In-ter-net
+ []
+
+
+Overfull \hbox (8.93979pt too wide) in paragraph at lines 253--253
+[]\OT1/ptm/m/n/8 www.rottentomatoes.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[]\OT1/ptm/m/n/8 Movie and TV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+[]\OT1/ptm/m/n/8 Online pub-lish-ing
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 263--264
+[]\OT1/ptm/m/n/8 Image dis-cov-ery ser-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[]\OT1/ptm/m/n/8 Video host-ing plat-
+ []
+
+
+LaTeX Warning: Reference `section:application' on page \thepage  undefined on i
+nput line 289.
+
+
+LaTeX Warning: Reference `section:application' on page \thepage  undefined on i
+nput line 294.
+
+(C:\Users\Elena\git\chi2016\proceedings.bbl
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.343 
-       [6] (C:\Users\Elena\git\chi2016\proceedings.bbl
-Overfull \vbox (4.44397pt too high) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.174 \bibitem{kellar2007field}
-                                [7]
+l.95 \bibitem{ellis1993comparison}
+                                   [6]
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ” in font ptmri7t!
-)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.379 \end{document}
+l.328 \bibitem{wilson2000human}
+                                [7])pdfTeX warning (ext4): destination with the
+ same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.337 \end{document}
                      [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
  (C:\Users\Elena\git\chi2016\proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
 (rerunfilecheck)             Checksum: 0A4BB4125D02F2052A518D6391C26FDE;1423.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 338 ({)
+### simple group (level 1) entered at line 297 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  17541 strings out of 493921
- 323097 string characters out of 3144876
- 386080 words of memory out of 3000000
- 20394 multiletter control sequences out of 15000+200000
+ 323086 string characters out of 3144876
+ 383094 words of memory out of 3000000
+ 20393 multiletter control sequences out of 15000+200000
  52731 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,10n,56p,1554b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,56p,1554b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{section*.24} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -1176,9 +1211,9 @@ nts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (8 pages, 339862 bytes).
+Output written on proceedings.pdf (8 pages, 340056 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
