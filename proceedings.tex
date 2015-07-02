@@ -197,7 +197,7 @@ The methodology used for the study presented in this paper consisted of five maj
 	\label{fig:methodology} 
 \end{figure*}
 
-{\section{Research Questions and Objective}
+{\subsection{Research Questions and Objective}
 This study was designed to address the problem of designing Web applications for information discovery and was motivated by the following research questions and a research objective:
 
 \emph{RQ1:~How do existing Web applications support information discovery?}
@@ -208,20 +208,20 @@ To address RQ1 and RQ2, we conducted an extensive literature review (see Section
 
 }% end section
 
-{\section{Literature Review}
+{\subsection{Literature Review}
 \label{section:lit_review}
 The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived. Key findings in the current literature are presented in Section~\ref{section:related_work}.
 }% end section
 
-{\section{Building and Refining the Conceptual Framework}
+{\subsection{Building and Refining the Conceptual Framework}
 \label{section:building}
 Through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}), the framework was iteratively expanded by adding new concepts and establishing relations between those concepts.  The framework was refined as we explored the literature and available tools, and for presentation purposes in this paper, we present only two versions of the framework. The preliminary framework was a result of this tool analysis and depicted in Section~\ref{section:old_framework}. The final version of the framework (see Section~\ref{section:framework}) was a result of developing an information discovery application based on the preliminary work.    
 
 For our case study, we selected some of the most used information discovery applications today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity ranks provided by Alexa\footnote[1]{Alexa is available at www.alexa.com}, a commercial Web traffic data provider. The focus was on applications that had strong information discovery components and lesser priority was given to applications whose purpose revolved only around curation.
 
-I used Yin's strategies for designing a case study~\cite{yin2014case} for guidance. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions, the lack of control over existing applications and their development, and having to focus on contemporary use of real-life Web applications. According to Yin~\cite{yin2014case}, a case study would be an optimal research strategy given the above characteristics.
+We used Yin's strategies for designing a case study~\cite{yin2014case} for guidance. The motivation behind choosing a case study over other methods of qualitative research was based on our choice of research questions, the lack of control over existing applications and their development, and having to focus on contemporary use of real-life Web applications. According to Yin~\cite{yin2014case}, a case study would be an optimal research strategy given the above characteristics.
 
-My study consisted of 20 cases, whereby each case is a Web application that focuses on the support of information discovery. we examined the overall purpose of each application, its description as defined within the application, as well as literature and documentation related to the application (if they were available) against the features that the application provided. For example, if an application provided bookmarking features, we checked if it was indeed intended to be used for information preservation. 
+Our study consisted of 20 cases, whereby each case is a Web application that focuses on the support of information discovery. we examined the overall purpose of each application, its description as defined within the application, as well as literature and documentation related to the application (if they were available) against the features that the application provided. For example, if an application provided bookmarking features, we checked if it was indeed intended to be used for information preservation. 
 
 Consequently, the methodology was an iterative process of selecting cases, analyzing them, and determining whether they could be described and evaluated using the framework. If we found a key feature that could not be described, we adapted the framework according to the findings. We repeated the process of case selection and evaluation until the framework was usable for all cases. We then grouped the elements of the framework into categories, recording corresponding questions to ask in order to evaluate applications. 
 
@@ -283,18 +283,18 @@ Thesaurus       & thesaurus.com         & Online thesaurus \\
 \end{table}
 } % end section
 
-{\section{Applying the Framework to the Design of an Information Discovery and Curation Application}
+{\subsection{Applying the Framework to the Design of an Information Discovery and Curation Application}
 \label{section:applying}
 
 In order to analyze the framework's capabilities when designing for information discovery and curation, we used the framework as a guide for developing a place photo discovery application. The motivation for choosing a place photo discovery application was based on the gaps that were exposed during analysis of some of the applications, such as Google Maps and Pinterest. Applying the framework to designing an application has triggered more changes within the framework, its further extension and refinement. The resulting application is discussed in Section~\ref{section:application}.
 }% end section
 
-{\section{Framework Validation}
+{\subsection{Framework Validation}
 \label{section:validating}
 In order to further validate the framework, it was applied to the reevaluation of five of the previously examined tools for comparison purposes (see Section~\ref{section:application}). For each tool, we identified gaps and proposed directions for future development. 
 }% end section
 
-{\section{Limitations}
+{\subsection{Limitations}
 The case study we conducted has a number of limitations. A lack of documentation, research literature, and formal descriptions of available features for some applications introduces a threat to the construct validity of the study. In addition, information discovery tools and features can be used in unintended or unforeseen ways by designers and developers. Therefore, the recorded use of some features within information discovery applications was recorded on our interpretations. To compensate for such limitations, the researchers personally employed the tools over an extended period of time to gain a deeper understanding of their use. In addition, we considered some cases with similar functionality and design to be able to validate or clarify prior findings. 
 
 Many Web applications evolve rapidly. Therefore, our tool analysis only applies to tools at the moment of the study. Additionally, framework validation was performed on five of the previously examined tools, introducing another limitation to the study. 
@@ -302,30 +302,31 @@ Many Web applications evolve rapidly. Therefore, our tool analysis only applies 
 Only Web applications running in browsers on a desktop computer were considered in this study. The study can be extended with use of various devices, such as smartphones and tablets, as information discovery patterns and mechanisms may vary for different platforms. 
 
 Another limitation was the lack of prior research on the subject matter. Some researchers have studied information seeking models and high-level Web tasks, but there is a lack of literature on how to enable and support different Web tasks. This opens up opportunities for future research to analyze methods of developing and building frameworks for facilitating and evaluating tools that support other Web tasks, such as communication, transactions, and goal realization.
+
 \section{A Conceptual Framework for Information Discovery and Curation on the Web}
 
-Although Web-based information discovery and curation tasks are commonly performed, there is a lack of literature on how to enable and support them when building Web applications. I reduce this gap by presenting a framework of design factors to facilitate digital information discovery and curation. In my framework, I build on existing models and frameworks of information discovery and curation and my analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation (see Section~\ref{section:motives}). These motives often define use cases for Web application design and help set initial assumptions about required functionality.
+Although Web-based information discovery and curation tasks are commonly performed, there is a lack of literature on how to enable and support them when building Web applications. We reduce this gap by presenting a framework of design factors to facilitate digital information discovery and curation. In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation (see Section~\ref{section:motives}). These motives often define use cases for Web application design and help set initial assumptions about required functionality.
 
 The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable those actions (see Section~\ref{section:enablers}). Some examples of actions include managing and preserving information. In order to enable these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
 
 Actions can be further decomposed into \textit{operations} performed using mechanisms that enable the actions. For example, information preservation (action) can be enabled using a bookmaking feature (enabling mechanism) so that users can bookmark information using the feature (operation). Therefore, the remaining part of the framework deals with improving operations that are involved in information discovery and curation (see Section~\ref{section:enhancing}).  
 
-On the whole, in my framework I consider human motives and relate information discovery and curation actions with corresponding enabling mechanisms. Similarly, I relate operations, that arise from actions, with corresponding cognitive support, personalization, and automation.  Similar terminology is used in Activity Theory~\cite{kuutti1996activity} to describe human practices. 
+On the whole, in our framework we consider human motives and relate information discovery and curation actions with corresponding enabling mechanisms. Similarly, we relate operations, that arise from actions, with corresponding cognitive support, personalization, and automation.  Similar terminology is used in Activity Theory~\cite{kuutti1996activity} to describe human practices. 
 
 Figure~\ref{fig:framework_overview} gives a high-level overview of the framework and illustrates how the different components of the framework are connected.
 
 
 
-\begin{figure}[ht!]
+\begin{figure*}[ht!]
 	\noindent
 	\centering
     \includegraphics[width=\linewidth]{figures/framework_overview.pdf}
 	\caption{Framework Composition}
 	\label{fig:framework_overview} 
-\end{figure}
+\end{figure*}
 
 
-{\section{Motives Behind Information Discovery and Curation}
+{\subsection{Motives Behind Information Discovery and Curation}
 
 \label{section:motives}
 \begin{figure}[ht!]
@@ -338,38 +339,38 @@ Figure~\ref{fig:framework_overview} gives a high-level overview of the framework
 
 There are a wide variety of user motives behind information discovery and curation, and certain aspects of these motives can significantly impact the design of an application. Understanding a user's motives can help form a conceptual model of a needed Web application and its features. The following generalizations of motives and their properties can help define conceptual models and identify primary information discovery and curation use cases. Figure~\ref{fig:motives} illustrates the part of the framework discussed in this section.  
 
-{\subsection{Closing a Knowledge Gap}
+{\subsubsection{Closing a Knowledge Gap}
 The primary motive for information discovery is usually to close a knowledge gap that occurs when the user tries to accomplish a task and lacks information to do so. This motive can take up various forms, which often depends on the nature of the information need and other conditions surrounding the given motive.        
 
 Depending on the context in which it arose, an information need can have various degrees of specificity. For example, if the motive is to find inspiration for a project, the information need is vaguely defined. However, if the motive is to find a phone number of a specific business, an information need is well-defined. In some cases, the information need may be hidden and the user might not be aware of the existing knowledge gap. The specificity of an information need determines important properties of information discovery mechanisms, such as whether users can benefit more from mechanisms that allow them to specify an information need, help form an information need, or allow them to randomly retrieve information. This property has to be taken into consideration when evaluating or designing a Web application. 
 
 The nature of an information need predetermines whether discovery is respectively serendipitous or oriented towards fact finding. Therefore, depending on the user needs, an application can be designed to increase serendipity and opportunistic discovery or to improve purposeful fact finding. On the one hand, displaying featured content can improve serendipitous discovery because of its unexpected nature and novelty. On the other hand, using context (e.g., location and date) to tailor search results to the user can improve fact finding. 
 
-Another type of motive for information discovery relates to the two qualities of the Web defined by Lindley et al. -- temporality and persistence~\cite{lindley2012s}. \textit{Persistence} refers to the quality of the Web that allows people to habitually revisit Web pages and continue on-going Web projects. \textit{Temporality} refers to the quality of the Web that allows the content of Websites to be continuously updated to provide users with new information. Persistence alone usually facilitates information \textit{rediscovery}, which is an act of refinding previously found information. However, if persisitence is combined with temporality, they can facilitate discovery of new information within the same application or channel. I refer to this type of discovery as \textit{channel-based discovery}. Some of the common motives for channel-based discovery include orienting (or monitoring for updates) and opportunistic information discovery~\cite{lindley2012s}.          
+Another type of motive for information discovery relates to the two qualities of the Web defined by Lindley et al. -- temporality and persistence~\cite{lindley2012s}. \textit{Persistence} refers to the quality of the Web that allows people to habitually revisit Web pages and continue on-going Web projects. \textit{Temporality} refers to the quality of the Web that allows the content of Websites to be continuously updated to provide users with new information. Persistence alone usually facilitates information \textit{rediscovery}, which is an act of refinding previously found information. However, if persisitence is combined with temporality, they can facilitate discovery of new information within the same application or channel. We refer to this type of discovery as \textit{channel-based discovery}. Some of the common motives for channel-based discovery include orienting (or monitoring for updates) and opportunistic information discovery~\cite{lindley2012s}.          
 
 The motive behind information rediscovery involves finding previously discovered information and reclosing the previously closed knowledge gap (e.g., in case the information was forgotten). It usually results in the user looking for previously found resources and Web pages. In fact, Web page revisitation is one of the most commonly performed Web browsing activities~\cite{adar2008large,cockburn2003improving}. The percentage of revisited web pages involved in Web browsing can range from 58\%~\cite{tauscher1997people} to 81\%~\cite{cockburn2001web}. Some of the reasons for revisiting pages include shopping, communication, entertainment, education, activity planning, and hobby-related information retrieval~\cite{adar2008large} (e.g., travel, fitness, and cooking). Some Web pages and resources can be rediscovered using navigation while others need to be previously preserved (bookmarked) in order to allow rediscovery. Rediscovery is one of the many ways in which information discovery and curation interweave. 
 }
 
-{\subsection{Supporting Future Use and Reaccess}
+{\subsubsection{Supporting Future Use and Reaccess}
 The main motive behind information curation is to make it possible to retrieve and use information. In order to facilitate easy information retrieval, many Web applications employ various forms of bookmarking systems. Traditionally, bookmarks must be manually organized into folders. However, this method of organization has been found inefficient because folders with bookmarks become easily cluttered~\cite{abrams1998information}. Therefore, in order to efficiently support information rediscovery, Web tools need to provide mechanisms for information preservation along with information management.
 }
 
-{\subsection{Improving Collections}
+{\subsubsection{Improving Collections}
 Reportedly, people gather information to improve existing collections~\cite{lindley2012s}. Although some deeper motives may include self reflection or the possibility of future use, collecting information is a motive in itself. In general, information gathering may be stretched over a period of time~\cite{kellar2006goal}, resulting in repeated page visitation. Although information gathering comprises only 13.4\% of Web usage, it highly contributes to various goal-supporting activities, such as decision making and planning~\cite{kellar2006goal}.
 
 }
 
-{\subsection{Facilitating Communication}
+{\subsubsection{Facilitating Communication}
 As part of his information behavior model, Wilson identified communication of information as an outcome of information seeking. Communication can also be thought of as a motive for information discovery and curation. To support communication of information, Web tools have to provide mechanisms that allow various users to share information among themselves. 
 
 \textit{Social bookmarking} is a way to preserve and share information within various communities. In recent years, it has gained popularity as an effective way of communicating with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} believes that web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced bookmarking technologies and provided a means for collaborative information discovery and curation. 
 }
-{\subsection{Summary}
-While it is not feasible to list all of the possible motives for information discovery and curation, in this section I outline some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
+{\subsubsection{Summary}
+While it is not feasible to list all of the possible motives for information discovery and curation, in this section we outline some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
 } 
 }
 
-{\section{Discovery and Curation Activities, Actions, and Their Enablers}
+{\subsection{Discovery and Curation Activities, Actions, and Their Enablers}
 \label{section:enablers}
 
 \begin{figure}[ht!]
@@ -449,14 +450,14 @@ Integrated news feed            & Is it possible to view news feeds from other a
 \end{table}
 
 {\subsubsection{Opportunistic Navigation}
-Opportunistic navigation is a method of navigating `randomly' through resources and Web pages. I apply the term `opportunistic' to describe this type of navigation because it is not truly random, however, its serendipitous nature often makes users feel like it is. This navigation method is especially useful when the information need is fully undefined.
+Opportunistic navigation is a method of navigating `randomly' through resources and Web pages. We apply the term `opportunistic' to describe this type of navigation because it is not truly random, however, its serendipitous nature often makes users feel like it is. This navigation method is especially useful when the information need is fully undefined.
 
 Many applications support \textbf{opportunistic navigation} to allow for opportunistic jumping from one resource to another. For example, StumbleUpon makes it possible to explore the Web in general --- other websites and Web applications, allowing for \textbf{integrated} navigation --- whereas Wikipedia provides opportunistic access to its own articles. 
 } % end subsection
 
 
 {\subsubsection{System-regulated Navigation}
-Web applications often display or update information without the user's active participation. This information can be a \textbf{news feed}, \textbf{featured} deals or articles, \textbf{static information}, or other types of content. In my thesis, I refer to this type of navigation as system-regulated because it occurs when the application brings the content to the user instead of the user applying any effort to find content. It differs from opportunistic navigation because the the user cannot choose when to observe new information; instead, all updates are regulated by the application. 
+Web applications often display or update information without the user's active participation. This information can be a \textbf{news feed}, \textbf{featured} deals or articles, \textbf{static information}, or other types of content. In this paper, we refer to this type of navigation as system-regulated because it occurs when the application brings the content to the user instead of the user applying any effort to find content. It differs from opportunistic navigation because the the user cannot choose when to observe new information; instead, all updates are regulated by the application. 
 
 One example of an application that utilizes system-regulated navigation is Yelp. As soon as the user enters the site, this tool displays featured restaurants as well as the user's recent activities. As with any other navigation method, system-regulated navigation can ensure cross-application \textbf{integration} by displaying content from other Web applications. 
 } % end subsection
@@ -579,7 +580,7 @@ In some applications, the content is updated and curated by users, and users can
 } % end subsection
 
 {\subsection{Summary}
-Information discovery and curation tools can have different implementations depending on the motives behind the activities. The design factors presented in this chapter can help enable different actions associated with information discovery and curation. However, the activities can be significantly improved by additional support and automation, as described in the next section.
+Information discovery and curation tools can have different implementations depending on the motives behind the activities. The design factors presented in this section can help enable different actions associated with information discovery and curation. However, the activities can be significantly improved by additional support and automation, as described in the next section.
 }
 } % end section
 
@@ -721,10 +722,132 @@ Augmentation is another aspect of information curation that can be either \textb
 Notification mechanisms enable user awareness about new content on the subscribed channel~\cite{millen2005social}. Web applications that facilitate rapidly updating content support various notification mechanisms, such as messages within the application, informative emails, and smartphone notifications. Many types of notifications include suggested users or artifacts to follow. Some Web tools automatically subscribe users to notifications, usually during the registration process.
 } % end subsection
 {\subsection{Summary}
-Providing cognitive support, personalization, and automation dramatically improves the user experience when people interact with information discovery and curation systems. The framework can be used for identifying gaps in information discovery support and developing new technologies (see Chapters~\ref{chapter:application} and~\ref{chapter:evaluation}).  
+Providing cognitive support, personalization, and automation dramatically improves the user experience when people interact with information discovery and curation systems. The framework can be used for identifying gaps in information discovery support and developing new technologies (see Sections~\ref{chapter:application} and~\ref{chapter:evaluation}).  
 }
 }
-\section{Conclusion}
+
+\section{Framework Validation}
+In order to validate the conceptual framework (see Section~\ref{chapter:framework}) and verify its stability, we applied it to the evaluation of five of the applications that were used in the construction of the preliminary framework (see Section~\ref{chapter:old_framework}): Pinterest, Google Maps, Wikipedia, Delicious, and Yelp. For each of the Web applications, we first summarize our observations resulting from asking the questions from the framework in a systematic manner. Based on our assumptions, judgment, and use of the framework, we propose directions for future development and reflect on certain needed mechanisms, as not all mechanisms are always required.  
+
+{\subsection{Pinterest}
+Pinterest is a Web application designed for image discovery and curation, oriented towards finding inspiration and collecting knowledge about hobbies and interests~\cite{gilbert2013need,zarro2012pinterest,ottoni2013ladies}.  Users of Pinterest are commonly referred to as `pinners'. Resources on Pinterest are called `pins', and each `pin' consists of an image, a short description, the user's name, and the name of the collection that the pin belongs to. More information is available once the user clicks on a `pin'.
+
+Motivated by the desire to gain inspiration and knowledge, Pinterest users have either underdefined or absent information needs. Other motives for using Pinterest could be to rediscover previously found information (and possibly use it), to be oriented about new `pins' that emerge from subscribed channels, and to gather information for future rediscovery and the act of collection itself.
+
+
+Navigation in Pinterest is mostly supported by descriptional, referential, or system-regulated mechanisms. Although an explicit \textbf{opportunistic navigation mechanism} is absent, both descriptional and referential mechanisms usually return novel and serendipitous results to facilitate opportunistic browsing. Descriptional navigation is enabled with a \textbf{guided search} mechanism that suggests search terms to the user. 
+
+Referential navigation is enabled in Pinterest using a range of techniques. To support articulation of an information need, a \textbf{category-based} navigation mechanism makes further suggestions on subcategories or interests. Through clicking on a `pin', the user can see related resources, enabling \textbf{resource-based} referential navigation. Most of the images on Pinterest are `pinned' from other Websites, and users are provided with links to their original sources. Therefore, Pinterest supports \textbf{integrated} referential navigation.
+
+System-regulated navigation within Pinterest is highly personalized. When the user enters the site, they see a history of their own information gathering activities and updates from the people they are subscribed to. Additionally, the application suggests \textbf{featured} `pins' selected based on the user's personal interests.
+
+To reinforce the discovery of visual data, Pinterest provides extensive support for various exploration mechanisms. Multiple resources are represented in a \textbf{gallery layout}, often referred to as a 'pinboard'. This type of layout provides a good spatial support for exploration and makes it easier to build a mental model of the tool by drawing analogies with a real pinboard. Users can create multiple `pinboards' (also known as `boards') which have \textbf{personalized} covers to enhance future exploration and rediscovery.
+
+A single resource does not have a lot of distinct spatial arrangements, however, it provides a visual glimpse into what can be found on the Website that the image came from, with \textbf{textual preview} being limited to the address of the Website. 
+
+Information management is accomplished through sorting `pins' into different collections (`pinboards') thus enabling \textbf{collection-based classification} and \textbf{internal preservation of internal and external resources}. All user information collecting actions are \textbf{automatically} preserved and displayed. Users can augment the information pool by uploading new `pins', commenting on existing `pins', or adding descriptions. Users can also \textbf{internally share} 'pins' among themselves. Channel-picking actions are carried out by following or \textbf{subscribing} to users or individual `pinboards'. The system also \textbf{automatically} sends \textbf{notifications} though emails and \textbf{suggests} new `boards' to follow.
+
+Applying the framework to Pinterest revealed that the tool employs a  variety of techniques to facilitate information discovery and curation. However, individual mechanisms could be further improved. For example, \textbf{textual previews} of multiple and individual resources is rather limited and provides little insight into what information source Websites actually contain. As another example, Pinterest could benefit from \textbf{automatically classifying} `pins' into `boards' because finding an appropriate `board' for a `pin' can be difficult when user has a large number of existing `boards'. Overall, Pinterest provides rich support for information disocvery and curation, and in some ways, enables each of the discovery or curation actions of the conceptual framework. 
+} % end section
+
+
+{\subsection{Google Maps}
+Google maps is a Web application oriented towards navigation and place discovery~\cite{gibson2006google}. It provides services for finding directions to places, their addresses, and other information. By analyzing the application and answering the questions from the conceptual framework for information discovery and curation, We arrived at the following description for Google Maps.
+
+The primary motive behind using Google Maps is usually to find specific information about a place, most commonly directions to that place. The information need can be either very precise, such as looking for an address of a particular place, or it can be slightly more ambiguous, such as looking for a coffee shop within a certain area. Sometimes users also return to the site to rediscover previously found directions or addresses.
+
+Information discovery in Google Maps is usually initiated by a \textbf{search}, and thus, the user needs to formulate their information need---the application lacks some internal referential navigation mechanisms so there is nothing that aids users in this task. The one type of referential navigation that Google Maps does support is \textbf{resource-based}. For example, the user can click on the ``Search nearby" suggested link to find places near another place. Google Maps is conveniently \textbf{integrated} with Google+, allowing access to relevant information, such as reviews, images, and hours of operation, and thus, enabling resource-based integrated referential navigation. Search-based navigation within Google Maps is usually precise and returns accurate search results for specific places, making it easy to rediscover information. 
+
+Google Maps lacks \textbf{opportunistic navigation mechanisms}, and it provides limited support for system-regulated navigation by displaying \textbf{personalized featured content} in the form of a map of the user's location.  
+
+Considering the nature of Google Maps, the semantic of the spatial arrangement of resources is defined by the locations of actual places on the map. More information is presented as a \textbf{list}. \textbf{Consistency} in how resources are represented makes it easy to find information, such as addresses and contacts. Furthermore, multiple and individual resources provide \textbf{visual previews} that show photographs added by users or street views, respectively.
+
+Google Maps supports curation mainly through personal preservation. Users can only bookmark places to the "My Places" list---by adding \textbf{internal content to internal storage}. Other types of place preservation are possible through Google+, however, not within Google Maps. Users can also \textbf{evaluate} and \textbf{annotate} places through Google+, and aggregated reviews and ratings are visible on Google Maps. Sharing is enabled by providing the functionality needed to add new locations to Google Maps and supplying links and code for embedding.  
+
+Channel-picking actions are usually enabled within applications with frequently updating content. Content provided by Google Maps is fairly stable, and therefore, there are no channel-picking mechanisms used by the application.
+
+Evaluating Google Maps using our conceptual framework also exposes some gaps in its design. From the description above, it can be estimated that Google Maps' curation mechanisms lack some functionality for public and private curation. Improving public curation mechanisms and adding functionality for channel-picking introduces the possibility of channel-based discovery. By no means should an application like that be a replacement to Google Maps. However, it could be oriented towards social discovery and curation as well as channel-based discovery, thereby complimenting the Google Maps application.  
+
+} % end section
+
+{\subsection{Wikipedia}
+Wikipedia is an open encyclopedia containing millions of articles contributed by people from all over the world~\cite{kittur2007power,volkel2006semantic}. The primary motive for discovering information on Wikipedia is to gain knowledge to either answer a specific question or to learn more about a general topic, such as art or history.
+
+
+
+Wikipedia supports a wide range of navigational mechanisms. Descriptional navigation on Wikipedia is accomplished through \textbf{search}, but results are not \textbf{personalized to the user}, and the search mechanism is not \textbf{guided} by suggestions of what search terms to use, which could help the user formulate their information need. Referential mechanisms include \textbf{categories} which consist of broad topics and return \textbf{featured articles}. Not all Wikipedia articles are \textbf{integrated} with other Websites and Web applications; occasionally articles contain ``External Links" section that provides links to external resources. 
+
+Opportunistic navigation facilitates serendipitous discovery of new articles and it is enabled though the ``Random article'' link located on the navigation sidebar. Wikipedia regularly updates \textbf{featured content} that can be viewed on the front page and when navigated to using categories. Users can also see the history of recently updated articles. 
+
+Exploration of multiple resources is limited to when the target of the search query is unclear. Then, search results are presented in a \textbf{list} layout, where links are represented as \textbf{text}. Single resource exploration mechanisms include a table of contents in large articles, which can serve as a referential navigation mechanism as well as a \textbf{textual cue} of what the article consists of. Occasionally, there is \textbf{visual} material that aids in communicating the ideas of the article.  
+
+Information on Wikipedia is publicly curated by thousands of users, who improve existing articles and \textbf{add} new content. Although it is not possible to \textbf{subscribe} to any particular channel, Wikipedia's moderators regularly update featured articles and information. Augmentation is possible through personal contribution to the content of articles. However, there are no private curation mechanisms that could be used for personal benefit. 
+
+The application of the framework to Wikipedia revealed that major gaps in its discovery and curation support are related to personal curation and visual exploration of multiple resources. For example, since there are no mechanisms for personal preservation and management, users cannot build their own knowledge maps and continuously engage with the content. Adding more cognitive support or personalization, such as suggesting search terms or topics of interest, could improve the user experience.
+
+} % end section
+
+
+{\subsection{Delicious}
+Delicious is a Web application designed for social bookmarking and information discovery~\cite{rader2008influences, tesconi2008semantify}. The primary motive for using Delicious is to preserve articles found on other Websites for future access and to discover new articles or blog posts. When used for discovery, the information need is usually underdefined or absent unless the user's motive is to rediscover previously found information.   
+
+In Delicious, users can navigate using \textbf{search} (descriptional navigation). Referential navigation within the application is accomplished through \textbf{resource-based} search, which returns related links. Delicious is also integrated with many other Websites through linking, which enables \textbf{integrated referential navigation}. The application does not support opportunistic browsing, but it does provide an option for system-regulated browsing through the ``Trending'' section of the Website which displays \textbf{featured content} based on article popularity. The ``Trending" section displays results of the social curation, and therefore, enables channel-based discovery. Since the ``Trending" section displays results of social curation, it enables channel-based discovery.
+
+Exploration of a single resource is not enabled in Delicious, and the mechanisms for exploring multiple resources, for the most part, are limited to \textbf{textual previews} and a \textbf{list} layout. However, the ``Trending" section of the system does provide \textbf{visual previews} and arranges resources in a \textbf{grid} layout. In addition, it provides extended \textbf{textual previews} or snippets of corresponding articles, making it easier to follow the information scent when navigating across various Websites. Although these mechanisms help with visual and spatial exploration, having them applied to only one section of Delicious simultaneously undermines the \textbf{consistency} of multiple resource representation. 
+
+Since the primary motive for using Delicious is to preserve and share information, support for curation is the core feature of this Web application. Management can be performed through \textbf{tagging}, and the system \textbf{suggests} tags based on a tag cloud. Delicious supports \textbf{internal preservation of external and internal resources}, \textbf{external sharing of internal resources}, as well as \textbf{adding} new resources. Information augmentation is possible through commenting on (or \textbf{annotating}) added links. Channel-picking is performed thorough \textbf{subscription mechanisms}---users can follow other users and build their networks. 
+
+According to the framework, Delicious lacks extensive visual exploration mechanisms in most of its sections. Since Delicious is designed to facilitate article discovery, and Web page titles often provide limited insight about an article, the tool could benefit from providing \textbf{textual} and \textbf{visual} article previews in all of its sections to help the user follow the information scent. 
+} % end section
+
+{\subsection{Yelp}
+Yelp is a Web application used to discover local businesses, such as restaurants, beauty salons, and shops~\cite{luca2011reviews}. The primary motive for discovering information on Yelp is to evaluate and compare businesses in certain domains and geographical locations. Therefore, users either have defined information needs, such as rating of a specific business, or underdefined information needs, such as a good restaurant in a certain area. Most of the content on Yelp consists of user reviews and business evaluations or ratings. 
+
+Descriptional navigation in Yelp is once again supported using the \textbf{search feature}, which not only \textbf{suggests} search terms to the user, but also allows them to further specify the proximate location of a business. Referential navigation is enabled using \textbf{category-based} navigation and \textbf{filtering}. \textbf{Integrated references} are provided to navigate to Google Maps and to business Websites.  On Yelp, the user can see a \textbf{news feed} of activities of other users, as well as \textbf{featured} businesses based on the user's location. 
+
+Both visual and spatial exploration mechanisms are enabled on Yelp. Visual explorations of multiple and single resources are facilitated by numerous photographs, icons, maps, and visuals depicting ratings. Spacial representation of information on Yelp consists of a blend of \textbf{list}, \textbf{grid}, and \textbf{gallery} layouts and other spatial arrangements.
+
+In addition to discovery, Yelp supports various curation actions. Users can bookmark businesses they like within the system, thus performing \textbf{internal preservation of internal resources}. They can further augment information by either writing their own reviews or performing an \textbf{evaluation} of businesses or other user's reviews. Evaluation of businesses is enabled using a five-star rating system, and reviews can be evaluated by choosing between `Useful', `Funny', and `Cool' metrics. 
+
+Identified gaps include a lack of management mechanisms when businesses are bookmarked and a lack of channel-picking mechanisms. A lot of information on Yelp is continuously updated, so channel-picking could help filter updated information. Furthermore, adding mechanisms for opportunistic navigation could make it possible to discover new restaurants every time the applicaiton is used and help the user when their information need is undefined.
+ 
+} % end section
+
+{\subsection{Discussion}
+The Web tool evaluations provided in this section used the conceptual framework for information discovery and curation to demonstrate the applicability of the framework. A set of questions provided by the framework can help in the process of tool evaluation and can be applied to draw distinctions between different tools. It is important to note that the nature of these questions introduces a limitation to the framework restricting tool evaluation only to mechanisms outlines in the framework. However, the designer  may choose to ask more generic questions about an application such as ``In what ways does the application support referential navigation?" or ``In what ways does the application support preservation of information?''.
+
+The framework associates different information discovery and curation actions with concrete mechanisms. However, it is not always clear which framework actions the tool needs to support. With the help of the framework, some of the requirements (but not all) can be derived from the analysis of other applications, which might be in a similar domain or possess desired properties. 
+
+Another way to determine which actions need support is the motive for discovery and curation activities in an application. For example, if the motive is to discover information with an undefined information need, the application  can either be tailored to support serendipitous discovery by providing opportunistic navigation mechanisms, or it can help the user formulate the information need by suggesting search terms and categories.
+
+Finally, the need for a given discovery or curation-supporting mechanism can be evaluated using intuition and experience of the designer. In some cases, it is especially difficult to estimate the importance of a mechanism in a specific application using known characteristics of the tool. However, as with many other decisions when it comes to developing or improving an application, the designer can use their judgment along with subsequent studies and evaluation. 
+
+The evaluation and comparison of different Web applications can reveal useful insights about the mechanics of how the system induces user experience and it can expose certain unadressed needs. The next section illustrates the design process of a Web application that emerged from the evaluations of other tools using the conceptual framework. 
+
+} % end section
+\section{Research and Design Implications}
+The conceptual framework for information discovery and curation is designed to perform formative and summative evaluation of existing Web applications and to reveal how these tools support information-related activities in question. The framework as a tool and its ability to guide the process of analyzing Web applications makes it broadly applicable in research and Web design. 
+
+In Section~\ref{chapter:evaluation}, I demonstrated how the framework can be used to reveal missing features in tools. Using similar methods, the framework can also be applied to compare different Web applications. When used for evaluation, the framework helps to identify which areas of a tool require further attention. Therefore, the framework can be helpful for designers who wish to improve existing tools or get ideas for new information discovery and curation applications. 
+
+Factors and questions of the framework are there to guide the developer, but they do not dictate which features should be in an application. In other words, the framework helps expose gaps, but it is up to designers to decide whether those gaps need to be closed. In fact, some gaps cannot be closed because of certain constraints, such as data type and system design.
+
+User interface designers face certain trade-offs when developing applications. Therefore, it is not always advantageous to implement all missing features. For example, providing the support to customize spatial arrangement of multiple resources can undermine the consistency of their representation. 
+
+In the research domain, the framework can serve as a guide for drawing distinctions between different Web-based information discovery and curation applications, finding gaps in tools that can be studied, and selecting cases for studies based on required functionality. Hence, both researchers and developers can benefit from the systematic tool examination guided by the framework.
+
+Even though applying the framework requires initial expertise and critical reasoning, it opens up opportunities for research and practice. Systematic evaluation of Web tools for information discovery and curation helps the designer improve user experience and gain better understanding of information behaviour within a given system. 
+
+\section{Future Work and Conclusions}
+In our study, we analyzed information curation and seeking tasks and developed a conceptual framework of factors and questions that are important when building and evaluating Web information discovery and curation tools. We then evaluated and iteratively refined the framework by analyzing 20 different information discovery applications and provided concrete examples of tool support addressing various concepts of the framework. Finally, we designed a Web-based application for place photo discovery and curation using the conceptual framework, and validated the framework by reevaluating five of the previously examined tools.
+
+The current version of the framework is generalized to be applicable to most information discovery applications. Finding ways to instantiate the framework and extend it for use in domain-specific practices could serve as a potential future research goal. For example, video discovery and curation activities have unique properties related to the type of data to be discovered---information is mostly found in the video itself, and it cannot be viewed all at the same time. Hence, the framework could be extended to address domain-specific challenges. 
+
+Another potential research direction would be to expand our investigation to include factors that influence the need for one information discovery type over another and further deepen an understanding of the relationships between the motives for information discovery and curation activities and information discovery types. 
+
+Additionally, one could investigate how collaboration in information discovery and curation relates to the conceptual framework. Generally, collaboration mechanisms in most Web information discovery applications are limited to information sharing, public information augmentation and tagging. However, collaboration often involves other activities, such as communication, coordination, and other domain-specific shared activities.
+
+Our framework opens up opportunities for structured information discovery and curation tool evaluation and design. As more tools are being developed within the social space of information discovery and curation, understanding how these tasks can be supported promises advancements in how Web applications are designed.
 
 \section{Acknowledgments}
 

@@ -32,6 +32,23 @@
 \ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
 \ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
 
+\bibitem{abrams1998information}
+{David Abrams}, {Ron Baecker}, {and} {Mark Chignell}. 1998.
+\newblock \showarticletitle{Information archiving with bookmarks: personal Web
+  space construction and organization}. In {\em Proceedings of the SIGCHI
+  conference on Human factors in computing systems}. ACM Press/Addison-Wesley
+  Publishing Co., 41--48.
+\newblock
+
+
+\bibitem{adar2008large}
+{Eytan Adar}, {Jaime Teevan}, {and} {Susan~T Dumais}. 2008.
+\newblock \showarticletitle{Large scale analysis of web revisitation patterns}.
+  In {\em Proceedings of the SIGCHI conference on Human Factors in Computing
+  Systems}. ACM, 1197--1206.
+\newblock
+
+
 \bibitem{bates1986exploratory}
 {Marcia~J Bates}. 1986.
 \newblock \showarticletitle{An exploratory paradigm for online information
@@ -74,6 +91,24 @@
 \newblock
 
 
+\bibitem{cockburn2003improving}
+{Andy Cockburn}, {Saul Greenberg}, {Steve Jones}, {Bruce McKenzie}, {and}
+  {Michael Moyle}. 2003.
+\newblock \showarticletitle{Improving Web page revisitation: Analysis, design,
+  and evaluation}.
+\newblock  (2003).
+\newblock
+
+
+\bibitem{cockburn2001web}
+{Andy Cockburn} {and} {Bruce McKenzie}. 2001.
+\newblock \showarticletitle{What do Web users do? An empirical analysis of Web
+  use}.
+\newblock {\em International Journal of human-computer studies\/} {54}, 6
+  (2001), 903--922.
+\newblock
+
+
 \bibitem{conaway2010designing}
 {AM Conaway}, {CK Pikas}, {UE McLean}, {SD Morris}, {LA Palmer}, {L Rosman},
   {SA Sears}, {E Uzelac}, {and} {SM Woodson}. 2010.
@@ -108,6 +143,16 @@
 \newblock
 
 
+\bibitem{estelles2010social}
+{Enrique Estell{\'e}s}, {Esther Del~Moral}, {and} {Fernando Gonz{\'a}lez}.
+  2010.
+\newblock \showarticletitle{Social bookmarking tools as facilitators of
+  learning and research collaborative processes: The Diigo case}.
+\newblock {\em Interdisciplinary Journal of E-Learning and Learning Objects\/}
+  {6}, 1 (2010), 175--191.
+\newblock
+
+
 \bibitem{foster2003serendipity}
 {Allen Foster} {and} {Nigel Ford}. 2003.
 \newblock \showarticletitle{Serendipity and information seeking: an empirical
@@ -139,10 +184,34 @@
 \newblock
 
 
+\bibitem{gibson2006google}
+{Rich Gibson} {and} {Schuyler Erle}. 2006.
+\newblock {\em Google maps hacks}.
+\newblock " O'Reilly Media, Inc.".
+\newblock
+
+
+\bibitem{gilbert2013need}
+{Eric Gilbert}, {Saeideh Bakhshi}, {Shuo Chang}, {and} {Loren Terveen}. 2013.
+\newblock \showarticletitle{I need to try this?: a statistical overview of
+  pinterest}. In {\em Proceedings of the SIGCHI conference on human factors in
+  computing systems}. ACM, 2427--2436.
+\newblock
+
+
 \bibitem{golder2006usage}
 {Scott~A Golder} {and} {Bernardo~A Huberman}. 2006.
 \newblock \showarticletitle{Usage patterns of collaborative tagging systems}.
 \newblock {\em Journal of information science\/} {32}, 2 (2006), 198--208.
+\newblock
+
+
+\bibitem{gruber2007ontology}
+{Thomas Gruber}. 2007.
+\newblock \showarticletitle{Ontology of folksonomy: A mash-up of apples and
+  oranges}.
+\newblock {\em International Journal on Semantic Web and Information Systems
+  (IJSWIS)\/} {3}, 1 (2007), 1--11.
 \newblock
 
 
@@ -159,6 +228,14 @@
 \newblock \showarticletitle{The influence of display characteristics on visual
   exploratory search behavior}.
 \newblock {\em Journal of Consumer Research\/} {25}, 3 (1998), 290--301.
+\newblock
+
+
+\bibitem{java2007feeds}
+{Akshay Java}, {Pranam Kolari}, {Tim Finin}, {Anupam Joshi}, {and} {Tim Oates}.
+  2007.
+\newblock \showarticletitle{Feeds That Matter: A Study of Bloglines
+  Subscriptions.}. In {\em ICWSM}.
 \newblock
 
 
@@ -197,11 +274,36 @@
 \newblock
 
 
+\bibitem{kittur2007power}
+{Aniket Kittur}, {Ed Chi}, {B Pendleton}, {Bongwon Suh}, {and} {Todd
+  Mytkowicz}. 2007.
+\newblock \showarticletitle{Power of the few vs. wisdom of the crowd: Wikipedia
+  and the rise of the bourgeoisie}.
+\newblock {\em World wide web\/} {1}, 2 (2007), 19.
+\newblock
+
+
 \bibitem{kuhlthau1991inside}
 {Carol~C Kuhlthau}. 1991.
 \newblock \showarticletitle{Inside the search process: Information seeking from
   the user's perspective}.
 \newblock {\em JASIS\/} {42}, 5 (1991), 361--371.
+\newblock
+
+
+\bibitem{kuutti1996activity}
+{Kari Kuutti}. 1996.
+\newblock \showarticletitle{Activity theory as a potential framework for
+  human-computer interaction research}.
+\newblock {\em Context and consciousness: Activity theory and human-computer
+  interaction\/} (1996), 17--44.
+\newblock
+
+
+\bibitem{levene2011introduction}
+{Mark Levene}. 2011.
+\newblock {\em An introduction to search engines and web navigation}.
+\newblock John Wiley \& Sons.
 \newblock
 
 
@@ -211,6 +313,15 @@
 \newblock \showarticletitle{It's simply integral to what I do: enquiries into
   how the web is weaved into everyday life}. In {\em Proceedings of the 21st
   international conference on World Wide Web}. ACM, 1067--1076.
+\newblock
+
+
+\bibitem{luca2011reviews}
+{Michael Luca}. 2011.
+\newblock \showarticletitle{Reviews, reputation, and revenue: The case of Yelp.
+  com}.
+\newblock {\em Com (September 16, 2011). Harvard Business School NOM Unit
+  Working Paper\/} 12-016 (2011).
 \newblock
 
 
@@ -230,6 +341,13 @@
 \newblock
 
 
+\bibitem{millen2005social}
+{David Millen}, {Jonathan Feinberg}, {and} {Bernard Kerr}. 2005.
+\newblock \showarticletitle{Social bookmarking in the enterprise}.
+\newblock {\em Queue\/} {3}, 9 (2005), 28--35.
+\newblock
+
+
 \bibitem{morris2008survey}
 {Meredith~Ringel Morris}. 2008.
 \newblock \showarticletitle{A survey of collaborative web search practices}. In
@@ -244,6 +362,30 @@
   activities significantly impact people's decisions and actions}. In {\em
   CHI'01 extended abstracts on Human factors in computing systems}. ACM,
   163--164.
+\newblock
+
+
+\bibitem{norman2002design}
+{Donald~A Norman}. 2002.
+\newblock {\em The design of everyday things}.
+\newblock Basic books.
+\newblock
+
+
+\bibitem{oravec2002bookmarking}
+{Jo~Ann Oravec}. 2002.
+\newblock \showarticletitle{Bookmarking the world: Weblog applications in
+  education}.
+\newblock {\em Journal of Adolescent \& Adult Literacy\/} (2002), 616--621.
+\newblock
+
+
+\bibitem{ottoni2013ladies}
+{Raphael Ottoni}, {Joao~Paulo Pesce}, {Diego~B Las~Casas}, {Geraldo
+  Franciscani~Jr}, {Wagner Meira~Jr}, {Ponnurangam Kumaraguru}, {and} {Virgilio
+  Almeida}. 2013.
+\newblock \showarticletitle{Ladies First: Analyzing Gender Roles and Behaviors
+  in Pinterest.}. In {\em ICWSM}.
 \newblock
 
 
@@ -270,6 +412,14 @@
 \newblock
 
 
+\bibitem{rader2008influences}
+{Emilee Rader} {and} {Rick Wash}. 2008.
+\newblock \showarticletitle{Influences on tag choices in del. icio. us}. In
+  {\em Proceedings of the 2008 ACM conference on Computer supported cooperative
+  work}. ACM, 239--248.
+\newblock
+
+
 \bibitem{saracevic1996modeling}
 {Tefko Saracevic}. 1996.
 \newblock \showarticletitle{Modeling Interaction in Information Retrieval (IR):
@@ -283,6 +433,32 @@
 \newblock \showarticletitle{How knowledge workers use the web}. In {\em
   Proceedings of the SIGCHI conference on Human factors in computing systems}.
   ACM, 227--234.
+\newblock
+
+
+\bibitem{tauscher1997people}
+{Linda Tauscher} {and} {Saul Greenberg}. 1997.
+\newblock \showarticletitle{How people revisit web pages: Empirical findings
+  and implications for the design of history systems}.
+\newblock {\em International Journal of Human-Computer Studies\/} {47}, 1
+  (1997), 97--137.
+\newblock
+
+
+\bibitem{tesconi2008semantify}
+{Maurizio Tesconi}, {Francesco Ronzano}, {Andrea Marchetti}, {and} {Salvatore
+  Minutoli}. 2008.
+\newblock \showarticletitle{Semantify del. icio. us: Automatically turn your
+  tags into senses}. In {\em The 7th International Semantic Web Conference}.
+  Citeseer, 67.
+\newblock
+
+
+\bibitem{volkel2006semantic}
+{Max V{\"o}lkel}, {Markus Kr{\"o}tzsch}, {Denny Vrandecic}, {Heiko Haller},
+  {and} {Rudi Studer}. 2006.
+\newblock \showarticletitle{Semantic wikipedia}. In {\em Proceedings of the
+  15th international conference on World Wide Web}. ACM, 585--594.
 \newblock
 
 
@@ -336,6 +512,14 @@
 {Robert~K Yin}. 2014.
 \newblock {\em Case study research: Design and methods}.
 \newblock Sage publications.
+\newblock
+
+
+\bibitem{zarro2012pinterest}
+{Michael Zarro} {and} {Catherine Hall}. 2012.
+\newblock \showarticletitle{Pinterest: Social collecting for\# linking\#
+  using\# sharing}. In {\em Proceedings of the 12th ACM/IEEE-CS joint
+  conference on Digital Libraries}. ACM, 417--418.
 \newblock
 
 

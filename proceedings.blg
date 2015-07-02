@@ -1,26 +1,56 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: proceedings.aux
 The style file: SIGCHI-Reference-Format.bst
 Database file #1: refs.bib
+Warning--empty publisher in abrams1998information
+Warning--empty address in abrams1998information
+Warning--empty publisher in adar2008large
+Warning--empty address in adar2008large
 Warning--no number and no volume in bates1986exploratory
 Warning--no number and no volume in bruner1961act
 Warning--page numbers missing in both pages and numpages fields in bruner1961act
 Warning--page numbers missing in both pages and numpages fields in choo2000information
+Warning--no journal in cockburn2003improving
+Warning--no number and no volume in cockburn2003improving
+Warning--page numbers missing in both pages and numpages fields in cockburn2003improving
 Warning--empty publisher in fu2008microstructures
 Warning--empty address in fu2008microstructures
+Warning--empty address in gibson2006google
+Warning--empty publisher in gilbert2013need
+Warning--empty address in gilbert2013need
+Warning--empty publisher in java2007feeds
+Warning--empty address in java2007feeds
+Warning--page numbers missing in both pages and numpages fields in java2007feeds
 Warning--empty publisher in kerne2004information
 Warning--empty address in kerne2004information
 Warning--empty address in kitajima2000comprehension
+Warning--no number and no volume in kuutti1996activity
+Warning--empty address in levene2011introduction
 Warning--empty publisher in lindley2012s
 Warning--empty address in lindley2012s
+Warning--unusual to have number, but no volume, for luca2011reviews
+Warning--page numbers missing in both pages and numpages fields in luca2011reviews
 Warning--empty publisher in morris2008survey
 Warning--empty address in morris2008survey
 Warning--empty publisher in morrison2001taxonomic
 Warning--empty address in morrison2001taxonomic
+Warning--empty address in norman2002design
+Warning--no number and no volume in oravec2002bookmarking
+Warning--empty publisher in ottoni2013ladies
+Warning--empty address in ottoni2013ladies
+Warning--page numbers missing in both pages and numpages fields in ottoni2013ladies
 Warning--empty publisher in pirolli2009elementary
 Warning--empty address in pirolli2009elementary
+Warning--empty publisher in rader2008influences
+Warning--empty address in rader2008influences
 Warning--empty publisher in saracevic1996modeling
 Warning--empty address in saracevic1996modeling
 Warning--empty publisher in sellen2002knowledge
 Warning--empty address in sellen2002knowledge
+Warning--empty publisher in tesconi2008semantify
+Warning--empty address in tesconi2008semantify
+Warning--empty publisher in volkel2006semantic
+Warning--empty address in volkel2006semantic
 Warning--empty address in yin2014case
-(There were 22 warnings)
+Warning--empty publisher in zarro2012pinterest
+Warning--empty address in zarro2012pinterest
+(There were 52 warnings)
