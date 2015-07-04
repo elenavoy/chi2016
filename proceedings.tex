@@ -93,13 +93,13 @@
 \end{abstract}
 
 \keywords{
-%Authors' choice; of terms; separated; by semi\-colons; commas, within terms only; this section is required.
-  }
+Information discovery; information curation; conceptual framework. 
+}
 
 \category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous} \category{See\url{http://acm.org/about/class/1998/} for the full list of ACM classifiers. This section is required.}{}{}
 
 \section{Introduction}
-
+\label{section:introduction}
 Web technologies help people satisfy their information needs. People research their interests and hobbies using various online resources, shoppers search online stores for product characteristics to make purchasing decisions, and travelers visit online booking sites to find information about flights and hotels. In order to accommodate diverse and evolving user needs, Web applications continuously introduce new features and services, empowering information discovery and curation. 
 
 The term ``information discovery'' has been used by many researchers to define or explain various information behaviour paradigms, such as information exploration~\cite{waterworth1991model} and serendipitous information seeking~\cite{foster2003serendipity}. However, the definition of information discovery itself is difficult to articulate. 
@@ -117,9 +117,10 @@ Information discovery can take on many forms. Web users might be hoping to find 
 
 Our research goal is to gain an understanding of how existing tools support digital information discovery and curation addressing the problem of designing Web applications for information discovery. While several researchers propose frameworks targeted at designing information discovery systems~\cite{proper1999information, kerne2004information}, the importance of information curation in the realm of information discovery has been largely overlooked despite the rapidly increasing popularity of socially-curated information spaces. Moreover, much of the existing work that focuses on how people look for and discover information online~\cite{bates1986exploratory, choo2000information, ellis1989behavioural, kellar2006goal, lindley2012s, morrison2001taxonomic, sellen2002knowledge} fails to examine concrete features of existing Web-based information discovery applications that empower real-world users. More research is necessary to determine how different tools and their features provide fundamental support for information discovery and curation.
 
-To enhance information seeking and curating experiences and support users' interactions, we extend existing research by (1) deriving factors that enable information discovery and curation and relating them within a framework, (2) using the framework to establish a set of questions that can be used when evaluating and designing new applications, (3) iteratively evaluating the framework by using it to study and describe current Web applications as well as to design a new application, which in turn helped refine the framework of factors and questions, and (4) relating the framework to user information discovery and curation motives that drive the underlying usage of many Web-based applications.
+To enhance information seeking and curating experiences and support users' interactions, we extend existing research by (1) deriving factors that enable information discovery and curation and relating them within a framework, (2) using the framework to establish a set of questions that can be used when evaluating and designing new applications, (3) iteratively evaluating the framework by using it to study and describe current Web applications, which in turn helped refine the framework of factors and questions, and (4) relating the framework to user information discovery and curation motives that drive the underlying usage of many Web-based applications.
 
 \section{Web-based Information Discovery and Curation}
+\label{section:literature_review}
 Given the complexity of Web-based information discovery and curation tasks, a variety of research topics are examined to gain an understanding of how current Web tools support these tasks, including information-related Web usage characteristics, current information behavior models, and other aspects of information discovery and curation.  This section outlines the key background literature that contributed to the development of the conceptual framework and helped answer the research questions. 
 
 \subsection{Information Behavior}
@@ -184,10 +185,11 @@ By surveying 204 Web users, Morris found that people often desire to or do colla
 Collaborative information-related activities on the Web are not limited to information seeking. Collaborative information tagging is a way of organizing content for future search and navigation. Although it is usually performed for personal reasons, tagging greatly enhances information retrieval~\cite{golder2006usage}.
 
 \subsection{Summary}
-Today, there are a multitude of tools that support different aspects of information discovery and curation, but understanding how these tools are similar (or differ) is difficult. Moreover, the existing research is not useful for identifying gaps in current tools or ways that current tools may be improved to support information discovery and curation. We address these problems by presenting a conceptual framework for information discovery and curation (see Section~\ref{section:framework}).
+Today, there are a multitude of tools that support different aspects of information discovery and curation, but understanding how these tools are similar (or differ) is difficult. Moreover, the existing research is not useful for identifying gaps in current tools or ways that current tools may be improved to support information discovery and curation. We address these problems by presenting a conceptual framework for information discovery and curation.
 
 \section{Methodology}
-The methodology used for the study presented in this paper consisted of five major steps. To gain a deeper understanding of the problem of information discovery and curation, (1) we conducted a extensive literature review. Based on the literature review, (2) we derived a preliminary set of information discovery and curation design factors and related them within a framework. (3) The framework was then applied for the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. (4) The resulting framework was used to develop a novel place photo discovery application,revealing unforeseen gaps that were consequently addressed. Lastly, (5) the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness.  A summary of the methodology is presented in Figure~\ref{fig:methodology}.
+\label{section:methodology}
+The methodology used for the study presented in this paper consisted of five major steps. To gain a deeper understanding of the problem of information discovery and curation, (1) we conducted a extensive literature review. Based on the literature review, (2) we derived a preliminary set of information discovery and curation design factors and related them within a framework. (3) The framework was then applied for the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. Lastly, (4) the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness.  A summary of the methodology is presented in Figure~\ref{fig:methodology}.
 
 \begin{figure*}
 	\noindent
@@ -204,18 +206,18 @@ This study was designed to address the problem of designing Web applications for
 
 \emph{RQ2:~How do existing information discovery applications support information curation?}
 
-To address RQ1 and RQ2, we conducted an extensive literature review (see Section~\ref{section:lit_review}) and a case study of 20 information discovery tools (see Section~\ref{section:building}). Using insights from RQ1 and RQ2, we established our main research objective, which is \emph{\textbf{to develop a framework for performing summative and formative evaluation of Web-based information discovery and curation tools}}. We further address our methodology for building the conceptual framework in Sections~\ref{section:building}, \ref{section:applying}, and \ref{section:validating}.
+To address RQ1 and RQ2, we conducted an extensive literature review and a case study of 20 information discovery tools. Using insights from RQ1 and RQ2, we established our main research objective, which is \emph{\textbf{to develop a framework for performing summative and formative evaluation of Web-based information discovery and curation tools}}. We further address our methodology for building the conceptual framework.
 
 }% end section
 
 {\subsection{Literature Review}
-\label{section:lit_review}
-The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived. Key findings in the current literature are presented in Section~\ref{section:related_work}.
+\label{subsection:lit_review}
+The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived. Key findings in the current literature are presented in Section~\ref{section:literature_review}.
 }% end section
 
 {\subsection{Building and Refining the Conceptual Framework}
-\label{section:building}
-Through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}), the framework was iteratively expanded by adding new concepts and establishing relations between those concepts.  The framework was refined as we explored the literature and available tools, and for presentation purposes in this paper, we present only two versions of the framework. The preliminary framework was a result of this tool analysis and depicted in Section~\ref{section:old_framework}. The final version of the framework (see Section~\ref{section:framework}) was a result of developing an information discovery application based on the preliminary work.    
+\label{subsection:building}
+Through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}), the framework was iteratively expanded by adding new concepts and establishing relations between those concepts.  The framework was refined as we explored the literature and available tools, and for presentation purposes in this paper, we present only two versions of the framework. The final version of the framework was a result of developing an information discovery application based on the preliminary work.    
 
 For our case study, we selected some of the most used information discovery applications today and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). The popularity of information discovery applications was determined using Website popularity ranks provided by Alexa\footnote[1]{Alexa is available at www.alexa.com}, a commercial Web traffic data provider. The focus was on applications that had strong information discovery components and lesser priority was given to applications whose purpose revolved only around curation.
 
@@ -225,7 +227,7 @@ Our study consisted of 20 cases, whereby each case is a Web application that foc
 
 Consequently, the methodology was an iterative process of selecting cases, analyzing them, and determining whether they could be described and evaluated using the framework. If we found a key feature that could not be described, we adapted the framework according to the findings. We repeated the process of case selection and evaluation until the framework was usable for all cases. We then grouped the elements of the framework into categories, recording corresponding questions to ask in order to evaluate applications. 
 
-A list of the tools that were used in this study are presented in Table~\ref{table:tools}. Summaries of their evaluations using the preliminary framework can be found in Appendix~\ref{section:appendix_tools}. Other tools were considered throughout the study, however, only the 20 applications presented underwent systematic examination. 
+A list of the tools that were used in this study are presented in Table~\ref{table:tools}. Other tools were considered throughout the study, however, only the 20 applications presented underwent systematic examination. 
 
 \begin{table}[htbp]
 \small
@@ -283,16 +285,11 @@ Thesaurus       & thesaurus.com         & Online thesaurus \\
 \end{table}
 } % end section
 
-{\subsection{Applying the Framework to the Design of an Information Discovery and Curation Application}
-\label{section:applying}
-
-In order to analyze the framework's capabilities when designing for information discovery and curation, we used the framework as a guide for developing a place photo discovery application. The motivation for choosing a place photo discovery application was based on the gaps that were exposed during analysis of some of the applications, such as Google Maps and Pinterest. Applying the framework to designing an application has triggered more changes within the framework, its further extension and refinement. The resulting application is discussed in Section~\ref{section:application}.
-}% end section
-
 {\subsection{Framework Validation}
-\label{section:validating}
-In order to further validate the framework, it was applied to the reevaluation of five of the previously examined tools for comparison purposes (see Section~\ref{section:application}). For each tool, we identified gaps and proposed directions for future development. 
+\label{subsection:validating}
+In order to further validate the framework, it was applied to the reevaluation of five of the previously examined tools for comparison purposes (see Framework Validation Section). For each tool, we identified gaps and proposed directions for future development. 
 }% end section
+\pagebreak
 
 {\subsection{Limitations}
 The case study we conducted has a number of limitations. A lack of documentation, research literature, and formal descriptions of available features for some applications introduces a threat to the construct validity of the study. In addition, information discovery tools and features can be used in unintended or unforeseen ways by designers and developers. Therefore, the recorded use of some features within information discovery applications was recorded on our interpretations. To compensate for such limitations, the researchers personally employed the tools over an extended period of time to gain a deeper understanding of their use. In addition, we considered some cases with similar functionality and design to be able to validate or clarify prior findings. 
@@ -302,14 +299,15 @@ Many Web applications evolve rapidly. Therefore, our tool analysis only applies 
 Only Web applications running in browsers on a desktop computer were considered in this study. The study can be extended with use of various devices, such as smartphones and tablets, as information discovery patterns and mechanisms may vary for different platforms. 
 
 Another limitation was the lack of prior research on the subject matter. Some researchers have studied information seeking models and high-level Web tasks, but there is a lack of literature on how to enable and support different Web tasks. This opens up opportunities for future research to analyze methods of developing and building frameworks for facilitating and evaluating tools that support other Web tasks, such as communication, transactions, and goal realization.
-
+}
 \section{A Conceptual Framework for Information Discovery and Curation on the Web}
+\label{sec:framework}
 
-Although Web-based information discovery and curation tasks are commonly performed, there is a lack of literature on how to enable and support them when building Web applications. We reduce this gap by presenting a framework of design factors to facilitate digital information discovery and curation. In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation (see Section~\ref{section:motives}). These motives often define use cases for Web application design and help set initial assumptions about required functionality.
+Although Web-based information discovery and curation tasks are commonly performed, there is a lack of literature on how to enable and support them when building Web applications. We reduce this gap by presenting a framework of design factors to facilitate digital information discovery and curation. In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation. These motives often define use cases for Web application design and help set initial assumptions about required functionality.
 
-The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable those actions (see Section~\ref{section:enablers}). Some examples of actions include managing and preserving information. In order to enable these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
+The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable those actions. Some examples of actions include managing and preserving information. In order to enable these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
 
-Actions can be further decomposed into \textit{operations} performed using mechanisms that enable the actions. For example, information preservation (action) can be enabled using a bookmaking feature (enabling mechanism) so that users can bookmark information using the feature (operation). Therefore, the remaining part of the framework deals with improving operations that are involved in information discovery and curation (see Section~\ref{section:enhancing}).  
+Actions can be further decomposed into \textit{operations} performed using mechanisms that enable the actions. For example, information preservation (action) can be enabled using a bookmaking feature (enabling mechanism) so that users can bookmark information using the feature (operation). Therefore, the remaining part of the framework deals with improving operations that are involved in information discovery and curation.  
 
 On the whole, in our framework we consider human motives and relate information discovery and curation actions with corresponding enabling mechanisms. Similarly, we relate operations, that arise from actions, with corresponding cognitive support, personalization, and automation.  Similar terminology is used in Activity Theory~\cite{kuutti1996activity} to describe human practices. 
 
@@ -327,8 +325,6 @@ Figure~\ref{fig:framework_overview} gives a high-level overview of the framework
 
 
 {\subsection{Motives Behind Information Discovery and Curation}
-
-\label{section:motives}
 \begin{figure}[ht!]
 	\noindent
 	\centering
@@ -371,8 +367,6 @@ While it is not feasible to list all of the possible motives for information dis
 }
 
 {\subsection{Discovery and Curation Activities, Actions, and Their Enablers}
-\label{section:enablers}
-
 \begin{figure}[ht!]
 	\noindent
 	\centering
@@ -380,7 +374,7 @@ While it is not feasible to list all of the possible motives for information dis
 	\caption{Section Overview: Discovery and Curation Activities, Actions, and Their Enablers}
 	\label{fig:enablers_overview} 
 \end{figure}
-The next part of the framework (see Figure~\ref{fig:enablers_overview}) deals with the actions associated with enablers of information discovery and curation. A more detailed overview is depicted in Figure~\ref{fig:enablers}; the two main activities (discovery and curation) are decomposed into actions, and each of the actions is supported by a group of features or mechanisms that enable a given aspect of discovery or curation in a Web application. Examples of these enabling mechanisms can be found in Appendix~\ref{chapter:appendix_features}. The following subsections describe each of the feature groups and outline the corresponding questions a designer could ask to improve application design and evaluation.  
+The next part of the framework (see Figure~\ref{fig:enablers_overview}) deals with the actions associated with enablers of information discovery and curation. A more detailed overview is depicted in Figure~\ref{fig:enablers}; the two main activities (discovery and curation) are decomposed into actions, and each of the actions is supported by a group of features or mechanisms that enable a given aspect of discovery or curation in a Web application.  The following subsections describe each of the feature groups and outline the corresponding questions a designer could ask to improve application design and evaluation.  
 
 {\subsection{Navigation in Discovery: Following Information Scent}
 In order to discover information, a user needs to have a way of navigating to it. Navigation in information discovery can be thought of as following an information scent. In general, information scent models deal with how users identify value, cost, or the access path of information sources based on proximal cues, such as links, icons, categories, etc.~\cite{pirolli1999information}. Common methods of navigation that facilitate information discovery include descriptional, referential, opportunistic, and system-regulated (see Table~\ref{table:navigation}). 
@@ -584,8 +578,7 @@ Information discovery and curation tools can have different implementations depe
 }
 } % end section
 
-{\section{Enhancing the Information Discovery and Curation Experience}
-\label{section:enhancing}
+{\subsection{Enhancing the Information Discovery and Curation Experience}
 
 \begin{figure}[ht!]
 	\noindent
@@ -598,7 +591,7 @@ The information discovery and curation enablers presented in the previous sectio
 
 Strategies for improvement include providing additional cognitive support for a given operation, personalizing the user experience, and automating an operation. Not all of the strategies are feasible for every single operation, and some operations can be supported in multiple ways. The following sections outline some of the possibilities for advancing information discovery and curation features. 
 
-{\subsection{Enhancing Navigation}
+{\subsubsection{Enhancing Navigation}
 There are two common methods of enhancing information discovery when search-based navigation is used (see Table~\ref{table:navigation_support}). The first method entails returning personalized results when the user enters a search query. \textbf{Personalization} can be accomplished using a variety of techniques, including predefined user preferences, social interactions, context, browsing history, etc. The second method is to \textbf{suggest search terms} to make it easier for the user to formulate their information need. For example, Yelp suggests search terms as the user enters their query.
 
 To further support referential navigation, applications can \textbf{personalize} reference suggestions, such as \textbf{categories}, \textbf{tags}, and \textbf{topics} of interest. They can also suggest relevant resources based on the one that the user already selected. As an example, after a user clicks a `pin', Pinterest showcases other similar `pins'.
@@ -641,7 +634,7 @@ Featured content can also be \textbf{personalized} to improve information discov
 Finally, to make better use of subscribed content and reduce human efforts when searching for information, an application can support various \textbf{notification mechanisms}. These mechanisms can advise the user about updates on the \textbf{Website content}, various \textbf{artifacts}, and activities of other \textbf{users}.  
 
 } % end subsection
-{\subsection{Enhancing Exploration}
+{\subsubsection{Enhancing Exploration}
 \textbf{Personalization} of the \textbf{spatial} information representation usually has limited support in Web applications. Presumably, it is because consistency is more welcomed within information discovery applications than spatial personalization. However, it is still possible to personalize the arrangement of multiple resources or information within a single resource (see Table~\ref{table:exploration_support}). 
 
 \textbf{Visual} and \textbf{textual personalizations} are more common, especially when the content within the application is curated by its users.  For example, Flickr Web application for managing and sharing photographs personalizes album covers so that they are easier to rediscover. Similarly, `pinboards' on Pinterest have personalized cover images.
@@ -673,7 +666,7 @@ Personalized arrangement of information within a resource          & Does the sy
 \end{table}
 } % end subsection
 
-{\subsection{Enhancing Curation}
+{\subsubsection{Enhancing Curation}
 
 \begin{table}[ht!]
 \caption{Cognitive Support, Personalization, and Automation for Curation}
@@ -722,12 +715,13 @@ Augmentation is another aspect of information curation that can be either \textb
 Notification mechanisms enable user awareness about new content on the subscribed channel~\cite{millen2005social}. Web applications that facilitate rapidly updating content support various notification mechanisms, such as messages within the application, informative emails, and smartphone notifications. Many types of notifications include suggested users or artifacts to follow. Some Web tools automatically subscribe users to notifications, usually during the registration process.
 } % end subsection
 {\subsection{Summary}
-Providing cognitive support, personalization, and automation dramatically improves the user experience when people interact with information discovery and curation systems. The framework can be used for identifying gaps in information discovery support and developing new technologies (see Sections~\ref{chapter:application} and~\ref{chapter:evaluation}).  
+Providing cognitive support, personalization, and automation dramatically improves the user experience when people interact with information discovery and curation systems. The framework can be used for identifying gaps in information discovery support and developing new technologies as described in the following section.  
 }
 }
 
 \section{Framework Validation}
-In order to validate the conceptual framework (see Section~\ref{chapter:framework}) and verify its stability, we applied it to the evaluation of five of the applications that were used in the construction of the preliminary framework (see Section~\ref{chapter:old_framework}): Pinterest, Google Maps, Wikipedia, Delicious, and Yelp. For each of the Web applications, we first summarize our observations resulting from asking the questions from the framework in a systematic manner. Based on our assumptions, judgment, and use of the framework, we propose directions for future development and reflect on certain needed mechanisms, as not all mechanisms are always required.  
+\label{section:validation}
+In order to validate the conceptual framework and verify its stability, we applied it to the evaluation of five of the applications that were used in the construction of the preliminary framework: Pinterest, Google Maps, Wikipedia, Delicious, and Yelp. For each of the Web applications, we first summarize our observations resulting from asking the questions from the framework in a systematic manner. Based on our assumptions, judgment, and use of the framework, we propose directions for future development and reflect on certain needed mechanisms, as not all mechanisms are always required.  
 
 {\subsection{Pinterest}
 Pinterest is a Web application designed for image discovery and curation, oriented towards finding inspiration and collecting knowledge about hobbies and interests~\cite{gilbert2013need,zarro2012pinterest,ottoni2013ladies}.  Users of Pinterest are commonly referred to as `pinners'. Resources on Pinterest are called `pins', and each `pin' consists of an image, a short description, the user's name, and the name of the collection that the pin belongs to. More information is available once the user clicks on a `pin'.
@@ -826,9 +820,10 @@ The evaluation and comparison of different Web applications can reveal useful in
 
 } % end section
 \section{Research and Design Implications}
+\label{section:implications}
 The conceptual framework for information discovery and curation is designed to perform formative and summative evaluation of existing Web applications and to reveal how these tools support information-related activities in question. The framework as a tool and its ability to guide the process of analyzing Web applications makes it broadly applicable in research and Web design. 
 
-In Section~\ref{chapter:evaluation}, I demonstrated how the framework can be used to reveal missing features in tools. Using similar methods, the framework can also be applied to compare different Web applications. When used for evaluation, the framework helps to identify which areas of a tool require further attention. Therefore, the framework can be helpful for designers who wish to improve existing tools or get ideas for new information discovery and curation applications. 
+In Section~\ref{section:validation}, we demonstrated how the framework can be used to reveal missing features in tools. Using similar methods, the framework can also be applied to compare different Web applications. When used for evaluation, the framework helps to identify which areas of a tool require further attention. Therefore, the framework can be helpful for designers who wish to improve existing tools or get ideas for new information discovery and curation applications. 
 
 Factors and questions of the framework are there to guide the developer, but they do not dictate which features should be in an application. In other words, the framework helps expose gaps, but it is up to designers to decide whether those gaps need to be closed. In fact, some gaps cannot be closed because of certain constraints, such as data type and system design.
 
@@ -839,7 +834,8 @@ In the research domain, the framework can serve as a guide for drawing distincti
 Even though applying the framework requires initial expertise and critical reasoning, it opens up opportunities for research and practice. Systematic evaluation of Web tools for information discovery and curation helps the designer improve user experience and gain better understanding of information behaviour within a given system. 
 
 \section{Future Work and Conclusions}
-In our study, we analyzed information curation and seeking tasks and developed a conceptual framework of factors and questions that are important when building and evaluating Web information discovery and curation tools. We then evaluated and iteratively refined the framework by analyzing 20 different information discovery applications and provided concrete examples of tool support addressing various concepts of the framework. Finally, we designed a Web-based application for place photo discovery and curation using the conceptual framework, and validated the framework by reevaluating five of the previously examined tools.
+\label{section:future_work}
+In our study, we analyzed information curation and seeking tasks and developed a conceptual framework of factors and questions that are important when building and evaluating Web information discovery and curation tools. We then evaluated and iteratively refined the framework by analyzing 20 different information discovery applications and provided concrete examples of tool support addressing various concepts of the framework. Finally, we validated the framework by reevaluating five of the previously examined tools.
 
 The current version of the framework is generalized to be applicable to most information discovery applications. Finding ways to instantiate the framework and extend it for use in domain-specific practices could serve as a potential future research goal. For example, video discovery and curation activities have unique properties related to the type of data to be discovered---information is mostly found in the video itself, and it cannot be viewed all at the same time. Hence, the framework could be extended to address domain-specific challenges. 
 

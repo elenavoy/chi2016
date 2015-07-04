@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  1 JUL 2015 18:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  3 JUL 2015 22:42
 entering extended mode
 **proceedings.tex
 (C:\Users\Elena\git\chi2016\proceedings.tex
@@ -985,151 +985,102 @@ Non-PDF special ignored!
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 
+l.146 
        [2]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 
+l.175 
        [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 187.
-
-
-LaTeX Warning: Reference `section:framework' on page \thepage  undefined on inp
-ut line 187.
 
 <figures/methodology.pdf, id=351, 839.135pt x 457.71pt>
 File: figures/methodology.pdf Graphic file (type pdf)
 
 <use figures/methodology.pdf>
-Package pdftex.def Info: figures/methodology.pdf used on input line 195.
+Package pdftex.def Info: figures/methodology.pdf used on input line 197.
 (pdftex.def)             Requested size: 487.96475pt x 266.1634pt.
-
-
-Package hyperref Warning: Suppressing empty link on input line 207.
-
-
-Package hyperref Warning: Suppressing empty link on input line 207.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 207.
-
-Package hyperref Warning: Suppressing empty link on input line 207.
-
-
-Package hyperref Warning: Suppressing empty link on input line 207.
-
-
-Package hyperref Warning: Suppressing empty link on input line 207.
-
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 209.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.208 
+l.210 
        [4]
 
-LaTeX Warning: Reference `section:related_work' on page \thepage  undefined on 
-input line 213.
+Package hyperref Warning: Suppressing empty link on input line 215.
 
 
-Package hyperref Warning: Suppressing empty link on input line 218.
-
-
-LaTeX Warning: Reference `section:old_framework' on page \thepage  undefined on
- input line 218.
-
-
-LaTeX Warning: Reference `section:framework' on page \thepage  undefined on inp
-ut line 218.
+Package hyperref Warning: Suppressing empty link on input line 220.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.227 
+l.229 
        [5 <C:/Users/Elena/git/chi2016/figures/methodology.pdf>]
 
-Package hyperref Warning: Suppressing empty link on input line 228.
+Package hyperref Warning: Suppressing empty link on input line 230.
 
 
-LaTeX Warning: Reference `section:appendix_tools' on page \thepage  undefined o
-n input line 228.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []\OT1/ptm/m/n/8 Social book-mark-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 []\OT1/ptm/m/n/8 Microblogging plat-
  []
 
 
-Overfull \hbox (2.72406pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.72406pt too wide) in paragraph at lines 249--249
 []\OT1/ptm/m/n/8 www.stumbleupon.com| 
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 247--248
+Underfull \hbox (badness 4859) in paragraph at lines 249--250
 []\OT1/ptm/m/n/8 Web page dis-cov-ery
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 249--250
+Underfull \hbox (badness 2027) in paragraph at lines 251--252
 []\OT1/ptm/m/n/8 Free con-tent In-ter-net
  []
 
 
-Overfull \hbox (8.93979pt too wide) in paragraph at lines 253--253
+Overfull \hbox (8.93979pt too wide) in paragraph at lines 255--255
 []\OT1/ptm/m/n/8 www.rottentomatoes.com| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 []\OT1/ptm/m/n/8 Movie and TV
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 []\OT1/ptm/m/n/8 Online pub-lish-ing
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 263--264
+Underfull \hbox (badness 1990) in paragraph at lines 265--266
 []\OT1/ptm/m/n/8 Image dis-cov-ery ser-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []\OT1/ptm/m/n/8 Video host-ing plat-
  []
 
 
-LaTeX Warning: Reference `section:application' on page \thepage  undefined on i
-nput line 289.
+Underfull \vbox (badness 4846) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `section:application' on page \thepage  undefined on i
-nput line 294.
-
-
-Package hyperref Warning: Suppressing empty link on input line 308.
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 308--309
+Underfull \hbox (badness 1062) in paragraph at lines 311--312
 []\OT1/ptm/m/n/10 Although Web-based in-for-ma-tion dis-cov-ery and cu-ra-tion
  []
-
-
-Package hyperref Warning: Suppressing empty link on input line 310.
-
-
-Package hyperref Warning: Suppressing empty link on input line 312.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1138,12 +1089,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.313 
+l.316 
        [6] <figures/framework_overview.pdf, id=380, 680.94403pt x 531.58597pt>
 File: figures/framework_overview.pdf Graphic file (type pdf)
 
 <use figures/framework_overview.pdf>
-Package pdftex.def Info: figures/framework_overview.pdf used on input line 323.
+Package pdftex.def Info: figures/framework_overview.pdf used on input line 326.
 
 (pdftex.def)             Requested size: 512.1496pt x 399.81598pt.
 
@@ -1151,7 +1102,7 @@ Package pdftex.def Info: figures/framework_overview.pdf used on input line 323.
 File: figures/motives.pdf Graphic file (type pdf)
 
 <use figures/motives.pdf>
-Package pdftex.def Info: figures/motives.pdf used on input line 335.
+Package pdftex.def Info: figures/motives.pdf used on input line 336.
 (pdftex.def)             Requested size: 243.98238pt x 105.2493pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1160,7 +1111,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.358 {\subsubsection
+l.359 {\subsubsection
                      {Improving Collections} [7 <C:/Users/Elena/git/chi2016/fig
 ures/motives.pdf>]
 Underfull \vbox (badness 1546) has occurred while \output is active []
@@ -1172,31 +1123,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 {\subsection
+l.374 {\subsection
                   {Discovery and Curation Activities, Actions, and Their Ena...
 [8 <C:/Users/Elena/git/chi2016/figures/framework_overview.pdf>]
 <figures/enablers.pdf, id=423, 365.365pt x 160.6pt>
 File: figures/enablers.pdf Graphic file (type pdf)
  <use figures/enablers.pdf>
-Package pdftex.def Info: figures/enablers.pdf used on input line 379.
+Package pdftex.def Info: figures/enablers.pdf used on input line 378.
 (pdftex.def)             Requested size: 243.98238pt x 107.2461pt.
-
-
-LaTeX Warning: Reference `chapter:appendix_features' on page \thepage  undefine
-d on input line 383.
 
 <figures/framework_enablers.pdf, id=430, 467.34601pt x 580.56903pt>
 File: figures/framework_enablers.pdf Graphic file (type pdf)
 
 <use figures/framework_enablers.pdf>
-Package pdftex.def Info: figures/framework_enablers.pdf used on input line 402.
+Package pdftex.def Info: figures/framework_enablers.pdf used on input line 401.
 
 (pdftex.def)             Requested size: 243.98238pt x 303.0847pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 410.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.414 
+l.413 
        [9 <C:/Users/Elena/git/chi2016/figures/enablers.pdf> <C:/Users/Elena/git
 /chi2016/figures/framework_enablers.pdf
 
@@ -1204,57 +1153,57 @@ pdfTeX warning: pdflatex (file C:/Users/Elena/git/chi2016/figures/framework_ena
 blers.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-Underfull \hbox (badness 3815) in paragraph at lines 431--432
+Underfull \hbox (badness 3815) in paragraph at lines 430--431
 []\OT1/ptm/m/n/10 Is it pos-si-ble to nav-i-gate us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []\OT1/ptm/m/n/10 Integrated ref-er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []\OT1/ptm/m/n/10 Opportunistic
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 437--438
+Underfull \hbox (badness 1648) in paragraph at lines 436--437
 []\OT1/ptm/m/n/10 Is it pos-si-ble to op-por-tunis-ti-cally
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 438--438
+Underfull \hbox (badness 1681) in paragraph at lines 437--437
 []\OT1/ptm/m/n/10 Integrated op-por-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 \OT1/ptm/m/n/10 tunis-tic nav-i-ga-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 []\OT1/ptm/b/n/10 System-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 441--441
+Underfull \hbox (badness 1655) in paragraph at lines 440--440
 []\OT1/ptm/m/n/10 Static di-rect dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--442
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 []\OT1/ptm/m/n/10 Integrated static
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 []\OT1/ptm/m/n/10 Integrated fea-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 []\OT1/ptm/m/n/10 Integrated news
  []
 
@@ -1268,29 +1217,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.475 
+l.474 
        [10]
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
 []\OT1/ptm/m/n/10 Exploration
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 484--484
+Underfull \hbox (badness 2799) in paragraph at lines 483--483
 []\OT1/ptm/b/n/10 Visual and tex-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 485--486
+Underfull \hbox (badness 1888) in paragraph at lines 484--485
 []\OT1/ptm/m/n/10 Are there vi-sual pre-views of re-
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 486--487
+Underfull \hbox (badness 1122) in paragraph at lines 485--486
 []\OT1/ptm/m/n/10 Are there tex-tual pre-views of re-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 487--487
+Underfull \hbox (badness 2799) in paragraph at lines 486--486
 []\OT1/ptm/b/n/10 Visual and tex-
  []
 
@@ -1301,19 +1250,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.530 
+l.529 
        [11]
-Underfull \hbox (badness 7273) in paragraph at lines 547--547
+Underfull \hbox (badness 7273) in paragraph at lines 546--546
 []\OT1/ptm/m/n/10 Curation mech-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []\OT1/ptm/m/n/10 Collection-based
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 576--577
+Underfull \hbox (badness 3954) in paragraph at lines 575--576
 []\OT1/ptm/m/n/10 Channel-picking is an ac-tion of se-lect-ing in-for-ma-tion
  []
 
@@ -1321,226 +1270,218 @@ Underfull \hbox (badness 3954) in paragraph at lines 576--577
 File: figures/enhancement.pdf Graphic file (type pdf)
 
 <use figures/enhancement.pdf>
-Package pdftex.def Info: figures/enhancement.pdf used on input line 593.
+Package pdftex.def Info: figures/enhancement.pdf used on input line 591.
 (pdftex.def)             Requested size: 243.98238pt x 85.51773pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.598 
+l.596 
        [12 <C:/Users/Elena/git/chi2016/figures/enhancement.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 \OT1/ptm/m/n/10 and per-son-al-iza-tion
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 618--619
+Underfull \hbox (badness 3861) in paragraph at lines 616--617
 []\OT1/ptm/m/n/10 Does the sys-tem sug-gest search
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 []\OT1/ptm/m/n/10 Suggesting cat-e-
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 623--624
+Underfull \hbox (badness 2726) in paragraph at lines 621--622
 []\OT1/ptm/m/n/10 Does the sys-tem sug-gest sim-i-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--624
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
 []\OT1/ptm/m/n/10 Suggesting sim-i-lar
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 627--627
+Underfull \hbox (badness 4492) in paragraph at lines 625--625
 []\OT1/ptm/m/n/10 Personalized op-por-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--630
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
 []\OT1/ptm/m/n/10 Personalized fea-
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 632--632
+Underfull \hbox (badness 6157) in paragraph at lines 630--630
 []\OT1/ptm/m/n/10 Application ac-tiv-ity
  []
 
 
-Overfull \hbox (9.40381pt too wide) in paragraph at lines 611--637
+Overfull \hbox (9.40381pt too wide) in paragraph at lines 609--635
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--654
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--652
 []\OT1/ptm/m/n/10 Cognitive sup-port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
 []\OT1/ptm/b/n/10 Spatial prox-i-mal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
 \OT1/ptm/b/n/10 cues of mul-ti-ple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--666
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 []\OT1/ptm/m/n/10 Personalized ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--666
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 \OT1/ptm/m/n/10 range-ment of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--668
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\OT1/ptm/b/n/10 Spatial prox-i-mal
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 668--668
+Underfull \hbox (badness 5288) in paragraph at lines 666--666
 \OT1/ptm/b/n/10 cues of a sin-gle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []\OT1/ptm/m/n/10 Personalized ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 \OT1/ptm/m/n/10 range-ment of
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 669--669
+Underfull \hbox (badness 4242) in paragraph at lines 667--667
 \OT1/ptm/m/n/10 in-for-ma-tion within
  []
 
 
-Overfull \hbox (9.40009pt too wide) in paragraph at lines 652--673
+Overfull \hbox (9.40009pt too wide) in paragraph at lines 650--671
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
 []\OT1/ptm/m/n/10 Cognitive sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
 \OT1/ptm/m/n/10 port, per-son-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
 \OT1/ptm/m/n/10 al-iza-tion, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--683
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
 \OT1/ptm/m/n/10 au-toma-tion el-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--687
+Underfull \hbox (badness 10000) in paragraph at lines 685--685
 []\OT1/ptm/m/n/10 Suggesting col-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 689--689
+Underfull \hbox (badness 1314) in paragraph at lines 687--687
 \OT1/ptm/m/n/10 fi-ca-tion into col-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--690
+Underfull \hbox (badness 10000) in paragraph at lines 688--688
 []\OT1/ptm/m/n/10 Automated tag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--696
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
 []\OT1/ptm/m/n/10 Automated aug-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--697
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
 []\OT1/ptm/m/n/10 Suggested aug-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 700--700
+Underfull \hbox (badness 8000) in paragraph at lines 698--698
 []\OT1/ptm/m/n/10 Automated shar-
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 700--701
+Underfull \hbox (badness 2970) in paragraph at lines 698--699
 []\OT1/ptm/m/n/10 Does the sys-tem sup-port au-to-matic
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 704--704
+Underfull \hbox (badness 5460) in paragraph at lines 702--702
 []\OT1/ptm/m/n/10 Suggesting users
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 703--703
 []\OT1/ptm/m/n/10 Suggesting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--705
+Underfull \hbox (badness 10000) in paragraph at lines 703--703
 \OT1/ptm/m/n/10 ar-ti-facts for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 []\OT1/ptm/m/n/10 Automated sub-
  []
 
 
-Overfull \hbox (9.4001pt too wide) in paragraph at lines 681--710
+Overfull \hbox (9.4001pt too wide) in paragraph at lines 679--708
 [][] 
  []
+
+
+Underfull \vbox (badness 4832) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.717 Y
+l.715 Y
        ouTube allows users to \textbf{automatically share} information about...
 [13]
 Underfull \vbox (badness 3568) has occurred while \output is active []
 
 
-
-LaTeX Warning: Reference `chapter:application' on page \thepage  undefined on i
-nput line 725.
-
-
-LaTeX Warning: Reference `chapter:evaluation' on page \thepage  undefined on in
-put line 725.
-
-
-LaTeX Warning: Reference `chapter:framework' on page \thepage  undefined on inp
-ut line 730.
-
-
-LaTeX Warning: Reference `chapter:old_framework' on page \thepage  undefined on
- input line 730.
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.731 
+l.730 
        [14]
-Underfull \hbox (badness 1082) in paragraph at lines 738--739
+Underfull \hbox (badness 1082) in paragraph at lines 737--738
 \OT1/ptm/m/n/10 ex-plicit \OT1/ptm/b/n/10 op-por-tunis-tic nav-i-ga-tion mech-a
 -nism \OT1/ptm/m/n/10 is ab-sent,
  []
@@ -1552,7 +1493,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.761 G
+l.760 G
        oogle Maps lacks \textbf{opportunistic navigation mechanisms}, and it...
 [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1561,7 +1502,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.797 
+l.796 
        [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1569,11 +1510,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.826 
+l.825 
        [17]
 
-LaTeX Warning: Reference `chapter:evaluation' on page \thepage  undefined on in
-put line 831.
+Package hyperref Warning: Suppressing empty link on input line 831.
 
 (C:\Users\Elena\git\chi2016\proceedings.bbl
 
@@ -1598,35 +1538,27 @@ l.319 \bibitem{luca2011reviews}
 e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.881 \end{document}
+l.882 \end{document}
                      [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 881.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 881.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 882.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 882.
  (C:\Users\Elena\git\chi2016\proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 881.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 881.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 882.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 882.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: 383F198BB0A14ACCA4DB4217EAF56623;3960.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 881.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 297 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: 4872F8F9F2CE7D6BFD48347A48DC0E85;3971.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 882.
+ ) 
 Here is how much of TeX's memory you used:
- 17709 strings out of 493921
- 325954 string characters out of 3144876
- 395060 words of memory out of 3000000
- 20491 multiletter control sequences out of 15000+200000
+ 17702 strings out of 493921
+ 325830 string characters out of 3144876
+ 396202 words of memory out of 3000000
+ 20485 multiletter control sequences out of 15000+200000
  52731 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,10n,56p,1554b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.58} has been referenced bu
-t does not exist, replaced by a fixed one
+ 62i,10n,56p,1554b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.58} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.57} has been referenced but does not exist
 , replaced by a fixed one
@@ -1638,9 +1570,6 @@ pdfTeX warning (dest): name{section*.55} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.22} has been referenced but does not exist
@@ -1663,9 +1592,9 @@ nts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (20 pages, 833616 bytes).
+Output written on proceedings.pdf (20 pages, 832285 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
  483 words of extra memory for PDF output out of 10000 (max. 10000000)
 
