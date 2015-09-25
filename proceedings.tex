@@ -103,15 +103,14 @@ Information discovery; information curation; Web design.
 
 % TODO: write proper keywords and category info
 % we should have this but I suggest we leave it for now. 
-%\category{H.5.m.}{Information Interfaces and Presentation (HCI)}
-% {Miscellaneous} \category{See\url{http://acm.org/about/class/1998/} for the full list of ACM classifiers. This section is required.}{}{}
+\category{H.5.2.}{User Interfaces}{Evaluation/methodology; Theory and methods; User-centered design.}
 
 \section{Introduction}
 \label{section:introduction}
 Web technologies help people satisfy their information needs. People research their interests and hobbies using various online resources, shoppers search online stores for product characteristics to make purchasing decisions, and travelers visit online booking sites to find information about flights and hotels. To accommodate diverse and evolving user needs, Web applications continuously introduce new features and services, empowering information discovery and curation. 
 
 The term ``information discovery'' has been used to define or explain various information behaviour paradigms, such as information exploration~\cite{waterworth1991model} and serendipitous information seeking~\cite{foster2003serendipity}.  
-Information discovery can take on many forms. Web users might be hoping to find particular pieces of information, such as show times and phone numbers, to satisfy specific information needs~\cite{proper1999information}. Alternatively, they might be lacking well-articulated information needs, so they engage in opportunistic browsing~\cite{lindley2012s}. Sometimes people discover information online without even looking for it~\cite{bates1986exploratory}. The nature of information discovery can vary, and therefore, requires elaborate tool support. The functionality required for information discovery and curation can also be distributed among multiple applications, which often leads to tools that provide integrated solutions. With people having such diverse information needs and methods of looking for information, designing for information discovery is a challenging task~\cite{conaway2010designing, marchionini2006exploratory}.
+Information discovery can take on many forms. Web users might be hoping to find particular pieces of information, such as show times and phone numbers, to satisfy specific information needs~\cite{proper1999information}. Alternatively, they might be lacking well-articulated information needs, so they engage in opportunistic browsing~\cite{lindley2012s}. Sometimes people discover information online without even looking for it~\cite{bates1986exploratory}. The nature of information discovery can vary, and therefore, requires elaborate tool support. With people having such diverse information needs and methods of looking for information, designing for information discovery is a challenging task~\cite{conaway2010designing, marchionini2006exploratory}.
 
 Our research goal is to gain an understanding of how existing tools support digital information discovery and curation so that we can improve the design of Web applications for information discovery. While several researchers propose frameworks targeted at designing information discovery systems~\cite{proper1999information, kerne2004information}, the importance of information curation in the realm of information discovery has been largely overlooked despite the rapidly increasing popularity of socially-curated information spaces. Moreover, much of the existing work that focuses on how people look for and discover information online~\cite{bates1986exploratory, choo2000information, ellis1989behavioural, kellar2006goal, lindley2012s, morrison2001taxonomic, sellen2002knowledge} fails to examine concrete features of existing Web-based information discovery applications that empower real-world users. More research is necessary to determine how different tool features provide fundamental support for information discovery and curation.
 
@@ -120,6 +119,7 @@ To enhance information seeking and curating experiences and support users' inter
 \section{Web-based Information Discovery and Curation}
 \label{section:literature_review}
 Given the complexity of Web-based information discovery and curation tasks, a variety of research topics are examined to gain an understanding of how current Web tools support these tasks, including information-related Web usage characteristics and current information behavior models.
+
 % CUTCANDIDATE
 %, and other aspects of information discovery and curation.  
 %This section outlines key literature that contributes to the development of our conceptual framework.
@@ -353,7 +353,8 @@ an application can be designed to increase serendipity and opportunistic discove
 
 Another motive type for information discovery relates to the two qualities of the Web defined by Lindley et al.\cite{lindley2012s}: \textit{persistence} refers to the quality of the Web that allows people to habitually revisit Web pages and continue ongoing Web projects; and \textit{temporality} refers to the quality of the Web that allows the content of Websites to be continuously updated to provide users with new information. Persistence alone usually facilitates information \textit{rediscovery}, which is an act of refinding previously found information. However, if persistence is combined with temporality, they can facilitate discovery of new information within the same application or channel. We refer to this type of discovery as \textit{channel-based discovery}. Some of the common motives for channel-based discovery include orienting (or monitoring for updates) and opportunistic information discovery~\cite{lindley2012s}.          
 
-The motive behind information rediscovery involves finding previously discovered information and reclosing the previously closed knowledge gap (e.g., in case the information was forgotten). It usually results in the user looking for previously found resources and Web pages. In fact, Web page revisitation is one of the most commonly performed Web browsing activities~\cite{adar2008large,cockburn2003improving}. The percentage of revisited Web pages involved in Web browsing can range from 58\%~\cite{tauscher1997people} to 81\%~\cite{cockburn2001web}. Some of the reasons for revisiting pages include shopping, communication, entertainment, education, activity planning, and hobby-related information retrieval~\cite{adar2008large}.
+The motive behind information rediscovery involves finding previously discovered information and reclosing the previously closed knowledge gap (e.g., in case the information was forgotten). It usually results in the user looking for previously found resources and Web pages. In fact, Web page revisitation is one of the most commonly performed Web browsing activities~\cite{adar2008large,cockburn2003improving}. The percentage of revisited Web pages involved in Web browsing can range from 58\%~\cite{tauscher1997people} to 81\%~\cite{cockburn2001web}. 
+%Some of the reasons for revisiting pages include shopping, communication, entertainment, education, activity planning, and hobby-related information retrieval~\cite{adar2008large}.
 % CUTCANDIDATE
 % (e.g., travel, fitness, and cooking). 
 % CUTCANDIDATE
@@ -611,7 +612,7 @@ Applying the framework to Pinterest revealed that it employs a  variety of techn
 \section{Research and Design Implications}
 \label{section:implications}
 The conceptual framework for information discovery and curation is designed to perform formative and summative evaluation of existing Web applications and to reveal how these tools support information-related activities in question. The framework as a tool and its ability to guide the process of analyzing Web applications makes it broadly applicable in research and Web design. 
-
+\balance
 In the previous section}, we demonstrated how the framework can be used to reveal missing features in tools. Using similar methods, the framework can also be applied to compare different Web applications. When used for evaluation, the framework helps to identify which areas of a tool require further attention. Therefore, the framework can be helpful for designers who wish to improve existing tools or get ideas for new information discovery and curation applications. 
 
 Factors and questions of the framework are there to guide the developer and may expose gaps, but they do not dictate which features should be in an application. It is up to designers to decide whether to close those gaps and some gaps cannot be closed because of certain constraints or trade-offs that have to be made, such as data type and system design.
