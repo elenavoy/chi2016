@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 SEP 2015 18:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 SEP 2015 20:18
 entering extended mode
 **proceedings.tex
 (C:\Users\Elena\git\chi2016\proceedings.tex
@@ -1058,35 +1058,34 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.255 
-       [4] <figures/framework_overview.pdf, id=295, 345.29pt x 492.84125pt>
+       [4] <figures/framework_overview.pdf, id=291, 343.2825pt x 333.245pt>
 File: figures/framework_overview.pdf Graphic file (type pdf)
 
 <use figures/framework_overview.pdf>
 Package pdftex.def Info: figures/framework_overview.pdf used on input line 278.
 
-(pdftex.def)             Requested size: 243.98238pt x 348.24272pt.
+(pdftex.def)             Requested size: 243.98238pt x 236.84459pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.293 
        [5 <C:/Users/Elena/git/chi2016/figures/framework_overview.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 3724) in paragraph at lines 306--307
 []\OT1/ptm/m/n/10 People gather in-for-ma-tion to im-prove ex-ist-ing col-lec-
  []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 327.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.326 
-       [6]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 327.
- <figures/framework_enablers.pdf, id=349, 448.67625pt x 558.085pt>
+l.328 
+       [6] <figures/framework_enablers.pdf, id=346, 448.67625pt x 558.085pt>
 File: figures/framework_enablers.pdf Graphic file (type pdf)
 
 <use figures/framework_enablers.pdf>
@@ -1094,43 +1093,43 @@ Package pdftex.def Info: figures/framework_enablers.pdf used on input line 340.
 
 (pdftex.def)             Requested size: 243.98238pt x 303.4733pt.
 
-Overfull \vbox (11.0pt too high) detected at line 359
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]\OT1/ptm/b/n/8 Visual and tex-tual
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 372--372
-[]\OT1/ptm/b/n/10 How does the ap-pli-ca-tion sup-port system-
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+\OT1/ptm/b/n/8 cues of mul-ti-ple
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 374--374
-\OT1/ptm/b/n/10 cues of mul-ti-ple
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]\OT1/ptm/b/n/8 Visual and tex-tual
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 378--378
-[]\OT1/ptm/b/n/10 Spatial prox-i-mal
+Underfull \hbox (badness 2644) in paragraph at lines 379--379
+\OT1/ptm/b/n/8 cues of a sin-gle re-
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 378--378
-\OT1/ptm/b/n/10 cues of mul-ti-ple
- []
-
-
-Underfull \hbox (badness 5189) in paragraph at lines 380--380
-[]\OT1/ptm/b/n/10 Spatial prox-i-mal
- []
-
-
-Overfull \hbox (6.78308pt too wide) in paragraph at lines 357--394
+Overfull \hbox (6.78308pt too wide) in paragraph at lines 358--400
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 5.9265pt on input line 394.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.418 A
+       brams et al.~\cite{abrams1998information} identified link representat...
+[7 <C:/Users/Elena/git/chi2016/figures/framework_enablers.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1140,20 +1139,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.406 
-       [7 <C:/Users/Elena/git/chi2016/figures/framework_enablers.pdf>]pdfTeX wa
-rning (ext4): destination with the same identifier (name{page.}) has been alrea
-dy used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.406 
-       [8]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.446 
-       [9]
-Underfull \hbox (badness 3954) in paragraph at lines 456--457
+l.424 
+       [8]
+Underfull \hbox (badness 3954) in paragraph at lines 462--463
 []\OT1/ptm/m/n/10 Channel-picking is an ac-tion of se-lect-ing in-for-ma-tion
  []
 
@@ -1161,9 +1149,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.494 {\subsubsection{Enhancing Curation}
-                                          [10]
-Underfull \hbox (badness 1082) in paragraph at lines 522--523
+l.468 {\subsection{Summary}
+                            [9]
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.518 \section{Framework Validation}
+                                     [10]
+Underfull \hbox (badness 1082) in paragraph at lines 526--527
 \OT1/ptm/m/n/10 ex-plicit \OT1/ptm/b/n/10 op-por-tunis-tic nav-i-ga-tion mech-a
 -nism \OT1/ptm/m/n/10 is ab-sent,
  []
@@ -1171,16 +1167,19 @@ Underfull \hbox (badness 1082) in paragraph at lines 522--523
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+
+Package hyperref Warning: Suppressing empty link on input line 545.
+
+
+Underfull \vbox (badness 2617) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.533 
-       [11]
-
-Package hyperref Warning: Suppressing empty link on input line 541.
-
-(C:\Users\Elena\git\chi2016\proceedings.bbl
+l.550 
+       [11] (C:\Users\Elena\git\chi2016\proceedings.bbl
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -1189,58 +1188,56 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 
-      [12]
+l.147 
+       [12]
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ” in font ptmri7t!
 
-Overfull \vbox (7.28175pt too high) has occurred while \output is active []
+Overfull \vbox (2.15424pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.303 \bibitem{levene2011introduction}
-                                       [13])pdfTeX warning (ext4): destination 
-with the same identifier (name{page.}) has been already used, duplicate ignored
-
+l.384 \bibitem{wilson1997information}
+                                      [13])pdfTeX warning (ext4): destination w
+ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.592 \end{document}
+l.596 \end{document}
                      [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 592.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 592.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
  (C:\Users\Elena\git\chi2016\proceedings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 592.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 592.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: 41DA1B315B067A5ACD0E8FB887E45558;3032.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 592.
+(rerunfilecheck)             Checksum: A96367528EB78BCA6CE11CBE3C20DF98;2973.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### simple group (level 2) entered at line 467 ({)
 ### simple group (level 1) entered at line 320 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17650 strings out of 493921
- 325082 string characters out of 3144876
- 391672 words of memory out of 3000000
- 20455 multiletter control sequences out of 15000+200000
+ 17619 strings out of 493921
+ 324460 string characters out of 3144876
+ 389104 words of memory out of 3000000
+ 20439 multiletter control sequences out of 15000+200000
  52731 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,11n,56p,1524b,522s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.46} has been referenced bu
+ 62i,10n,56p,1524b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.45} has been referenced bu
 t does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.45} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.44} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.41} has been referenced but does not exist
@@ -1266,9 +1263,9 @@ nts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (14 pages, 304237 bytes).
+Output written on proceedings.pdf (14 pages, 300162 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 367 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

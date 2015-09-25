@@ -351,16 +351,16 @@ Referential navigation mechanisms can take many forms. Some common types are \te
 Referential navigation can help the user identify their information needs by suggesting terms, topics or categories to use, and therefore, direct the user to relevant resources~\cite{levene2011introduction}. It can also help narrow the results to a specific type of resource so that further discovery is bounded by that type. For example, TripAdvisor helps narrow search results by allowing users to choose among hotels, flights, vacation rentals, restaurants and destinations.
 
 
-\begin{table*}[htbp]
+\begin{table*}[!htb]
+\small
 \caption{Types of Information Discovery and Curation Features and Related Questions}
 \label{table:framework} 
 \begin{tabular}{|p{0.15\linewidth}| p{0.40\linewidth}| p{0.40\linewidth}|}
 \hline
-\multirow{2}{\linewidth}{\textbf{Types of discovery and curation features}}   & \multicolumn{2}{ p{1.6\columnwidth} |}{\textbf{Questions to be posed during the design or evaluation of  discovery and curation tools and sample features}} \\
-\cline{2-3}
-&Enabling mechanisms & Cognitive support, personalization, and automation \\
+{\textbf{Types of discovery and curation features}}   & \multicolumn{2}{ p{1.6\columnwidth} |}{\textbf{Questions to be posed during the design or evaluation of  discovery and curation tools and sample features}} \\
 \hline
-& & \\
+Navigation features & Enabling mechanisms & Cognitive support, personalization, and automation \\
+\hline
 \textbf{Descriptional} 			& \textbf{How does the application support descriptional navigation?} & \textbf{How can descriptional navigation mechanisms be enhanced?}\\
 &  Search-based navigation / Integrated search & Personalized results / Guided search\\
 				
@@ -371,6 +371,9 @@ Referential navigation can help the user identify their information needs by sug
 & Opportunistic navigation feature / Integrated opportunistic navigation & Personalized opportunistic navigation \\
 \textbf{System-regulated}       &\textbf{How does the application support system-regulated navigation?} & \textbf{How can system-regulated navigation mechanisms be enhanced?}\\
 & Static direct display / Integrated static display / Featured content / Integrated featured content / News feed / Integrated news feed & Personalized featured content / User activity update notification / Application activity update notification / Artifact update notification \\
+\hline
+Exploration features & Enabling mechanisms & Cognitive support, personalization, and automation \\
+\hline
 \textbf{Visual and textual cues of multiple resources} & \textbf{How does the application use visual and textual cues to help identify resources of value?} & \textbf{How can visual and textual cues of multiple resources be enhanced?}\\
 & Visual preview / Textual preview & Personalized visual preview / Personalized textual preview \\
 \textbf{Visual and textual cues of a single resource} & \textbf{How does the application use visual and textual cues to help identify the value of information within a resource?} & \textbf{How can visual and textual cues of a single resource be enhanced?}\\
@@ -379,6 +382,9 @@ Referential navigation can help the user identify their information needs by sug
 & List / Grid / Gallery / Spatial semantic / Consistency & Personalized arrangement of multiple resources\\
 \textbf{Spatial proximal cues of a single resource} & \textbf{How does the application use spatial proximal cues to effectively present information within a single resource?} & \textbf{How can the use of spatial proximal cues be enhanced to effectively present information within a resources?}\\
 & Spatial semantic / Consistency & Personalized arrangement of information within a resource  \\ 
+\hline
+Curation features &Enabling mechanisms & Cognitive support, personalization, and automation \\
+\hline
 \textbf{Management} & \textbf{How does the application support management of information?} & \textbf{How can management of information be enhanced?}\\
 & Public or private collection-based categorization / Public or private tag-based categorization & Suggesting collections / Suggesting tags / Automated classification into collections / Automated tagging \\
 \textbf{Preservation} & \textbf{How does the application support preservation of information?} & \textbf{How can preservation of information be enhanced?}\\
@@ -511,13 +517,11 @@ Providing cognitive support, personalization, and automation dramatically improv
 
 \section{Framework Validation}
 \label{section:validation}
-In order to validate the conceptual framework and verify its stability, we applied it to the evaluation of five of the applications that were used in the construction of the preliminary framework: Pinterest, Google Maps, Wikipedia, Delicious, and Yelp. For each of the Web applications, we first summarize our observations resulting from asking the questions from the framework in a systematic manner. Based on our assumptions, judgment, and use of the framework, we propose directions for future development and reflect on certain needed mechanisms, as not all mechanisms are always required.  
+In order to validate the conceptual framework and verify its stability, we applied it to the evaluation of five of the applications that were used in the construction of the preliminary framework: Pinterest, Google Maps, Wikipedia, Delicious, and Yelp. Due to space limitations, we only present the evaluation for only one of the tools, Pinterest. Other evaluations can be found in~\cite{voyloshnikova2015}. As for Pinterest, we first summarize our observations resulting from asking the questions from the framework in a systematic manner. Based on our assumptions, judgment, and use of the framework, we propose directions for future development and reflect on certain needed mechanisms, as not all mechanisms are always required.  
 
-{\subsection{Pinterest}
 Pinterest is a Web application designed for image discovery and curation, oriented towards finding inspiration and collecting knowledge about hobbies and interests~\cite{gilbert2013need,zarro2012pinterest,ottoni2013ladies}.  Users of Pinterest are commonly referred to as `pinners'. Resources on Pinterest are called `pins', and each `pin' consists of an image, a short description, the user's name, and the name of the collection that the pin belongs to. More information is available once the user clicks on a `pin'.
 
 Motivated by the desire to gain inspiration and knowledge, Pinterest users have either under-defined or absent information needs. Other motives for using Pinterest could be to rediscover previously found information (and possibly use it), to be oriented about new `pins' that emerge from subscribed channels, and to gather information for future rediscovery and the act of collection itself.
-
 
 Navigation in Pinterest is mostly supported by descriptional, referential, or system-regulated mechanisms. Although an explicit \textbf{opportunistic navigation mechanism} is absent, both descriptional and referential mechanisms usually return novel and serendipitous results to facilitate opportunistic browsing. Descriptional navigation is enabled with a \textbf{guided search} mechanism that suggests search terms to the user. 
 

@@ -76,13 +76,6 @@
 \newblock
 
 
-\bibitem{bruner1961act}
-{Jerome~S Bruner}. 1961.
-\newblock \showarticletitle{The act of discovery.}
-\newblock {\em Harvard educational review\/} (1961).
-\newblock
-
-
 \bibitem{choo2000information}
 {Chun~Wei Choo}, {Brian Detlor}, {and} {Dan Turnbull}. 2000.
 \newblock \showarticletitle{Information seeking on the Web: An integrated model
@@ -177,32 +170,11 @@
 \newblock
 
 
-\bibitem{giaretta2006dcc}
-{D Giaretta}. 2006.
-\newblock DCC Approach to Digital Curation.
-\newblock   (2006).
-\newblock
-
-
-\bibitem{gibson2006google}
-{Rich Gibson} {and} {Schuyler Erle}. 2006.
-\newblock {\em Google maps hacks}.
-\newblock " O'Reilly Media, Inc.".
-\newblock
-
-
 \bibitem{gilbert2013need}
 {Eric Gilbert}, {Saeideh Bakhshi}, {Shuo Chang}, {and} {Loren Terveen}. 2013.
 \newblock \showarticletitle{I need to try this?: a statistical overview of
   pinterest}. In {\em Proceedings of the SIGCHI conference on human factors in
   computing systems}. ACM, 2427--2436.
-\newblock
-
-
-\bibitem{golder2006usage}
-{Scott~A Golder} {and} {Bernardo~A Huberman}. 2006.
-\newblock \showarticletitle{Usage patterns of collaborative tagging systems}.
-\newblock {\em Journal of information science\/} {32}, 2 (2006), 198--208.
 \newblock
 
 
@@ -212,22 +184,6 @@
   oranges}.
 \newblock {\em International Journal on Semantic Web and Information Systems
   (IJSWIS)\/} {3}, 1 (2007), 1--11.
-\newblock
-
-
-\bibitem{ingwersen1996cognitive}
-{Peter Ingwersen}. 1996.
-\newblock \showarticletitle{Cognitive perspectives of information retrieval
-  interaction: elements of a cognitive IR theory}.
-\newblock {\em Journal of documentation\/} {52}, 1 (1996), 3--50.
-\newblock
-
-
-\bibitem{janiszewski1998influence}
-{Chris Janiszewski}. 1998.
-\newblock \showarticletitle{The influence of display characteristics on visual
-  exploratory search behavior}.
-\newblock {\em Journal of Consumer Research\/} {25}, 3 (1998), 290--301.
 \newblock
 
 
@@ -274,15 +230,6 @@
 \newblock
 
 
-\bibitem{kittur2007power}
-{Aniket Kittur}, {Ed Chi}, {B Pendleton}, {Bongwon Suh}, {and} {Todd
-  Mytkowicz}. 2007.
-\newblock \showarticletitle{Power of the few vs. wisdom of the crowd: Wikipedia
-  and the rise of the bourgeoisie}.
-\newblock {\em World wide web\/} {1}, 2 (2007), 19.
-\newblock
-
-
 \bibitem{kuhlthau1991inside}
 {Carol~C Kuhlthau}. 1991.
 \newblock \showarticletitle{Inside the search process: Information seeking from
@@ -316,24 +263,6 @@
 \newblock
 
 
-\bibitem{luca2011reviews}
-{Michael Luca}. 2011.
-\newblock \showarticletitle{Reviews, reputation, and revenue: The case of Yelp.
-  com}.
-\newblock {\em Com (September 16, 2011). Harvard Business School NOM Unit
-  Working Paper\/} 12-016 (2011).
-\newblock
-
-
-\bibitem{lynch1995networked}
-{Clifford~A. Lynch}. 1995.
-\newblock \showarticletitle{Networked information resource discovery: an
-  overview of current issues}.
-\newblock {\em Selected Areas in Communications, IEEE Journal on\/} {13}, 8
-  (1995), 1505--1522.
-\newblock
-
-
 \bibitem{marchionini2006exploratory}
 {Gary Marchionini}. 2006.
 \newblock \showarticletitle{Exploratory search: from finding to understanding}.
@@ -345,14 +274,6 @@
 {David Millen}, {Jonathan Feinberg}, {and} {Bernard Kerr}. 2005.
 \newblock \showarticletitle{Social bookmarking in the enterprise}.
 \newblock {\em Queue\/} {3}, 9 (2005), 28--35.
-\newblock
-
-
-\bibitem{morris2008survey}
-{Meredith~Ringel Morris}. 2008.
-\newblock \showarticletitle{A survey of collaborative web search practices}. In
-  {\em Proceedings of the SIGCHI Conference on Human Factors in Computing
-  Systems}. ACM, 1657--1660.
 \newblock
 
 
@@ -412,22 +333,6 @@
 \newblock
 
 
-\bibitem{rader2008influences}
-{Emilee Rader} {and} {Rick Wash}. 2008.
-\newblock \showarticletitle{Influences on tag choices in del. icio. us}. In
-  {\em Proceedings of the 2008 ACM conference on Computer supported cooperative
-  work}. ACM, 239--248.
-\newblock
-
-
-\bibitem{saracevic1996modeling}
-{Tefko Saracevic}. 1996.
-\newblock \showarticletitle{Modeling Interaction in Information Retrieval (IR):
-  A Review and Proposal.}. In {\em Proceedings of the ASIS annual meeting},
-  Vol.~33. ERIC, 3--9.
-\newblock
-
-
 \bibitem{sellen2002knowledge}
 {Abigail~J Sellen}, {Rachel Murphy}, {and} {Kate~L Shaw}. 2002.
 \newblock \showarticletitle{How knowledge workers use the web}. In {\em
@@ -445,20 +350,11 @@
 \newblock
 
 
-\bibitem{tesconi2008semantify}
-{Maurizio Tesconi}, {Francesco Ronzano}, {Andrea Marchetti}, {and} {Salvatore
-  Minutoli}. 2008.
-\newblock \showarticletitle{Semantify del. icio. us: Automatically turn your
-  tags into senses}. In {\em The 7th International Semantic Web Conference}.
-  Citeseer, 67.
-\newblock
-
-
-\bibitem{volkel2006semantic}
-{Max V{\"o}lkel}, {Markus Kr{\"o}tzsch}, {Denny Vrandecic}, {Heiko Haller},
-  {and} {Rudi Studer}. 2006.
-\newblock \showarticletitle{Semantic wikipedia}. In {\em Proceedings of the
-  15th international conference on World Wide Web}. ACM, 585--594.
+\bibitem{voyloshnikova2015}
+{Elena Voyloshnikova}. 2015.
+\newblock {\em {A Conceptual Framework for Evaluating and Designing Information
+  Discovery and Curation Tools}}.
+\newblock Master's\ thesis. University of Victoria.
 \newblock
 
 
@@ -491,13 +387,6 @@
   perspective}.
 \newblock {\em Information processing \& management\/} {33}, 4 (1997),
   551--572.
-\newblock
-
-
-\bibitem{wilson1999models}
-{Tom~D Wilson}. 1999.
-\newblock \showarticletitle{Models in information behaviour research}.
-\newblock {\em Journal of documentation\/} {55}, 3 (1999), 249--270.
 \newblock
 
 
