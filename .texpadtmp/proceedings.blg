@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/mastorey/git/chi2016/.texpadtmp/proceedings.aux
+The style file: ../SIGCHI-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ../refs.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in abrams1998information
+Warning--empty address in abrams1998information
+Warning--empty publisher in adar2008large
+Warning--empty address in adar2008large
+Warning--no number and no volume in bates1986exploratory
+Warning--page numbers missing in both pages and numpages fields in choo2000information
+Warning--no journal in cockburn2003improving
+Warning--no number and no volume in cockburn2003improving
+Warning--page numbers missing in both pages and numpages fields in cockburn2003improving
+Warning--empty publisher in fu2008microstructures
+Warning--empty address in fu2008microstructures
+Warning--empty publisher in gilbert2013need
+Warning--empty address in gilbert2013need
+Warning--empty publisher in java2007feeds
+Warning--empty address in java2007feeds
+Warning--page numbers missing in both pages and numpages fields in java2007feeds
+Warning--empty publisher in kerne2004information
+Warning--empty address in kerne2004information
+Warning--empty address in kitajima2000comprehension
+Warning--no number and no volume in kuutti1996activity
+Warning--empty address in levene2011introduction
+Warning--empty publisher in lindley2012s
+Warning--empty address in lindley2012s
+Warning--empty publisher in morrison2001taxonomic
+Warning--empty address in morrison2001taxonomic
+Warning--empty address in norman2002design
+Warning--no number and no volume in oravec2002bookmarking
+Warning--empty publisher in ottoni2013ladies
+Warning--empty address in ottoni2013ladies
+Warning--page numbers missing in both pages and numpages fields in ottoni2013ladies
+Warning--empty publisher in pirolli2009elementary
+Warning--empty address in pirolli2009elementary
+Warning--empty publisher in sellen2002knowledge
+Warning--empty address in sellen2002knowledge
+Warning--empty address in yin2014case
+Warning--empty publisher in zarro2012pinterest
+Warning--empty address in zarro2012pinterest
+You've used 43 entries,
+            5283 wiz_defined-function locations,
+            1472 strings with 21772 characters,
+and the built_in function-call counts, 40320 in all, are:
+= -- 5893
+> -- 1158
+< -- 0
++ -- 365
+- -- 417
+* -- 2323
+:= -- 4050
+add.period$ -- 218
+call.type$ -- 43
+change.case$ -- 275
+chr.to.int$ -- 43
+cite$ -- 80
+duplicate$ -- 3515
+empty$ -- 2495
+format.name$ -- 498
+if$ -- 10521
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 171
+newline$ -- 323
+num.names$ -- 258
+pop$ -- 1387
+preamble$ -- 1
+purify$ -- 447
+quote$ -- 0
+skip$ -- 951
+stack$ -- 0
+substring$ -- 3225
+swap$ -- 353
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 375
+warning$ -- 37
+while$ -- 310
+width$ -- 0
+write$ -- 587
+(There were 37 warnings)
