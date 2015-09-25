@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 SEP 2015 20:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  25 SEP 2015 07:31
 entering extended mode
-**refs.tex
+**sigchi.tex
 
 ! Emergency stop.
-<*> refs.tex
-            
+<*> sigchi.tex
+              
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  2 strings out of 493921
- 14 string characters out of 3144876
+ 16 string characters out of 3144876
  49031 words of memory out of 3000000
  3400 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000

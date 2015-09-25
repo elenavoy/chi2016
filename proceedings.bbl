@@ -230,14 +230,6 @@
 \newblock
 
 
-\bibitem{kuhlthau1991inside}
-{Carol~C Kuhlthau}. 1991.
-\newblock \showarticletitle{Inside the search process: Information seeking from
-  the user's perspective}.
-\newblock {\em JASIS\/} {42}, 5 (1991), 361--371.
-\newblock
-
-
 \bibitem{kuutti1996activity}
 {Kari Kuutti}. 1996.
 \newblock \showarticletitle{Activity theory as a potential framework for
@@ -358,6 +350,14 @@
 \newblock
 
 
+\bibitem{voyloshnikova2014}
+{Elena Voyloshnikova} {and} {Margaret-Anne Storey}. 2014.
+\newblock \showarticletitle{Towards Understanding Digital Information Discovery
+  and Curation}. In {\em Proceedings of the 2014 Conference of the Center for
+  Advanced Studies on Collaborative Research}. ACM, 247--261.
+\newblock
+
+
 \bibitem{waterworth1991model}
 {John~A. Waterworth} {and} {Mark~H. Chignell}. 1991.
 \newblock \showarticletitle{A model of information exploration}.
@@ -374,33 +374,10 @@
 \newblock
 
 
-\bibitem{wilson1981user}
-{Tom~D Wilson}. 1981.
-\newblock \showarticletitle{On user studies and information needs}.
-\newblock {\em Journal of documentation\/} {37}, 1 (1981), 3--15.
-\newblock
-
-
-\bibitem{wilson1997information}
-{Tom~D Wilson}. 1997.
-\newblock \showarticletitle{Information behaviour: an interdisciplinary
-  perspective}.
-\newblock {\em Information processing \& management\/} {33}, 4 (1997),
-  551--572.
-\newblock
-
-
 \bibitem{wilson2000human}
 {Thomas~D Wilson}. 2000.
 \newblock \showarticletitle{Human information behavior}.
 \newblock {\em Informing science\/} {3}, 2 (2000), 49--56.
-\newblock
-
-
-\bibitem{yin2014case}
-{Robert~K Yin}. 2014.
-\newblock {\em Case study research: Design and methods}.
-\newblock Sage publications.
 \newblock
 
 
