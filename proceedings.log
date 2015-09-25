@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 SEP 2015 20:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.24)  24 SEP 2015 21:10
 entering extended mode
 **proceedings.tex
 (C:\Users\Elena\git\chi2016\proceedings.tex
@@ -843,51 +843,51 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 68.
 Package hyperref Info: Option `breaklinks' set `true' on input line 68.
 
 (C:\Users\Elena\git\chi2016\proceedings.aux)
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 74.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 76.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 76.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 74.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 76.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 74.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 76.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 74.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 76.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 76.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -907,7 +907,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \everyMPtoPDFconversion=\toks51
 )
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 74.
+Package hyperref Info: Link coloring ON on input line 76.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -916,62 +916,62 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (C:\Users\Elena\git\chi2016\proceedings.out)
 (C:\Users\Elena\git\chi2016\proceedings.out)
 \@outlinefile=\write4
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 91.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 91.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 91.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 91.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 91.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 93.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 101.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 103.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <8> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 101.
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 103.
 
-Underfull \hbox (badness 3579) in paragraph at lines 100--101
+Underfull \hbox (badness 3579) in paragraph at lines 102--103
 []\OT1/ptm/m/n/10 H.5.m. In-for-ma-tion In-ter-faces and Pre-sen-ta-tion (e.g.
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 100--101
+Underfull \hbox (badness 2564) in paragraph at lines 102--103
 \OT1/ptm/m/n/10 HCI): Mis-cel-la-neous; See[][]$\OT1/pcr/b/n/8 http : / / acm .
  org / about / class /$
  []
@@ -991,7 +991,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144 
+l.146 
        [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -999,84 +999,55 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 ...section{Research Questions and Objective}
+l.166 ...section{Research Questions and Objective}
                                                    [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 171.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 173.
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-[]\OT1/ptm/m/n/8 Social book-mark-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-[]\OT1/ptm/m/n/8 Microblogging plat-
- []
-
-
-Overfull \hbox (2.72406pt too wide) in paragraph at lines 208--208
-[]\OT1/ptm/m/n/8 www.stumbleupon.com| 
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 208--209
-[]\OT1/ptm/m/n/8 Web page dis-cov-ery
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 210--211
-[]\OT1/ptm/m/n/8 Free con-tent In-ter-net
- []
-
-
-Overfull \hbox (8.93979pt too wide) in paragraph at lines 214--214
+Overfull \hbox (4.0591pt too wide) in paragraph at lines 216--216
 []\OT1/ptm/m/n/8 www.rottentomatoes.com| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-[]\OT1/ptm/m/n/8 Movie and TV
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-[]\OT1/ptm/m/n/8 Online pub-lish-ing
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 224--225
-[]\OT1/ptm/m/n/8 Image dis-cov-ery ser-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-[]\OT1/ptm/m/n/8 Video host-ing plat-
+Overfull \hbox (0.68477pt too wide) in paragraph at lines 198--245
+[][] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 
-       [4] <figures/framework_overview.pdf, id=291, 343.2825pt x 333.245pt>
+l.257 
+       [4]
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+
+<figures/framework_overview.pdf, id=287, 343.2825pt x 333.245pt>
 File: figures/framework_overview.pdf Graphic file (type pdf)
 
 <use figures/framework_overview.pdf>
-Package pdftex.def Info: figures/framework_overview.pdf used on input line 278.
+Package pdftex.def Info: figures/framework_overview.pdf used on input line 280.
 
 (pdftex.def)             Requested size: 243.98238pt x 236.84459pt.
+
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.293 
-       [5 <C:/Users/Elena/git/chi2016/figures/framework_overview.pdf>]
-Underfull \hbox (badness 3724) in paragraph at lines 306--307
+l.296 T
+       he nature of an information need predetermines whether discovery is r...
+[5 <C:/Users/Elena/git/chi2016/figures/framework_overview.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 308--309
 []\OT1/ptm/m/n/10 People gather in-for-ma-tion to im-prove ex-ist-ing col-lec-
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 327.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 329.
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
 
@@ -1084,25 +1055,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.328 
-       [6] <figures/framework_enablers.pdf, id=346, 448.67625pt x 558.085pt>
+l.330 
+       [6] <figures/framework_enablers.pdf, id=342, 448.67625pt x 558.085pt>
 File: figures/framework_enablers.pdf Graphic file (type pdf)
 
 <use figures/framework_enablers.pdf>
-Package pdftex.def Info: figures/framework_enablers.pdf used on input line 340.
+Package pdftex.def Info: figures/framework_enablers.pdf used on input line 342.
 
 (pdftex.def)             Requested size: 243.98238pt x 303.4733pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]\OT1/ptm/b/n/8 Visual and tex-tual
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-\OT1/ptm/b/n/8 cues of mul-ti-ple
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+\OT1/ptm/m/n/10 Some com-mon types are \OT1/pcr/m/n/10 categories\OT1/ptm/m/n/1
+0 , \OT1/pcr/m/n/10 facets\OT1/ptm/m/n/10 ,
  []
 
 
@@ -1111,13 +1078,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--379
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 379--379
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+\OT1/ptm/b/n/8 cues of mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+[]\OT1/ptm/b/n/8 Visual and tex-tual
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 381--381
 \OT1/ptm/b/n/8 cues of a sin-gle re-
  []
 
 
-Overfull \hbox (6.78308pt too wide) in paragraph at lines 358--400
+Overfull \hbox (6.78308pt too wide) in paragraph at lines 360--402
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+[]\OT1/ptm/m/n/10 Many ap-pli-ca-tions sup-port \OT1/pcr/m/n/10 opportunistic
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 407--408
+\OT1/pcr/m/n/10 navigation \OT1/ptm/m/n/10 to al-low for op-por-tunis-tic jump-
+ing from
  []
 
 
@@ -1127,9 +1115,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 A
-       brams et al.~\cite{abrams1998information} identified link representat...
-[7 <C:/Users/Elena/git/chi2016/figures/framework_enablers.pdf>]
+l.418 
+       [7 <C:/Users/Elena/git/chi2016/figures/framework_enablers.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1139,9 +1126,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.424 
+l.426 
        [8]
-Underfull \hbox (badness 3954) in paragraph at lines 462--463
+Underfull \hbox (badness 1478) in paragraph at lines 442--443
+\OT1/ptm/m/n/10 tion and many Web ap-pli-ca-tions pro-vide di-verse book-
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 442--443
+\OT1/pcr/m/n/10 internal resources \OT1/ptm/m/n/10 means book-mark-ing re-sourc
+es
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 442--443
+\OT1/ptm/m/n/10 to be reac-cessed within the same ap-pli-ca-tion. Such
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 442--443
+\OT1/ptm/m/n/10 book-mark-ing fa-cil-i-tates in-for-ma-tion cu-ra-tion within t
+he
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 442--443
+\OT1/ptm/m/n/10 sys-tem. \OT1/pcr/m/n/10 Internal preservation of external
+ []
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 464--465
 []\OT1/ptm/m/n/10 Channel-picking is an ac-tion of se-lect-ing in-for-ma-tion
  []
 
@@ -1149,37 +1166,92 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.468 {\subsection{Summary}
-                            [9]
-Underfull \vbox (badness 1348) has occurred while \output is active []
+l.469 
+       [9]
+Underfull \hbox (badness 5563) in paragraph at lines 485--486
+[]\OT1/ptm/m/n/10 To fur-ther sup-port ref-er-en-tial nav-i-ga-tion, ap-pli-ca-
+tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+\OT1/ptm/m/n/10 can \OT1/pcr/m/n/10 personalize \OT1/ptm/m/n/10 ref-er-ence sug
+-ges-tions, such as
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 485--486
+\OT1/pcr/m/n/10 categories\OT1/ptm/m/n/10 , \OT1/pcr/m/n/10 tags\OT1/ptm/m/n/10
+ , and \OT1/pcr/m/n/10 topics \OT1/ptm/m/n/10 of in-ter-est. They
+ []
+
+
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.518 \section{Framework Validation}
-                                     [10]
-Underfull \hbox (badness 1082) in paragraph at lines 526--527
-\OT1/ptm/m/n/10 ex-plicit \OT1/ptm/b/n/10 op-por-tunis-tic nav-i-ga-tion mech-a
--nism \OT1/ptm/m/n/10 is ab-sent,
+l.515 {\subsection
+                  {Summary} [10]
+Underfull \hbox (badness 7047) in paragraph at lines 528--529
+[]\OT1/ptm/m/n/10 Navigation in Pin-ter-est is mostly sup-ported by de-
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 528--529
+\OT1/ptm/m/n/10 scrip-tional, ref-er-en-tial, or system-regulated mech-a-nisms.
+
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 528--529
+\OT1/ptm/m/n/10 Al-though an ex-plicit \OT1/pcr/m/n/10 opportunistic navigation
+
+ []
+
+
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 538--539
+[]\OT1/ptm/m/n/10 Information man-age-ment is ac-com-plished through sort-
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 ing `pins' into dif-fer-ent col-lec-tions (`pin-boards') thus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 en-abling \OT1/pcr/m/n/10 collection-based classification
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 and \OT1/pcr/m/n/10 internal preservation of internal and
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 ac-tions are \OT1/pcr/m/n/10 automatically \OT1/ptm/m/n/10 pre-
+served and dis-played.
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package hyperref Warning: Suppressing empty link on input line 545.
-
-
-Underfull \vbox (badness 2617) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.550 
-       [11] (C:\Users\Elena\git\chi2016\proceedings.bbl
+l.548 
+       [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(C:\Users\Elena\git\chi2016\proceedings.bbl
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -1188,21 +1260,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 
-       [12]
+l.115 \bibitem{ellis1989behavioural}
+                                     [12]
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ” in font ptmri7t!
 
-Overfull \vbox (2.15424pt too high) has occurred while \output is active []
+Overfull \vbox (1.79926pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 \bibitem{wilson1997information}
-                                      [13])pdfTeX warning (ext4): destination w
-ith the same identifier (name{page.}) has been already used, duplicate ignored
+l.351 
+       [13])
+Overfull \vbox (1.33244pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.596 \end{document}
@@ -1213,26 +1288,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 596.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `proceedings.out' has not changed.
-(rerunfilecheck)             Checksum: A96367528EB78BCA6CE11CBE3C20DF98;2973.
+(rerunfilecheck)             Checksum: 01D5AA549BB7EAC004CCC68A987BF89E;2919.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 320 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 17619 strings out of 493921
- 324460 string characters out of 3144876
- 389104 words of memory out of 3000000
- 20439 multiletter control sequences out of 15000+200000
- 52731 words of font info for 119 fonts, out of 3000000 for 9000
+ 17620 strings out of 493921
+ 324458 string characters out of 3144876
+ 391111 words of memory out of 3000000
+ 20440 multiletter control sequences out of 15000+200000
+ 53246 words of font info for 121 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,10n,56p,1524b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.45} has been referenced bu
-t does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.44} has been referenced but does not exist
-, replaced by a fixed one
+ 62i,10n,56p,1524b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.44} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
 , replaced by a fixed one
@@ -1258,14 +1326,15 @@ pdfTeX warning (dest): name{section*.4} has been referenced but does not exist,
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
-s/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proceedings.pdf (14 pages, 300162 bytes).
+X 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on proceedings.pdf (14 pages, 310894 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
