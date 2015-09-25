@@ -211,12 +211,12 @@ The development of the framework began with an extensive literature review. A di
 
 {\subsection{Building and Refining the Conceptual Framework}
 \label{subsection:building}
-The Conceptual Framework we present in this paper was iteratively developed and refined through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}), an in depth literature review and application of the framework to the design of a novel information discovery application\footnote{this application and intermediate iterations of the framework are described in more detail in~\cite{voyloshnikova2015}}.
+The Conceptual Framework we present in this paper was iteratively developed and refined through a careful analysis of 20 information discovery applications (see Table~\ref{table:tools}) and an in depth literature review. 
 % CUTCANDIDATE 
 %, the framework was iteratively expanded by adding new concepts and establishing relations between those concepts.  
 %The framework was refined as we explored the literature and available tools---for presentation purposes, this paper covers two versions of the framework. The final version of the framework was a result of developing an information discovery application based on the preliminary work. 
 % CUTCANDIDATE    
-
+%
 To guide the development of the framework, we selected some of the most used information discovery applications today
 % CUTCANDIDATE
 % and considered the full range of features in those tools (both by referring to the literature and documentation on those tools, as well as exploring the features). 
@@ -311,11 +311,11 @@ Another limitation was the lack of prior research on the subject matter. Some re
 \section{A Conceptual Framework for Information Discovery and Curation on the Web}
 \label{sec:framework}
 
-In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation. These motives often define use cases for Web application design and help set initial assumptions about required functionality.
+In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation. These motives often define use cases for Web application design and help set initial assumptions about the required functionality.
 
-The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable those actions. Some examples of actions include managing and preserving information. In order to enable these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
+The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable them. Some examples of actions include managing and preserving information. To support these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
 
-Actions can be further decomposed into \textit{operations} performed using mechanisms that enable the actions. For example, information preservation (action) can be enabled using a bookmaking feature (enabling mechanism) so that users can bookmark information using the feature (operation). Therefore, the remaining part of the framework deals with improving operations that are involved in information discovery and curation.  
+Actions can be further decomposed into \textit{operations} performed using mechanisms that enable the actions. For example, the information preservation (action) can be enabled using a bookmaking feature (enabling mechanism) so that users can bookmark information using the feature (operation). The third part of the framework deals with improving operations for information discovery and curation.  
 
 Our framework considers human motives and relates information discovery and curation actions with corresponding enabling mechanisms. We relate operations that arise from actions with corresponding cognitive support, personalization, and automation.  Similar terminology is used in Activity Theory~\cite{kuutti1996activity} to describe human practices. Figure~\ref{fig:framework_overview} gives a high-level overview of the framework and illustrates how the different components of the framework are connected.
 
@@ -336,15 +336,25 @@ Our framework considers human motives and relates information discovery and cura
 There are a wide variety of user motives behind information discovery and curation, and certain aspects of these motives can significantly impact the design of an application. Understanding a user's motives can help form a conceptual model of a needed Web application and its features. The following generalizations of motives and their properties can help define conceptual models and identify primary information discovery and curation use cases.  
 
 {\subsubsection{Closing a Knowledge Gap}
-The primary motive for information discovery is usually to close a knowledge gap that occurs when the user tries to accomplish a task and lacks information to do so. This motive can take up various forms, which often depend on the nature of the information need and other conditions surrounding the given motive.        
+The primary motive for information discovery is usually to close a knowledge gap that occurs when the user tries to accomplish a task but lacks information to do so. 
+% CUTCANDIDATE
+%This motive can be of various type depending on the nature of the information need and other aspects of the given motive.        
+% CUTCANDIDATE
+Depending on the context in which the motive arose, an information need can have various degrees of specificity. For example, if the motive is to find inspiration for a project, the information need is vaguely defined. However, if the motive is to find a phone number of a specific business, an information need is well-defined. In some cases, the information need may be hidden and the user might not be aware of the existing knowledge gap. The specificity of an information need determines important properties of information discovery mechanisms, such as whether users can benefit more from mechanisms that allow them to specify an information need, help form an information need, or allow them to randomly retrieve information. This property has to be taken into consideration when evaluating or designing a Web application. 
 
-Depending on the context in which it arose, an information need can have various degrees of specificity. For example, if the motive is to find inspiration for a project, the information need is vaguely defined. However, if the motive is to find a phone number of a specific business, an information need is well-defined. In some cases, the information need may be hidden and the user might not be aware of the existing knowledge gap. The specificity of an information need determines important properties of information discovery mechanisms, such as whether users can benefit more from mechanisms that allow them to specify an information need, help form an information need, or allow them to randomly retrieve information. This property has to be taken into consideration when evaluating or designing a Web application. 
+The nature of an information need predetermines whether discovery is 
+% respectively 
+serendipitous or oriented towards fact finding. Thus, 
+% depending on the user needs, 
+an application can be designed to increase serendipity and opportunistic discovery or to improve purposeful fact finding. On the one hand, displaying featured content can improve serendipitous discovery because of its unexpected nature and novelty. On the other hand, using context (e.g., location and date) to tailor search results can improve fact finding. 
 
-The nature of an information need predetermines whether discovery is respectively serendipitous or oriented towards fact finding. Therefore, depending on the user needs, an application can be designed to increase serendipity and opportunistic discovery or to improve purposeful fact finding. On the one hand, displaying featured content can improve serendipitous discovery because of its unexpected nature and novelty. On the other hand, using context (e.g., location and date) to tailor search results to the user can improve fact finding. 
+Another motive type for information discovery relates to the two qualities of the Web defined by Lindley et al.\cite{lindley2012s}: \textit{persistence} refers to the quality of the Web that allows people to habitually revisit Web pages and continue ongoing Web projects; and \textit{temporality} refers to the quality of the Web that allows the content of Websites to be continuously updated to provide users with new information. Persistence alone usually facilitates information \textit{rediscovery}, which is an act of refinding previously found information. However, if persistence is combined with temporality, they can facilitate discovery of new information within the same application or channel. We refer to this type of discovery as \textit{channel-based discovery}. Some of the common motives for channel-based discovery include orienting (or monitoring for updates) and opportunistic information discovery~\cite{lindley2012s}.          
 
-Another type of motive for information discovery relates to the two qualities of the Web defined by Lindley et al.---temporality and persistence~\cite{lindley2012s}. \textit{Persistence} refers to the quality of the Web that allows people to habitually revisit Web pages and continue ongoing Web projects. \textit{Temporality} refers to the quality of the Web that allows the content of Websites to be continuously updated to provide users with new information. Persistence alone usually facilitates information \textit{rediscovery}, which is an act of refinding previously found information. However, if persistence is combined with temporality, they can facilitate discovery of new information within the same application or channel. We refer to this type of discovery as \textit{channel-based discovery}. Some of the common motives for channel-based discovery include orienting (or monitoring for updates) and opportunistic information discovery~\cite{lindley2012s}.          
-
-The motive behind information rediscovery involves finding previously discovered information and reclosing the previously closed knowledge gap (e.g., in case the information was forgotten). It usually results in the user looking for previously found resources and Web pages. In fact, Web page revisitation is one of the most commonly performed Web browsing activities~\cite{adar2008large,cockburn2003improving}. The percentage of revisited Web pages involved in Web browsing can range from 58\%~\cite{tauscher1997people} to 81\%~\cite{cockburn2001web}. Some of the reasons for revisiting pages include shopping, communication, entertainment, education, activity planning, and hobby-related information retrieval~\cite{adar2008large} (e.g., travel, fitness, and cooking). Some Web pages and resources can be rediscovered using navigation, while others need to be previously preserved (bookmarked) in order to allow rediscovery. Rediscovery is one of the many ways in which information discovery and curation interweave. 
+The motive behind information rediscovery involves finding previously discovered information and reclosing the previously closed knowledge gap (e.g., in case the information was forgotten). It usually results in the user looking for previously found resources and Web pages. In fact, Web page revisitation is one of the most commonly performed Web browsing activities~\cite{adar2008large,cockburn2003improving}. The percentage of revisited Web pages involved in Web browsing can range from 58\%~\cite{tauscher1997people} to 81\%~\cite{cockburn2001web}. Some of the reasons for revisiting pages include shopping, communication, entertainment, education, activity planning, and hobby-related information retrieval~\cite{adar2008large}.
+% CUTCANDIDATE
+% (e.g., travel, fitness, and cooking). 
+% CUTCANDIDATE
+Some Web pages and resources can be rediscovered using navigation, while others need to be previously preserved (bookmarked) to afford rediscovery. Rediscovery is one of the many ways in which information discovery and curation interweave. 
 }
 
 {\subsubsection{Supporting Future Use and Reaccess}
@@ -352,17 +362,20 @@ The main motive behind information curation is to make it possible to retrieve a
 }
 
 {\subsubsection{Improving Collections}
-People gather information to improve existing collections~\cite{lindley2012s}. Although some deeper motives may include self reflection or the possibility of future use, collecting information is a motive in itself. In general, information gathering may be stretched over a period of time~\cite{kellar2006goal}, resulting in repeated page visitation. Although information gathering comprises only 13.4\% of Web usage, it contributes to many goal-supporting activities, such as decision making and planning~\cite{kellar2006goal}.
+People gather information to improve existing collections~\cite{lindley2012s}. Although some deeper motives may include self reflection or the possibility of future use, collecting information is a motive in itself. Information gathering may be stretched over a period of time~\cite{kellar2006goal}, resulting in repeated page visitation. Although information gathering comprises only 13.4\% of Web usage, it contributes to many goal-supporting activities, such as decision making and planning~\cite{kellar2006goal}.
 
 }
 
 {\subsubsection{Facilitating Communication}
-As part of his information behavior model, Wilson identified communication of information as an outcome of information seeking. Communication can also be thought of as a motive for information discovery and curation. To support communication of information, Web tools have to provide mechanisms that allow various users to share information among themselves. 
+As part of his information behavior model, Wilson identified communication of information as an outcome of information seeking. Communication can also be thought of as a motive for information discovery and curation. To support communication of information, Web tools provide mechanisms that allow various users to share information among themselves. 
 
-\textit{Social bookmarking} is a way to preserve and share information within various communities. In recent years, it has gained popularity as an effective way of communicating with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} believes that Web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced bookmarking technologies and provided a means for collaborative information discovery and curation. 
+\textit{Social bookmarking} is a way to preserve and share information across communities and it has gained popularity as an effective way of communicating with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} suggests that Web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced techniques for collaborative information discovery and curation. 
 }
-{\subsubsection{Summary}
-While it is not feasible to list all of the possible motives for information discovery and curation, this section outlined some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
+
+% CUTCANDIDATE
+%{\subsubsection{Summary}
+% CUTCANDIDATE
+In summary, while it is not feasible to list all of the possible motives for information discovery and curation, this section outlined some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
 } 
 }
 
@@ -634,6 +647,7 @@ Our framework opens up opportunities for structured information discovery and cu
 % Or, just remove \balance and give up on balancing the last page.
 %
 \balance{}
+\newpage 
 
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
