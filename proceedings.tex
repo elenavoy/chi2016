@@ -92,7 +92,8 @@
 \maketitle
 
 \begin{abstract}
-  \today. Everyday life revolves around the discovery and curation of digital information. People search the Web continuously, from quickly looking up the information needed to complete a task, to endlessly searching for inspiration and knowledge. A variety of studies have modeled information seeking strategies and characterized information seeking and curation activities on the Web. However, there is a lack of research on how existing Web applications support the discovery and curation of information, especially concerning user motivations and how different approaches can be compared. This paper presents a study of information discovery tools and how they relate to the nature of information seeking. We propose a conceptual framework of application design elements that support different aspects of information discovery and curation. This framework can be used when designing, evaluating or updating Web applications.
+ % \today. 
+  Everyday life involves the discovery and curation of digital information. People search the Web continuously, from quickly looking up information needed to complete a task, to endlessly searching for inspiration and knowledge. A variety of studies have modeled information seeking strategies and characterized curation activities on the Web. However, there is a lack of research on how existing Web applications support the discovery and curation of information, especially concerning user motivations and how different approaches can be compared. This paper presents a study of information discovery tools and how they relate to the nature of information seeking. We propose a conceptual framework of application design elements that support different aspects of information discovery and curation. This framework can be used for designing, evaluating and updating Web applications.
 \end{abstract}
 
 \keywords{
@@ -169,16 +170,20 @@ People often engage in information seeking activities to close some knowledge ga
 
 Morrison et al. also draw a distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation~\cite{marchionini2006exploratory}. Learning and investigation can be performed over multiple iterations and can involve learning though various media,``social searching", and serendipitous browsing to support knowledge acquisition, socialization, forecasting, and planning.  
 
-Categorizing Web usage into information seeking, digital curation, and other Web tasks does not necessarily give full insight into how information-related tasks are performed. Lindley et al.~\cite{lindley2012s} conducted a qualitative study involving 24 participants, tracking their daily Web usage in the form of a diary. They identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. 
+Categorizing Web usage into information seeking, digital curation, and other Web tasks may not adequately describe how information-related tasks are performed. Lindley et al.~\cite{lindley2012s} conducted a qualitative study and
+% CUTCANDIDATE
+%involving 24 participants, tracking their daily Web usage in the form of a diary. They 
+% CUTCANDIDATE
+identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. 
 % CUTCANDIDATE
 %Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet were because traditional Web use studies and Web tasks discovered by other researchers have not reflected the depth of users' online intentions. 
 % CUTCANDIDATE
-Understanding the characteristics of different modes can guide the design of Web interactions. For example, opportunistic use can have unarticulated or continuously changing information needs. People often cannot indicate the completion of Web tasks: they finish whenever they have been browsing the Internet for too long or whenever they need to complete some other task of higher priority, and they often resume their opportunistic information seeking. Finally, opportunistic use is `grasshopper-like', which means that users jump from one resource to another~\cite{lindley2012s}.
+Understanding the characteristics of different modes can guide the design of Web interactions. For example, opportunistic use can have unarticulated or continuously changing information needs. People often cannot indicate the completion of Web tasks and finish whenever they have been browsing the Internet for too long or whenever they need to complete a higher priority task. Later they may resume their opportunistic information seeking.  Opportunistic use is also `grasshopper-like' as users often jump from one resource to another~\cite{lindley2012s}.
 % CUTCANDIDATE 
-From these factors, we can assume that to support such Web usage, 
-we would 
+%From these factors, we can assume that to support such Web usage, 
+%we would 
 % CUTCANDIDATE
-Thus, there is need to consider mechanisms for supporting users' information needs, revisitation, and arbitrary navigation.
+Thus, there is a need to consider mechanisms for supporting users' information needs, revisitation, and arbitrary navigation.
 
 Different taxonomies of information seeking and curation tasks reflect on actual Web usage rather than theoretical modeling of human behavior, however, these taxonomies still focus on human activities when they interact with technology. A better understanding of how a system can support these activities is needed in order to effectively support human information-related interactions. 
 
@@ -187,7 +192,7 @@ In summary, there are a multitude of tools that support different aspects of inf
 
 \section{Methodology}
 \label{section:methodology}
-The methodology used for our study consisted of four major steps. To gain a deeper understanding of the problem of information discovery and curation, we conducted an extensive literature review where we derived a preliminary set of information discovery and curation design factors and related them within a framework. The framework was then applied as part of the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. Lastly, the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness. 
+Our methodology consisted of four steps. To gain a deeper understanding of the problem of information discovery and curation, we conducted an extensive literature review where we derived a preliminary set of information discovery and curation design factors and related them within a framework. The framework was then applied as part of the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. Lastly, the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness. 
 
 {\subsection{Research Questions and Objective}
 This study was designed to address the problem of designing Web applications for information discovery and was motivated by the following:
@@ -364,8 +369,8 @@ People gather information to improve existing collections~\cite{lindley2012s}. A
 
 {\subsubsection{Facilitating Communication}
 As part of his information behavior model, Wilson identified communication of information as an outcome of information seeking. Communication can also be thought of as a motive for information discovery and curation. To support communication of information, Web tools provide mechanisms that allow various users to share information among themselves. 
-
-\textit{Social bookmarking} is a way to preserve and share information across communities and it has gained popularity as an effective way of communicating with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} suggests that Web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced techniques for collaborative information discovery and curation. 
+%
+\textit{Social bookmarking} is one popular way to preserve and share information across communities and to communicate with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} suggests that Web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced techniques for collaborative information discovery and curation. 
 }
 
 % CUTCANDIDATE
@@ -468,7 +473,7 @@ Many applications support opportunistic jumping from one resource to another. Fo
 
 
 \textbf{System-regulated Navigation.}
-Web applications often display or update information without the user's active participation. This information can be a \feature{news feed}, \feature{featured} deals or articles, \feature{static information}, or other types of content. We refer to this type of navigation as system-regulated because it occurs when the application brings the content to the user instead of the user applying any effort to find content. It differs from opportunistic navigation because the the user cannot choose when to observe new information; instead, all updates are regulated by the application. 
+Web applications often display information without the user's active participation. This information can be a \feature{news feed}, \feature{featured} deals or articles or other types of content. We refer to this type of navigation as system-regulated because it occurs when the application brings the content to the user instead of the user applying any effort to find content. It differs from opportunistic navigation because the the user cannot choose when to observe new information; instead, all updates are regulated by the application. 
 %
 One application that utilizes system-regulated navigation is Yelp. As soon as the user enters the site, this tool displays featured restaurants as well as the user's recent activities. As with any other navigation method, system-regulated navigation can ensure cross-application \feature{integration} by displaying content from other Web applications. 
 
@@ -496,11 +501,13 @@ Information management} is one of the key elements of information curation ~\cit
 Resource categorization also helps establish relationships between various resources ~\cite{beagrie2008digital,whittaker2011personal}. Tagging can aid rediscovery and discovery in a socially curated space, as well as add more value to resources~\cite{gruber2007ontology}. Sample applications that facilitate information management are Pinterest, a tool that supports tagging and collection-based categorization, and Tumblr, a tool that supports tagging.
 %} % end subsubsection
 
-\textbf{Information preservation} is a common Web task that is usually performed with the intent of revisiting information~\cite{abrams1998information,whittaker2011personal}. However, information gathering is sometimes performed with just the goal of collecting information rather than revisiting it in the future~\cite{lindley2012s}. 
-
-Bookmarking is a traditional way of preserving information. \feature{Internal preservation of internal resources} means bookmarking resources can be reaccessed within the same application. Such bookmarking facilitates information curation within the system. \feature{Internal preservation of external resources} signifies bookmarking other Web pages within an application. \feature{External preservation} means bookmarking resources so that they become available through other bookmarking systems. An application must facilitate integration with other applications in order to enable external preservation~\cite{abrams1998information}.
+\textbf{Information preservation} is a common Web task usually performed with the intent of revisiting information~\cite{abrams1998information,whittaker2011personal}. However, information gathering is sometimes performed with just the goal of collecting information~\cite{lindley2012s}. 
 %
-For example, in the We Heart It image discovery application users can preserve \feature{internal  information} using \feature{internal collections} and they can add information from \feature{external} websites. However, there are no integrated means for bookmarking \feature{internal content} using other bookmarking systems.  
+Bookmarking is a traditional way of preserving information. \feature{Internal preservation of internal resources} means bookmarking resources can be reaccessed within the same application. Such bookmarking facilitates information curation within the system. \feature{Internal preservation of external resources} signifies bookmarking other Web pages within an application. \feature{External preservation} means bookmarking resources so that they are available through other bookmarking systems. An application must facilitate integration with other applications to enable external preservation~\cite{abrams1998information}.
+%
+% CUTCANDIDATE
+%For example, in the We Heart It image discovery application users can preserve \feature{internal  information} using \feature{internal collections} and they can add information from \feature{external} websites. However, there are no integrated means for bookmarking \feature{internal content} using other bookmarking systems. 
+% CUTCANDIDATE 
 %} % end subsubsection
 
 \textbf{Augmentation:}
@@ -520,7 +527,7 @@ Sharing resources through different media and resharing them within the Web appl
 %} % end subsubsection
 
 
-\textbf{Channel-picking} is an action of selecting information sources. A common enabler for this action is subscriptions. Subscriptions to updates from a site help users follow the news~\cite{java2007feeds}. In order to support channel-based discovery, an application must provide a subscription mechanism. For example, Rotten Tomatoes allows \feature{subscriptions} to \feature{newsletters}; however, it does not allow subscriptions to movie critics as is allowed with a user-based subscription mechanism, such as the one in Pinterest. 
+\textbf{Channel-picking} is an action of selecting information sources. A common enabler for this action is subscriptions that help users follow the news~\cite{java2007feeds}. To support channel-based discovery, an application must provide a subscription mechanism. For example, Rotten Tomatoes allows \feature{subscriptions} to \feature{newsletters}, but it does not allow subscriptions to movie critics that would be allowed with a user-based subscription mechanism such as the one in Pinterest. 
 %
 In some applications, the content is updated and curated by users, and users can \feature{subscribe} to other \feature{users} or \feature{artifacts}. Similar to site subscriptions, user and artifact subscriptions are subscriptions to activity updates. These subscription mechanisms help with networking and provide awareness about other users' activities~\cite{millen2005social}. Such subscriptions also help filter new content delivered to the user. 
 %} % end subsubsection
@@ -550,7 +557,7 @@ For opportunistic navigation, Web tools sometimes allow users to \feature{person
 
 Featured content can also be \feature{personalized} to improve information discovery with system-regulated navigation. For example, Yelp showcases restaurants from a predefined area, such as the city where the user is from.
 
-Finally, to make better use of subscribed content and reduce human efforts when searching for information, an application can support various \feature{notification mechanisms}. These mechanisms can advise the user about updates on the \feature{Website content}, various \feature{artifacts}, and activities of other \feature{users}.  
+Finally, to make better use of subscribed content and to reduce human efforts when searching, an application can support various \feature{notification mechanisms}. These can advise the user about updates on the \feature{Website content}, various \feature{artifacts}, and activities of other \feature{users}.  
 
 } % end subsection
 {\textbf{Enhancing Exploration:}
@@ -588,9 +595,9 @@ Navigation in Pinterest is mostly supported by descriptional, referential, or sy
 
 Referential navigation is enabled in Pinterest using a range of techniques. To support articulation of an information need, a \feature{category-based} navigation mechanism makes suggestions on subcategories or interests. Through clicking on a `pin', the user can see related resources, enabling \feature{resource-based} referential navigation. Most of the images on Pinterest are `pinned' from other Websites, and users are provided with links to their original sources. Therefore, Pinterest supports \feature{integrated} referential navigation.
 
-System-regulated navigation within Pinterest is highly personalized. When the user enters the site, they see a history of their own information gathering activities and updates from the people they are subscribed to. Additionally, the application suggests \feature{featured} `pins' selected based on the user's personal interests.
+System-regulated navigation within Pinterest is highly personalized. When the user enters the site, they see a history of their own information gathering activities and updates from the people they are subscribed to. Additionally, the application suggests \feature{featured} `pins' based on the user's interests.
 
-To reinforce the discovery of visual data, Pinterest provides extensive support for various exploration mechanisms. Multiple resources are represented in a \feature{gallery layout}, often referred to as a 'pinboard'. This type of layout provides a good spatial support for exploration and makes it easier to build a mental model of the tool by drawing analogies with a real pinboard. Users can create multiple `pinboards' (also known as `boards') which have \feature{personalized} covers to enhance future exploration and rediscovery.
+To reinforce the discovery of visual data, Pinterest provides extensive support for various exploration mechanisms. Multiple resources are represented in a \feature{gallery layout}, often referred to as a 'pinboard'. This layout provides good spatial support for exploration and makes it easier to build a mental model of the tool by drawing analogies with a real pinboard. Users can create multiple `pinboards' (also known as `boards') which have \feature{personalized} covers to enhance future exploration and rediscovery.
 %
 A single resource does not have a lot of distinct spatial arrangements, however, it provides a visual glimpse into what can be found on the Website that the image came from, with \feature{textual preview} being limited to the address of the Website. 
 
@@ -620,10 +627,11 @@ While, systematic evaluation of Web tools for information discovery and curation
 In our study, we analyzed information curation and seeking tasks and developed a conceptual framework of factors and questions that are important when building and evaluating Web information discovery and curation tools. We then evaluated and iteratively refined the framework by analyzing 20 different information discovery applications and provided concrete examples of tool support addressing various concepts of the framework. Finally, we validated the framework by reevaluating five of the previously examined tools and used it to design a novel application (described in ~\cite{voyloshnikova2015}). 
 
 The current version of the framework is designed to be generally applicable to information discovery applications. Finding ways to instantiate the framework and extend it for use in domain-specific practices could serve as a potential future research goal. For example, video discovery and curation activities have unique properties related to the type of data to be discovered---information is mostly found in the video itself, and it cannot be viewed all at the same time. Hence, the framework could be extended to address domain-specific challenges. 
-
+%
 Another potential research direction would be to expand our investigation to include factors that influence the need for one information discovery type over another and further deepen an understanding of the relationships between the motives for information discovery and curation activities and information discovery types. 
-
-Additionally, one could investigate how collaboration in information discovery and curation relates to the conceptual framework. Generally, collaboration mechanisms in most Web information discovery applications are limited to information sharing, public information augmentation and tagging. However, collaboration often involves other activities, such as communication, coordination, and other domain-specific shared activities.
+% CUT CANDIDATE
+%Additionally, one could investigate how collaboration in information discovery and curation relates to the conceptual framework. Generally, collaboration mechanisms in most Web information discovery applications are limited to information sharing, public information augmentation and tagging. However, collaboration often involves other activities, such as communication, coordination, and other domain-specific shared activities.
+% CUT CANDIDATE
 
 Our framework opens up opportunities for structured information discovery and curation tool evaluation and design. As more tools are being developed within the social space of information discovery and curation, understanding how these tasks can be supported promises advancements in how Web applications are designed.
 
