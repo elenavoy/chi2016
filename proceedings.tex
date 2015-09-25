@@ -103,16 +103,7 @@ Information discovery; information curation; conceptual framework.
 \label{section:introduction}
 Web technologies help people satisfy their information needs. People research their interests and hobbies using various online resources, shoppers search online stores for product characteristics to make purchasing decisions, and travelers visit online booking sites to find information about flights and hotels. In order to accommodate diverse and evolving user needs, Web applications continuously introduce new features and services, empowering information discovery and curation. 
 
-The term ``information discovery'' has been used by many researchers to define or explain various information behaviour paradigms, such as information exploration~\cite{waterworth1991model} and serendipitous information seeking~\cite{foster2003serendipity}. However, the definition of information discovery itself is difficult to articulate. 
-
-Lynch describes resource discovery as a complex collection of activities ranging from locating a well-specified piece of information, to iterative research activities that can involve the identification
-of potentially relevant resources, the organization and ranking of resources, and resource exploration~\cite{lynch1995networked}. Proper and Bruza apply the term ``information discovery'' in the context of  the identification and retrieval of relevant information from electronic sources~\cite{proper1999information}. 
-
-In the field of cognitive psychology, Jerome S. Bruner~\cite{bruner1961act} defines information discovery as ``all forms of obtaining knowledge for oneself by the use of one's own mind.'' We build on Bruner's definition to underline the importance of the cognitive processes that govern information discovery. Therefore, we consider \textit{information discovery} as a process of obtaining knowledge from digital sources that can involve complex mental tasks and information behavior.  
-
-Information behavior refers to the totality of ways in which humans interact with information~\cite{wilson2000human}. It can enable and support information discovery when targeted at information maintenance and augmentation. This type of information behavior is also known as \textit{digital curation}.
-
-Similar to the term ``information discovery'', the term "digital curation" is perceived differently across disciplines and among researchers. In this paper, we use the definition proposed by Giaretta~\cite{giaretta2006dcc} and adopted by the Digital Curation Centre\footnote{The Digital Curation Centre is a UK-based organization established to support expertise and practice in digital curation and preservation across communities of practice.} which states that digital curation is a process of maintaining and adding value to an existing body of information to improve its future use and retrieval.   
+The term ``information discovery'' has been used by many researchers to define or explain various information behaviour paradigms, such as information exploration~\cite{waterworth1991model} and serendipitous information seeking~\cite{foster2003serendipity}.   
 
 Information discovery can take on many forms. Web users might be hoping to find particular pieces of information, such as show times and phone numbers, to satisfy specific information needs~\cite{proper1999information}. Alternatively, they might be lacking well-articulated information needs, so they engage in opportunistic browsing~\cite{lindley2012s}. Sometimes people discover information online without even looking for it~\cite{bates1986exploratory}. The nature of information discovery can vary, and therefore, requires elaborate tool support. The functionality required for information discovery and curation can also be distributed among multiple applications, which often leads to tools that provide integrated solutions. With people having such diverse information needs and methods of looking for information, designing for information discovery is a challenging task~\cite{conaway2010designing, marchionini2006exploratory}.
 
@@ -157,7 +148,7 @@ Building on Ellis' model of information seeking~\cite{ellis1989behavioural,ellis
 
 People often engage in information seeking activities to close some knowledge gap that occurred as a result of not having enough information to perform a task~\cite{proper1999information}. Therefore, when providing tool support for various information discovery tasks, it is useful to consider the motivations as they can be different for each task. Morrison et al.~\cite{morrison2001taxonomic} make a distinction between methods of Web use and purposes. The authors derived a purpose-based taxonomy of Web use, including three purposes or motivations: finding information, comparing pieces of information or choosing products to make a decision, and using the Web to find relevant information to gain an understanding of some subject. Consequently, methods of finding information identified by Morrison et al. are collecting, finding, exploring, and monitoring. The differences between the two taxonomies suggest that different information seeking tasks may be performed to satisfy more than one information seeking purpose. Therefore, each purpose may require more than one task-supporting mechanism. 
 
-Morrison et al. also draw a distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation~\cite{marchionini2006exploratory}. Learning and investigation can be performed over multiple iterations and can involve learning though various media, "social searching", and serendipitous browsing performed with the goals of knowledge acquisition, socialization, forecasting, and planning.  
+Morrison et al. also draw a distinction between finding or looking up information and exploratory search. Whereas information lookup involves tasks such as fact retrieval, navigation, and verification, exploration is more cognitively demanding and involves learning and investigation~\cite{marchionini2006exploratory}. Learning and investigation can be performed over multiple iterations and can involve learning though various media,``social searching", and serendipitous browsing performed with the goals of knowledge acquisition, socialization, forecasting, and planning.  
 
 Categorizing Web usage into information seeking, digital curation, and other Web tasks does not necessarily give full insight into how information-related tasks are performed. Lindley et al.~\cite{lindley2012s} conducted a qualitative study involving 24 participants, tracking their daily Web usage in the form of a diary. As a result of this study, the researchers identified five distinct modes of Web use: respite, orienting, opportunistic, purposeful, and lean-back. Lindley et al.'s primary motivations behind looking at use modes that occur when people browse the Internet were because traditional Web use studies and Web tasks discovered by other researchers have not reflected the depth of users' online intentions. Understanding the characteristics of different modes guides the design of Web interactions. For example, opportunistic use can have unarticulated or continuously changing information needs. People often cannot indicate the completion of Web tasks: they finish whenever they have been browsing the Internet for too long or whenever they need to complete some other task of higher priority, and they often resume their opportunistic information seeking. Finally, opportunistic use is `grasshopper-like', which means that users jump from one resource to another~\cite{lindley2012s}. From these factors, we can assume that to support such Web usage, we would need to consider mechanisms for supporting users' information needs, revisitation, and arbitrary navigation.
 
@@ -168,7 +159,7 @@ There are a multitude of tools that support different aspects of information dis
 
 \section{Methodology}
 \label{section:methodology}
-The methodology used for the study presented in this paper consisted of five major steps. To gain a deeper understanding of the problem of information discovery and curation, we conducted an extensive literature review where we derived a preliminary set of information discovery and curation design factors and related them within a framework. The framework was then applied as part of the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. Lastly, the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness. 
+The methodology used for the study presented in this paper consisted of four major steps. To gain a deeper understanding of the problem of information discovery and curation, we conducted an extensive literature review where we derived a preliminary set of information discovery and curation design factors and related them within a framework. The framework was then applied as part of the evaluation of 20 different information discovery applications and iteratively refined after every evaluation. Lastly, the framework was applied to a reevaluation of some of the previously evaluated tools with the purpose of validating its effectiveness. 
 
 {\subsection{Research Questions and Objective}
 This study was designed to address the problem of designing Web applications for information discovery and was motivated by the following:
@@ -183,7 +174,7 @@ To address RQ1 and RQ2, we conducted an extensive literature review and a case s
 
 {\subsection{Literature Review}
 \label{subsection:lit_review}
-The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks, and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived. Key findings in the current literature are presented in Section~\ref{section:literature_review}.
+The development of the framework began with an extensive literature review. A diverse set of topics contributed to forming an understanding of information discovery and curation, including information behaviour and information seeking models, high-level Web tasks, and modes of Web use, exploration-based models of discovery, and methods of personal and social curation. From this review, the preliminary design factors for the framework were derived.
 }% end section
 
 {\subsection{Building and Refining the Conceptual Framework}
@@ -202,9 +193,6 @@ A list of the tools that were used in this study are presented in Table~\ref{tab
 
 \begin{table}[htbp]
 \small
-
-\label{table:tools} 
-
 \begin{tabular}{|p{0.25\columnwidth}| p{0.30\columnwidth}| p{0.30\columnwidth}|}
 
 \hline
@@ -253,6 +241,7 @@ Thesaurus       & thesaurus.com         & Online thesaurus \\
 \hline
 \end{tabular}
 \caption{Web-based Information Discovery and Curation Tools as of May 15, 2014}
+\label{table:tools} 
 \end{table}
 } % end section
 
@@ -273,7 +262,7 @@ Another limitation was the lack of prior research on the subject matter. Some re
 \section{A Conceptual Framework for Information Discovery and Curation on the Web}
 \label{sec:framework}
 
-Although Web-based information discovery and curation tasks are commonly performed, there is a lack of literature on how to enable and support them when building Web applications. We reduce this gap by presenting a framework of design factors to facilitate digital information discovery and curation. In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation. These motives often define use cases for Web application design and help set initial assumptions about required functionality.
+In our framework, we build on existing models and frameworks of information discovery and curation and our analysis of existing Web tools to derive corresponding design factors for Web design. The first part of the framework deals with the \textit{motives} behind information discovery and curation. These motives often define use cases for Web application design and help set initial assumptions about required functionality.
 
 The second part of the framework defines the \textit{actions} that comprise discovery and curation activities, and the design factors that enable those actions. Some examples of actions include managing and preserving information. In order to enable these actions, a Web-based application must provide corresponding mechanisms, such as bookmarking and tagging capabilities.
 
@@ -324,11 +313,11 @@ As part of his information behavior model, Wilson identified communication of in
 \textit{Social bookmarking} is a way to preserve and share information within various communities. In recent years, it has gained popularity as an effective way of communicating with other users~\cite{estelles2010social}. One of the first visions of social bookmarking was associated with Web blogging. Oravec~\cite{oravec2002bookmarking} believes that Web blogs help users annotate or bookmark important information and build a ``map'' of the Internet. The evolution of social bookmarking has led to advanced bookmarking technologies and provided a means for collaborative information discovery and curation. 
 }
 {\subsubsection{Summary}
-While it is not feasible to list all of the possible motives for information discovery and curation, this section we outlined some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
+While it is not feasible to list all of the possible motives for information discovery and curation, this section outlined some of the key motives that can aid in developing use cases and formalizing conceptual models for Web applications. These motives also make it easier to showcase how mechanisms for discovery and curation (presented in the next section) complement each other.
 } 
 }
 
-{\subsection{Discovery and Curation Activities, Actions, and Their \mbox{Enablers}}
+{\subsection{Discovery and Curation Activities}
 
 The next part of the framework deals with the actions associated with enablers of information discovery and curation. A more detailed overview is depicted in Figure~\ref{fig:enablers}; the two main activities (discovery and curation) are decomposed into actions, and each of the actions is supported by a group of features or mechanisms that enable a given aspect of discovery or curation in a Web application.
 
@@ -475,7 +464,7 @@ Information discovery and curation tools can have different implementations depe
 
 } % end section
 
-{\subsection{Enhancing the Information Discovery and Curation Experience}
+{\subsection{Enhancing the Discovery and Curation Experience}
 
 
 The information discovery and curation enablers presented in the previous section are design elements that afford various operations. For example, the search feature enables typing in a query and searching for information. These operations can be further aided by another set of design elements that introduce cognitive support, personalization, and automation. The primary goal of this part is to highlight opportunities for improvement over various information discovery and curation enabling mechanisms.
